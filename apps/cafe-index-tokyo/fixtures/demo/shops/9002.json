@@ -1,0 +1,29 @@
+{
+  "id": 9002,
+  "name": "DEMO 見本喫茶 そのに",
+  "kana": "でもみほんきっさそのに",
+  "prefecture": "デモ都",
+  "ward": "見本市",
+  "address": "見本市サンプル道4-5-6（実在しない住所）",
+  "sources": ["https://example.com/demo-cafe-2"],
+  "updated": "2099-01-01T00:00:00+09:00",
+  "attrs": {
+    "award.tabelog_score": { "v": 1.22, "conf": "low", "src": ["https://example.com/demo-cafe-2"], "label": "食べログ評価（デモ）" },
+    "award.tabelog_review_count": { "v": 1, "conf": "low", "label": "口コミ数（デモ）" },
+    "basic.genres": { "v": ["デモ喫茶"], "conf": "low", "label": "ジャンル" },
+    "basic.nearest_station": { "v": "見本駅", "conf": "low", "label": "最寄り駅" },
+    "basic.hours": { "v": "デモ曜日 11:00–17:00（架空）", "conf": "low", "label": "営業時間" },
+    "basic.price_range_text": { "v": "¥200〜¥300（デモ）", "conf": "low", "label": "予算" },
+    "basic.price_min": { "v": 200, "conf": "low", "label": "予算下限" },
+    "basic.price_max": { "v": 300, "conf": "low", "label": "予算上限" },
+    "basic.website": { "v": "https://example.com/demo-cafe-2", "conf": "low", "label": "公式サイト" },
+    "taste.description": { "v": "これはデモ用の架空の説明です。実在のカフェではありません。", "conf": "low", "label": "味" },
+    "review.praise_summary": { "v": "デモ用の架空要約です。実在の口コミではありません。", "conf": "low", "label": "評判" }
+  },
+  "menu": [
+    { "name": "見本コーヒー（架空）", "price": 200, "section": "デモ", "src": "https://example.com/demo-cafe-2" }
+  ],
+  "reviews": [
+    { "summary": "これはデモ用の架空要約です。実在の口コミではありません。", "sentiment": "neutral", "rating": 1, "date": "2099-01-01", "source": "DEMO", "url": "https://example.com/demo-cafe-2" }
+  ]
+}

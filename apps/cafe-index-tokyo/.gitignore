@@ -1,0 +1,20 @@
+# deps / build
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+# env / secrets
+.env
+.env*.local
+.vercel
+# misc
+.DS_Store
+npm-debug.log*
+__pycache__/
+*.py[co]
+# Catalog JSON from tools/export_site_data.py. Never commit scraped cafe data.
+# The only cafe JSON in git is the labelled fictional set in fixtures/demo/.
+data/
+*.db
+*.db-journal
