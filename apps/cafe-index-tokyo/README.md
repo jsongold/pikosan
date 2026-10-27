@@ -1,87 +1,138 @@
 # Café Index Tokyo
 
-東京のカフェ85軒・イベント29件を同じ項目で索引する静的サイト（デザインD「Swiss Typographic Index」）。
+東京のカフェを同じ項目で索引する静的サイト（デザインD「Swiss Typographic Index」）。
 Next.js 16（App Router）+ TypeScript、`output: 'export'` による完全静的書き出し。CSSはプレーンCSS（`src/app/globals.css`）。
 
-> **未デプロイ**です。下記「デプロイ」は手順のみ。
+カタログの中身（店舗・属性・メニュー・口コミ・イベント）は **このリポジトリに含まれません**。スクレイピング元の SQLite も置きません。ビルド時にページは `src/lib/data.ts` 経由で、次のどちらか一方だけを読みます。
+
+| ソース | いつ | 環境変数 |
+|---|---|---|
+| ローカル JSON | 開発、または CI のデモ | `CATALOG_DATA_DIR` |
+| Supabase | 本番ビルド（読み取り専用） | `SUPABASE_URL` と `SUPABASE_ANON_KEY`（またはサーバー専用キー） |
+
+どちらも無い、または両方あるときは、空のサイトを出さずにビルドが失敗します。
+
+テストと CI 専用の架空データは `fixtures/demo`（店名はすべて `DEMO`、3店・2イベント）だけです。実在のカフェではありません。
+
+> **未デプロイ**です。Supabase プロジェクトも作っていません。下記は手順のみ。
 
 ## ページ
 
 | パス | 内容 |
 |---|---|
-| `/` | 全85軒の索引テーブル。エリア（区・市）/ジャンル/設備・特徴（AND）で絞り込み、食べログ評価・予算・店名で並べ替え、キーワード検索。状態はURLクエリ（`?ward=&genre=&f=&sort=&q=`）に反映 |
-| `/cafes/<id>/` | 詳細。01 基本情報 / 02 味と雰囲気 / 03 軸（確度つき）/ 04 評判・口コミ要約（出典リンク）/ 05 メニュー / 06 店舗情報（出典・確度）/ 関連イベント（紐付けがある場合のみ）。番号は存在する節だけで振り直し |
+| `/` | 設定したソースにある全店の索引。エリア / ジャンル / 設備（AND）、食べログ評価・予算・店名、キーワード。状態は `?ward=&genre=&f=&sort=&q=` |
+| `/cafes/<id>/` | 詳細。基本情報、味と雰囲気、軸、口コミ要約、メニュー、店舗情報、関連イベント。番号は存在する節だけで振り直し |
 | `/events/` | カフェラン・カフェ音楽イベント。開催予定 / 定期開催 / 開催済み、種類フィルタ |
 | `/sitemap.xml`, `/robots.txt`, `404.html` | SEO・エラーページ |
 
-## データの更新
+## 環境変数
 
-データはアプリディレクトリからの相対パス `../../catalog/data/cafe.db`（このリポジトリでは `catalog/data/cafe.db`）を **読み取り専用**（`?mode=ro`）で開き、YAMLのラベル定義
-（同じ catalog の `config/domains/cafe/*.yaml`）と合わせて JSON に書き出します。空の値は除外し、各値の出典URL・確度は保持します。
-`cafe.db` はこのリポジトリに含まれません。DB が無いとき `npm run data`（`prebuild`）は PyYAML を読まず、コミット済みの `data/*.json` を維持して終了コード 0 で終わります。
+`.env.example` を `.env.local` にコピーする（`.env.local` は gitignore。鍵をコミットしない）。`NEXT_PUBLIC_` で Supabase の鍵を渡さないこと（クライアントに埋め込まれます）。
 
 ```bash
-npm run data          # tools/export_site_data.py --if-available（DBが無ければ既存JSONを維持して終了0）
-npm run data:strict   # DBが無ければ失敗
-CAFE_DB=/path/to/cafe.db CAFE_CONFIG_DIR=/path/to/config/domains/cafe npm run data
+# 開発: リポジトリの外に書き出した JSON
+CATALOG_DATA_DIR=$HOME/cafe-index-data
+
+# CI / 動作確認だけ: 架空のデモ
+CATALOG_DATA_DIR=fixtures/demo
+
+# 本番ビルド: Supabase。anon key を優先（RLS の SELECT のみ）
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_ANON_KEY=your-anon-key
+# サーバー専用（RLS を迂回する）。anon が無いときだけ使われる
+# SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+# SUPABASE_SECRET_KEY=your-secret-key
+
+# canonical / OGP / sitemap。未設定時は仮の https://cafe-index-tokyo.vercel.app
+NEXT_PUBLIC_SITE_URL=https://example.com
 ```
 
-出力（コミット対象。Vercel等DBの無い環境でもビルドできるように）:
+## データの更新（ローカル JSON）
 
-- `data/shops-index.json` — 一覧用の行・ファセット件数・軸定義
-- `data/shops/<id>.json` — 店ごとの全属性（`v`値 / `conf`確度 / `src`出典 / `at`取得日 / `label`）、メニュー、口コミ要約、関連イベント
-- `data/events.json` — イベント（ステータスは書き出し時刻で再計算：終了済みの「開催予定」は「開催済み」へ）
-- `data/meta.json` — 書き出し日時と件数
+`tools/export_site_data.py` は `CAFE_DB`（既定: アプリから `../../catalog/data/cafe.db`）を **読み取り専用**で開き、`CAFE_CONFIG_DIR` の YAML ラベルと合わせて JSON に書き出します。出力先は `CATALOG_DATA_DIR`（または `--out`）で、**git リポジトリの中は拒否**します。`data/` は gitignore です。
 
-更新手順: `npm run data` → 差分確認 → `npm run build` → `git commit data/`。
-`npm run build` は `prebuild` で自動的に `npm run data` を実行します。
+```bash
+CAFE_DB=/path/to/cafe.db CAFE_CONFIG_DIR=/path/to/config/domains/cafe \
+  CATALOG_DATA_DIR=$HOME/cafe-index-data npm run data
+```
+
+DB ファイルが無いとき `python3 tools/export_site_data.py --if-available` は何も書かずに終了 0 です（PyYAML は読みません）。ビルドはこのコマンドを走らせません。JSON はコミットしないでください。
+
+書き出しファイル:
+
+- `shops-index.json` — 一覧・ファセット・軸
+- `shops/<id>.json` — 属性（値 / 確度 / 出典）、メニュー、口コミ、関連イベント
+- `events.json` — イベント（終了済みの「開催予定」は書き出し時刻で「開催済み」へ）
+- `meta.json` — 件数と書き出し日時
+
+## Supabase
+
+スキーマは `supabase/migrations/20261027000000_catalog_init.sql` です。テーブルはソースカタログと同じ拡張の仕方です。
+
+- `shops` — 店の識別子、区、座標、status
+- `shop_attributes` — EAV（key、value jsonb、confidence、source_urls）
+- `attribute_definitions` — ラベル。`category = 'flavor'` は味・雰囲気の軸（`metadata` に scale / allowed values）、`category = 'event_type'` はイベント種別ラベル
+- `reviews`, `menu_items`, `events`
+
+anon / authenticated は SELECT のみ（RLS。書き込みポリシーは無く、INSERT/UPDATE/DELETE は revoke）。アプリのプロバイダ（`src/lib/catalog-supabase.ts`）は `.select()` しかしません。このリポジトリからは Supabase プロジェクトを作成しません。
 
 ## 開発・ビルド
 
+アプリディレクトリ `apps/cafe-index-tokyo` で実行します。
+
 ```bash
 npm ci
-npm run dev           # http://localhost:3000
-npm run build         # → out/（静的HTML一式）
-npm run serve         # out/ を http://localhost:4173 で配信（python3 http.server）
-npm run lint          # tsc --noEmit
-python3 tools/shoot.py  # serve中に ../app_screens/ へスクリーンショット（Playwright）
+npm run dev:fixture     # CATALOG_DATA_DIR=fixtures/demo → http://localhost:3000
+npm run build:fixture   # 同じデモで静的書き出し → out/
+CATALOG_DATA_DIR=$HOME/cafe-index-data npm run dev
+npm run build           # ソース未設定なら失敗する
+npm run serve           # out/ を http://localhost:4173
+npm run lint            # tsc --noEmit
 ```
 
-フォントは `next/font/google`（Inter Tight / Noto Sans JP）をビルド時に取得するため、ビルド環境にネットワークが必要です。
+フォントは `next/font/google`（Inter Tight / Noto Sans JP ほか）をビルド時に取得するため、ビルド環境にネットワークが必要です。
 
-## デプロイ（Vercel CLI）
+スクリーンショット（`tools/shoot*.py`）も `CATALOG_DATA_DIR` の索引を見ます。`data/shops-index.json` は読みません。
 
-1. 公開URLを決め、`NEXT_PUBLIC_SITE_URL` を設定（canonical・OGP・sitemap に使用。未設定時は仮の `https://cafe-index-tokyo.vercel.app`）。
-   Vercelの Project Settings → Environment Variables に登録するか、`--build-env` で渡します。
-2. デプロイ:
+## デプロイ（Vercel）
+
+1. Project の Root Directory を `apps/cafe-index-tokyo` にする（リポジトリルートではない）。
+2. Environment Variables（ビルド時）:
+   - `NEXT_PUBLIC_SITE_URL` — 公開 URL。canonical・OGP・sitemap に使う。
+   - `SUPABASE_URL` と `SUPABASE_ANON_KEY`（推奨）。鍵はコミットしない。`NEXT_PUBLIC_SUPABASE_*` は禁止。
+   - サーバー専用キー（`SUPABASE_SERVICE_ROLE_KEY` または `SUPABASE_SECRET_KEY`）は anon が無い場合だけ。RLS を迂回するのでクライアントに出さない。
+   - `CATALOG_DATA_DIR` は Vercel 上に JSON が無いので通常は設定しない（リポジトリにカタログ JSON は無い）。
+3. ソースが一つも無いビルドは失敗する。空サイトにはならない。
+4. ビルドは Google Fonts を取得する。ネットワークが必要。
+5. `vercel.json` は framework=nextjs / `npm ci` / `npm run build`。
 
 ```bash
-vercel deploy --prod --token $VERCEL_TOKEN
-# 例: vercel deploy --prod --token $VERCEL_TOKEN --build-env NEXT_PUBLIC_SITE_URL=https://example.com
+vercel deploy --prod --token $VERCEL_TOKEN \
+  --build-env NEXT_PUBLIC_SITE_URL=https://example.com \
+  --build-env SUPABASE_URL=https://your-project.supabase.co \
+  --build-env SUPABASE_ANON_KEY=$SUPABASE_ANON_KEY
 ```
 
-`vercel.json` は framework=nextjs / `npm ci` / `npm run build` を指定しています。Vercel上には cafe.db が無いので
-`npm run data` は既存の `data/*.json` をそのまま使います（＝デプロイ前に data を更新してコミットしておく）。
-静的ファイルとして他のホスティングに置く場合は `out/` をそのままアップロードすれば動きます（`trailingSlash: true`）。
+静的ファイルとして他のホスティングに置く場合は、同じ環境変数で `npm run build` した `out/` をアップロードする（`trailingSlash: true`）。
 
 ## 既知の制約
 
-- イベント29件はいずれも店舗IDに紐付いておらず（名称・区・80m以内の位置でも一致なし）、詳細ページの「関連イベント」節は現状どの店にも表示されません。
-- メニュー名は食べログ英語版の表記で、機械翻訳の可能性があります（フッター・メニュー節に注記）。
-- 味・雰囲気の軸と口コミ要約は口コミ等からの独自推定・要約です。
+- ソースカタログ側では、イベントが店舗 ID に紐付かないことが多い（名称・区・80m 以内でも一致しない場合、詳細の「関連イベント」は出ません）。Supabase プロバイダも同じ規則で紐付けます。
+- メニュー名は食べログ英語版の表記で、機械翻訳の可能性があります。
+- 味・雰囲気の軸と口コミ要約は公開情報からの推定・要約です。
 
 ## Mobile-first layout (v2)
 - Base CSS targets ~390px phones; `@media (min-width:900px)` restores the desktop 12-col table/sidebar.
 - Index: list rows + filter bottom sheet (`絞り込み（n）`) + native sort select; desktop keeps the full table.
 - Detail: key facts first, collapsible menu/store info (auto-open on desktop), sticky bottom action bar (地図/電話/公式サイト).
-- QA: `python3 tools/shoot_v2.py` (screens to ../app_screens/v2/, overflow audit at 360/390/430, 44px tap audit).
+- QA: `CATALOG_DATA_DIR=... python3 tools/shoot_v2.py` (screens to ../app_screens/v2/, overflow audit at 360/390/430, 44px tap audit).
 
 ## Themes (variants of design D)
 **Default: 2 Sage & Cream.** `data-theme="sage"` is in the static HTML, so it needs no query and no JS; meta theme-color is `#f7f5ec`.
 The other skins share the same layout and markup and stay available for comparison:
 - Switch: `?theme=d|blush|sage|latte|lilac`, where `d` is the original design D. The choice is saved in localStorage `ci-theme`; `?theme=` resets to the default.
 - The footer theme switcher is hidden from normal visitors and only appears when a `?theme=` override is present or saved (`html[data-thsw]`).
-- QA for the default: `python3 tools/shoot_sage_default.py` writes `../app_screens/sage_default/`.
+- QA for the default: `CATALOG_DATA_DIR=... python3 tools/shoot_sage_default.py` writes `../app_screens/sage_default/`.
 - Tokens and skins: edit `tools/gen_themes.py`, then run `python3 tools/gen_themes.py` (writes `src/app/themes.css`; `--check` runs the AA contrast table).
-- QA: `python3 tools/shoot_themes.py [--quick]` takes 390px screenshots, runs the contrast audit and the 360/390/430 overflow audit, and writes `../app_screens/themes/compare.png`.
+- QA: `CATALOG_DATA_DIR=... python3 tools/shoot_themes.py [--quick]` takes 390px screenshots, runs the contrast audit and the 360/390/430 overflow audit, and writes `../app_screens/themes/compare.png`.
 - Fonts come from next/font/google, so the build needs network access.

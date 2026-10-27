@@ -1,4 +1,7 @@
 import type { NextConfig } from 'next';
+import { assertCatalogConfigured } from './src/lib/catalog-config';
+
+assertCatalogConfigured();
 
 const nextConfig: NextConfig = {
   output: 'export',

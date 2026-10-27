@@ -1,15 +1,17 @@
 """Theme QA: 390px screens per theme (index / filter sheet / detail top) to ../app_screens/themes/,
 labeled compare.png, horizontal-overflow audit at 360/390/430 on every page, and in-page WCAG AA text-contrast audit."""
-import json, sys
+import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from qa_data import detail_path, shop_ids
 from playwright.sync_api import sync_playwright
 from PIL import Image, ImageDraw, ImageFont
 BASE = 'http://localhost:4173'
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT.parent / 'app_screens' / 'themes'; OUT.mkdir(parents=True, exist_ok=True)
 THEMES = [('blush', '1 Blush'), ('sage', '2 Sage & Cream'), ('latte', '3 Latte'), ('lilac', '4 Lilac & Butter')]
-DETAIL = '/cafes/8/'
-ids = [s['id'] for s in json.load(open(ROOT / 'data/shops-index.json'))['shops']]
+DETAIL = detail_path()
+ids = shop_ids()
 MOB = dict(device_scale_factor=2, is_mobile=True, has_touch=True)
 OVER = open(ROOT / 'tools/shoot_v2.py').read().split('OVER = """')[1].split('"""')[0]
 CONTRAST = """() => {

@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   openGraph: { url: '/events/', title: 'イベント | Café Index Tokyo' },
 };
 
-export default function EventsPage() {
-  const ev = getEvents();
+export default async function EventsPage() {
+  const ev = await getEvents();
   const n = (t: string) => Object.values(ev.groups).flat().filter((e) => e.type === t).length;
   return (
     <>

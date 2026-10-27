@@ -1,18 +1,37 @@
-// Build-time data access (server only). JSON is produced by tools/export_site_data.py.
-import fs from 'node:fs';
-import path from 'node:path';
+import 'server-only';
+import { catalogSourceKind } from './catalog-config';
+import { loadFileCatalog } from './catalog-file';
+import type { CatalogSnapshot } from './catalog';
 import type { EventsFile, Meta, ShopDetail, ShopIndex } from './types';
 
-const DATA = path.join(process.cwd(), 'data');
-const read = <T,>(f: string): T => JSON.parse(fs.readFileSync(path.join(DATA, f), 'utf8')) as T;
+let pending: Promise<CatalogSnapshot> | null = null;
 
-export const getIndex = (): ShopIndex => read<ShopIndex>('shops-index.json');
-export const getShop = (id: string | number): ShopDetail | null => {
-  const f = path.join(DATA, 'shops', `${id}.json`);
-  return fs.existsSync(f) ? (JSON.parse(fs.readFileSync(f, 'utf8')) as ShopDetail) : null;
-};
-export const getEvents = (): EventsFile => read<EventsFile>('events.json');
-export const getMeta = (): Meta => read<Meta>('meta.json');
+export function loadCatalog(): Promise<CatalogSnapshot> {
+  if (!pending) {
+    pending = resolveCatalog().catch((err) => {
+      pending = null;
+      throw err;
+    });
+  }
+  return pending;
+}
 
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://cafe-index-tokyo.vercel.app').replace(/\/$/, '');
-export const SITE_NAME = 'Café Index Tokyo';
+async function resolveCatalog(): Promise<CatalogSnapshot> {
+  const kind = catalogSourceKind();
+  if (kind === 'file') return loadFileCatalog(process.env.CATALOG_DATA_DIR!.trim());
+  const { loadSupabaseCatalog } = await import('./catalog-supabase');
+  return loadSupabaseCatalog();
+}
+
+export async function getIndex(): Promise<ShopIndex> {
+  return (await loadCatalog()).index;
+}
+export async function getShop(id: string | number): Promise<ShopDetail | null> {
+  return (await loadCatalog()).shop(id);
+}
+export async function getEvents(): Promise<EventsFile> {
+  return (await loadCatalog()).events;
+}
+export async function getMeta(): Promise<Meta> {
+  return (await loadCatalog()).meta;
+}

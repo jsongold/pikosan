@@ -31,4 +31,14 @@ export interface CafeEvent extends EventLite {
   extra?: Record<string, Value>; confidence?: Conf; last_verified?: string; shop_id?: number;
 }
 export interface EventsFile { types: Record<string, string>; total: number; groups: { upcoming: CafeEvent[]; recurring: CafeEvent[]; past: CafeEvent[] } }
-export interface Meta { exportedAt: string; shops: number; events: number; menuItems: number; reviews: number; linkedEvents: number }
+export interface Meta {
+  exportedAt: string;
+  shops: number;
+  events: number;
+  menuItems: number;
+  reviews: number;
+  linkedEvents: number;
+  /** Set only on the labelled fixtures/demo set. Real exports and Supabase omit this. */
+  demo?: boolean;
+  note?: string;
+}

@@ -13,6 +13,8 @@ next-env.d.ts
 npm-debug.log*
 __pycache__/
 *.py[co]
-# never commit the source database (data/*.json exports ARE committed so remote builds work)
+# Catalog JSON from tools/export_site_data.py. Never commit scraped cafe data.
+# The only cafe JSON in git is the labelled fictional set in fixtures/demo/.
+data/
 *.db
 *.db-journal

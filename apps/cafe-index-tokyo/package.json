@@ -3,18 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "data": "python3 tools/export_site_data.py --if-available",
-    "data:strict": "python3 tools/export_site_data.py",
+    "data": "python3 tools/export_site_data.py",
     "dev": "next dev",
-    "prebuild": "npm run data",
+    "dev:fixture": "CATALOG_DATA_DIR=fixtures/demo next dev",
     "build": "next build",
+    "build:fixture": "CATALOG_DATA_DIR=fixtures/demo next build",
     "serve": "python3 -m http.server 4173 --directory out",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
     "next": "^16.4.3",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",

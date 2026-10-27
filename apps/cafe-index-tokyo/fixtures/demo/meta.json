@@ -1,0 +1,10 @@
+{
+  "demo": true,
+  "note": "DEMO FIXTURE. These three cafes and two events are fictional and exist only for tests and CI. Not a real catalog.",
+  "exportedAt": "2099-01-01T00:00:00+09:00",
+  "shops": 3,
+  "events": 2,
+  "menuItems": 3,
+  "reviews": 3,
+  "linkedEvents": 1
+}

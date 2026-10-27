@@ -6,10 +6,10 @@ import { EventRow } from '@/components/EventRow';
 import { getEvents, getIndex, getMeta } from '@/lib/data';
 import { pad3 } from '@/lib/format';
 
-export default function Home() {
-  const idx = getIndex();
-  const ev = getEvents();
-  const meta = getMeta();
+export default async function Home() {
+  const idx = await getIndex();
+  const ev = await getEvents();
+  const meta = await getMeta();
   const next = ev.groups.upcoming.slice(0, 5);
   const nWards = idx.facets.wards.length;
   return (

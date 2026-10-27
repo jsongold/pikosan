@@ -6,20 +6,22 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Src } from '@/components/Src';
 import { eventWhen } from '@/components/EventRow';
-import { getIndex, getShop, SITE_NAME, SITE_URL } from '@/lib/data';
+import { getIndex, getShop } from '@/lib/data';
+import { SITE_NAME, SITE_URL } from '@/lib/site';
 import { asList, confJa, fmt, hostOf, isUrl, pad3, SENT_JA, yen } from '@/lib/format';
-import type { Attr, MenuItem, ShopDetail } from '@/lib/types';
+import type { Attr, MenuItem, ShopDetail, ShopIndex } from '@/lib/types';
 
 export const dynamicParams = false;
-export function generateStaticParams() {
-  return getIndex().shops.map((s) => ({ id: String(s.id) }));
+export async function generateStaticParams() {
+  const idx = await getIndex();
+  return idx.shops.map((s) => ({ id: String(s.id) }));
 }
 
 type Props = { params: Promise<{ id: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params;
-  const s = getShop(id);
+  const s = await getShop(id);
   if (!s) return {};
   const a = (k: string) => s.attrs[k]?.v;
   const genres = asList(a('basic.genres')).join('・');
@@ -65,8 +67,7 @@ function Section({ n, title, en, children }: { n: number; title: string; en?: st
   );
 }
 
-function axesOf(s: ShopDetail) {
-  const idx = getIndex();
+function axesOf(s: ShopDetail, idx: ShopIndex) {
   const ev = asArray(s.attrs['flavor.evidence']?.v);
   const evSrc = (key: string) => (ev.find((e) => e.axis === key)?.sources as string[] | undefined) ?? [];
   const scored: { key: string; label: string; atmos: boolean; score: number; max: number; text: string; conf?: string; src: string[] }[] = [];
@@ -99,16 +100,16 @@ function groupMenu(menu: MenuItem[]) {
 
 export default async function CafePage({ params }: Props) {
   const { id } = await params;
-  const s = getShop(id);
+  const s = await getShop(id);
   if (!s) notFound();
-  const idx = getIndex();
+  const idx = await getIndex();
   const rank = idx.shops.findIndex((x) => x.id === s.id) + 1;
   const A = (k: string) => s.attrs[k];
   const v = (k: string) => (A(k) ? fmt(A(k).v) : '');
   const genres = asList(A('basic.genres')?.v);
   const score = A('award.tabelog_score')?.v as number | undefined;
   const price = v('basic.price_range_text').split('（')[0];
-  const { scored, text } = axesOf(s);
+  const { scored, text } = axesOf(s, idx);
   const menu = s.menu ?? [];
   const reviews = s.reviews ?? [];
   const menuSrc = [...new Set(menu.map((m) => m.src).filter(Boolean) as string[])];

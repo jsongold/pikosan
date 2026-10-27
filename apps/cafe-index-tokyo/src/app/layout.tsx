@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter_Tight, Noto_Sans_JP, Cormorant_Garamond, Shippori_Mincho, Zen_Kaku_Gothic_New, Zen_Maru_Gothic, Noto_Serif_JP, Marcellus, Fraunces } from 'next/font/google';
-import { SITE_NAME, SITE_URL } from '@/lib/data';
+import { SITE_NAME, SITE_URL } from '@/lib/site';
 import './globals.css';
 import './themes.css';
 

@@ -1,30 +1,56 @@
 #!/usr/bin/env python3
 """Export cafe.db (opened READ-ONLY) + YAML labels -> static JSON for the Next.js site.
 
-Writes:
-  data/shops-index.json   list rows + facet definitions (for / filters)
-  data/shops/<id>.json    full detail per shop (attributes keep value/confidence/sources)
-  data/events.json        events grouped by status (upcoming / recurring / past)
-  data/meta.json          counts + export timestamp
+Writes, into CATALOG_DATA_DIR or --out (must be outside this git repo):
+  shops-index.json   list rows + facet definitions (for / filters)
+  shops/<id>.json    full detail per shop (attributes keep value/confidence/sources)
+  events.json        events grouped by status (upcoming / recurring / past)
+  meta.json          counts + export timestamp
 
 Rules: empty values (None, '', [], {}) are dropped; nothing is invented; every attribute keeps
-its confidence and source URLs. Env overrides: CAFE_DB, CAFE_CONFIG_DIR.
-Flag --if-available: when the DB is missing (e.g. on a CI/Vercel builder) keep the committed
-data/ files and exit 0 instead of failing. PyYAML is imported only when the DB exists, so
-that path does not require it.
+its confidence and source URLs. Env overrides: CAFE_DB, CAFE_CONFIG_DIR, CATALOG_DATA_DIR.
+Flag --if-available: when the DB file is missing, write nothing and exit 0.
+PyYAML is imported only when the DB exists, so that path does not require it.
+Catalog JSON is never written inside the repo and must not be committed.
 """
-import json, math, os, re, shutil, sqlite3, sys
+import json, math, os, re, shutil, sqlite3, subprocess, sys
 from datetime import datetime, timezone, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 APP = os.path.dirname(HERE)
-OUT = os.path.join(APP, 'data')
-# Catalog is not in this repo. Default matches the README: two levels above the app
-# (apps/cafe-index-tokyo -> <repo>/catalog). Override with CAFE_DB / CAFE_CONFIG_DIR.
+OUT = ''  # set in main() from CATALOG_DATA_DIR / --out, outside the repo
+# Optional local catalog checkout. Not part of this repo. Override with CAFE_DB / CAFE_CONFIG_DIR.
 _CATALOG = os.path.normpath(os.path.join(APP, '..', '..', 'catalog'))
 DB = os.environ.get('CAFE_DB', os.path.join(_CATALOG, 'data', 'cafe.db'))
 CFG = os.environ.get('CAFE_CONFIG_DIR', os.path.join(_CATALOG, 'config', 'domains', 'cafe'))
 JST = timezone(timedelta(hours=9))
+
+
+def git_root():
+    r = subprocess.run(['git', '-C', APP, 'rev-parse', '--show-toplevel'], capture_output=True, text=True)
+    if r.returncode == 0 and r.stdout.strip():
+        return os.path.realpath(r.stdout.strip())
+    return os.path.realpath(os.path.join(APP, '..', '..'))
+
+
+def resolve_out_dir():
+    """Directory that receives the export. Refuses any path inside the git repo."""
+    out = os.environ.get('CATALOG_DATA_DIR')
+    args = sys.argv[1:]
+    if '--out' in args:
+        i = args.index('--out')
+        if i + 1 >= len(args):
+            sys.exit('[data] --out requires a directory')
+        out = args[i + 1]
+    if not out:
+        sys.exit('[data] set CATALOG_DATA_DIR (or pass --out) to a directory outside this repo.\n'
+                 '       Example: CATALOG_DATA_DIR=$HOME/cafe-index-data npm run data')
+    out = os.path.realpath(os.path.abspath(out))
+    root = git_root()
+    if out == root or out.startswith(root + os.sep):
+        sys.exit(f'[data] refusing to write catalog JSON inside the repo: {out}\n'
+                 f'       choose a directory outside {root}')
+    return out
 
 
 def empty(v):
@@ -129,11 +155,13 @@ def norm(s):
 
 
 def main():
+    global OUT
     if not os.path.exists(DB):
-        if '--if-available' in sys.argv and os.path.exists(os.path.join(OUT, 'shops-index.json')):
-            print(f'[data] {DB} not found; keeping committed data/ files')
+        if '--if-available' in sys.argv:
+            print(f'[data] {DB} not found; not writing catalog JSON')
             return
         sys.exit(f'[data] database not found: {DB} (set CAFE_DB)')
+    OUT = resolve_out_dir()
     conn = sqlite3.connect(f'file:{DB}?mode=ro', uri=True)  # READ-ONLY
     conn.row_factory = sqlite3.Row
     labels, order, axes, ev_types = load_labels(conn)
@@ -263,7 +291,7 @@ def main():
             'menuItems': sum(len(s['menu']) for s in shops), 'reviews': sum(len(s['reviews']) for s in shops),
             'linkedEvents': sum(1 for e in events if e.get('shop_id'))}
     json.dump(meta, open(os.path.join(OUT, 'meta.json'), 'w'), ensure_ascii=False, indent=1)
-    print('[data]', json.dumps(meta, ensure_ascii=False))
+    print('[data]', OUT, json.dumps(meta, ensure_ascii=False))
 
 
 if __name__ == '__main__':

@@ -1,0 +1,51 @@
+{
+  "types": {
+    "cafe_run": "デモ・カフェラン",
+    "music_event": "デモ・音楽イベント"
+  },
+  "total": 2,
+  "groups": {
+    "upcoming": [
+      {
+        "id": 1,
+        "event_uid": "demo-run-1",
+        "type": "cafe_run",
+        "typeLabel": "デモ・カフェラン",
+        "title": "DEMO 架空ラン（実在しません）",
+        "starts_at": "2099-04-01T09:00:00+09:00",
+        "ends_at": "2099-04-01T10:00:00+09:00",
+        "status": "upcoming",
+        "venue_name": "DEMO 架空コーヒー そのいち",
+        "venue_address": "架空区デモ通り1-2-3（実在しない住所）",
+        "venue_ward": "架空区",
+        "organizer": "DEMO 主催（架空）",
+        "fee_text": "¥0（デモ）",
+        "booking_url": "https://example.com/demo-event",
+        "description": "これはデモ用の架空イベントです。実在のカフェランではありません。",
+        "confidence": "low",
+        "sources": ["https://example.com/demo-event"],
+        "shop_id": 9001,
+        "linkBy": "shop_id"
+      }
+    ],
+    "recurring": [],
+    "past": [
+      {
+        "id": 2,
+        "event_uid": "demo-music-1",
+        "type": "music_event",
+        "typeLabel": "デモ・音楽イベント",
+        "title": "DEMO 架空ライブ（実在しません）",
+        "starts_at": "2000-01-01T19:00:00+09:00",
+        "ends_at": "2000-01-01T20:00:00+09:00",
+        "status": "past",
+        "venue_name": "DEMO 会場（架空）",
+        "venue_ward": "見本市",
+        "organizer": "DEMO 主催（架空）",
+        "description": "これはデモ用の架空イベントです。実在の音楽イベントではありません。",
+        "confidence": "low",
+        "sources": ["https://example.com/demo-music"]
+      }
+    ]
+  }
+}

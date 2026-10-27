@@ -1,12 +1,15 @@
 """Mobile-first QA: screenshots to ../app_screens/v2/ + horizontal-overflow and tap-target audit."""
-import json, sys
+import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from qa_data import detail_path, shop_ids
 from playwright.sync_api import sync_playwright
 BASE = sys.argv[1] if len(sys.argv) > 1 else 'http://localhost:4173'
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT.parent / 'app_screens' / 'v2'
 OUT.mkdir(parents=True, exist_ok=True)
-ids = [s['id'] for s in json.load(open(ROOT / 'data/shops-index.json'))['shops']]
+ids = shop_ids()
+DETAIL = detail_path()
 MOB = dict(device_scale_factor=2, is_mobile=True, has_touch=True)
 OVER = """() => { const w = document.documentElement.clientWidth; const bad = [];
   for (const el of document.querySelectorAll('body *')) { const r = el.getBoundingClientRect();
@@ -38,7 +41,7 @@ with sync_playwright() as p:
     print('sheet apply label:', pg.inner_text('.sapply'), '| bar:', pg.inner_text('.fbtn'))
     pg.click('.sapply'); pg.wait_for_timeout(300); pg.evaluate('window.scrollTo(0,0)'); pg.screenshot(path=str(OUT / 'index_390_filtered.png'))
     pg.close()
-    pg = page(390); pg.goto(BASE + '/cafes/8/', wait_until='networkidle')
+    pg = page(390); pg.goto(BASE + DETAIL, wait_until='networkidle')
     pg.screenshot(path=str(OUT / 'detail_390.png')); pg.screenshot(path=str(OUT / 'detail_390_full.png'), full_page=True)
     pg.click('summary >> text=メニューを見る'); pg.wait_for_timeout(200)
     pg.locator('details.fold').first.scroll_into_view_if_needed(); pg.evaluate('window.scrollBy(0,-120)'); pg.screenshot(path=str(OUT / 'detail_390_menu_open.png'))
@@ -47,7 +50,7 @@ with sync_playwright() as p:
     pg.screenshot(path=str(OUT / 'events_390.png')); pg.screenshot(path=str(OUT / 'events_390_full.png'), full_page=True); pg.close()
     pg = page(1280, False); pg.goto(BASE + '/', wait_until='networkidle')
     pg.screenshot(path=str(OUT / 'index_1280.png')); pg.screenshot(path=str(OUT / 'index_1280_full.png'), full_page=True)
-    pg.goto(BASE + '/cafes/8/', wait_until='networkidle'); pg.screenshot(path=str(OUT / 'detail_1280_full.png'), full_page=True)
+    pg.goto(BASE + DETAIL, wait_until='networkidle'); pg.screenshot(path=str(OUT / 'detail_1280_full.png'), full_page=True)
     pg.goto(BASE + '/events/', wait_until='networkidle'); pg.screenshot(path=str(OUT / 'events_1280.png'))
     pg.close()
     # audits
@@ -59,7 +62,7 @@ with sync_playwright() as p:
             pg.evaluate("document.querySelectorAll('details').forEach(d=>d.open=true)")
             r = pg.evaluate(OVER)
             if r['sw'] > r['w'] or r['bad']: bad.append((path, r))
-            if path in ('/', '/events/', '/cafes/8/'):
+            if path in ('/', '/events/', DETAIL):
                 taps[path] = pg.evaluate(TAP)
         pg.goto(BASE + '/'); pg.click('.fbtn'); pg.wait_for_timeout(300)
         sheet = pg.evaluate("() => { const f = document.querySelector('#facets'); return [f.scrollWidth, f.clientWidth]; }")

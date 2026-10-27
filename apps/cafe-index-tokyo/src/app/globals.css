@@ -148,6 +148,7 @@ main,section,aside,.sc,.g>*{min-width:0}
 .credit{font-size:13px;color:var(--g5);margin-top:10px}
 .credit p+p{margin-top:6px}
 .ftmeta{color:var(--g8)}
+.ftdemo{color:var(--ink);font-weight:600}
 .ftnav{display:flex;gap:8px;margin-top:8px;font-size:15px;font-weight:600}
 .ftnav a{display:inline-flex;align-items:center;min-height:44px;padding-right:12px}
 .ftnav a:hover{color:var(--red)}

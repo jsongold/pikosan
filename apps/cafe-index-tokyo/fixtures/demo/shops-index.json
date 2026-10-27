@@ -1,0 +1,62 @@
+{
+  "demo": true,
+  "total": 3,
+  "facets": {
+    "wards": [
+      { "v": "架空区", "n": 2 },
+      { "v": "見本市", "n": 1 }
+    ],
+    "genres": [
+      { "v": "デモ喫茶", "n": 2 },
+      { "v": "架空カフェ", "n": 1 }
+    ],
+    "features": [
+      { "v": "wifi", "label": "Wi‑Fi", "n": 1 }
+    ]
+  },
+  "axes": [
+    { "key": "demo_body", "label": "デモの味", "scale": [1, 5] }
+  ],
+  "shops": [
+    {
+      "id": 9001,
+      "name": "DEMO 架空コーヒー そのいち",
+      "kana": "でもかくうこーひーそのいち",
+      "ward": "架空区",
+      "station": "デモ駅",
+      "genres": ["デモ喫茶"],
+      "score": 1.33,
+      "reviews": 1,
+      "price": "¥100〜¥200",
+      "priceMin": 100,
+      "priceMax": 200,
+      "feats": ["wifi"]
+    },
+    {
+      "id": 9002,
+      "name": "DEMO 見本喫茶 そのに",
+      "kana": "でもみほんきっさそのに",
+      "ward": "見本市",
+      "station": "見本駅",
+      "genres": ["デモ喫茶"],
+      "score": 1.22,
+      "reviews": 1,
+      "price": "¥200〜¥300",
+      "priceMin": 200,
+      "priceMax": 300
+    },
+    {
+      "id": 9003,
+      "name": "DEMO サンプル茶房 そのさん",
+      "kana": "でもさんぷるさぼうそのさん",
+      "ward": "架空区",
+      "station": "サンプル駅",
+      "genres": ["架空カフェ"],
+      "score": 1.11,
+      "reviews": 1,
+      "price": "¥300〜¥400",
+      "priceMin": 300,
+      "priceMax": 400
+    }
+  ]
+}
