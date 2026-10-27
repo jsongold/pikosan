@@ -2,6 +2,7 @@ import 'server-only';
 import { createClient, type SupabaseClient } from '@supabase/supabase-js';
 import { catalogError, shopId, type CatalogSnapshot } from './catalog';
 import { supabaseKeyChoice } from './catalog-config';
+import { formatCatalogDate, formatCatalogInstant } from './catalog-time';
 import type { Attr, Axis, CafeEvent, EventsFile, Facet, MenuItem, Meta, Review, ShopDetail, ShopIndex, ShopRow, Value } from './types';
 
 /**
@@ -31,10 +32,12 @@ const FEATURES: { code: string; label: string; key: string; pred: (v: unknown) =
   { code: 'kids', label: '子供可', key: 'facility.kids', pred: (v) => typeof v === 'string' && v.startsWith('子供可') },
 ];
 
-interface ShopRec {
+export interface ShopRec {
   id: number;
   name: string;
   name_kana: string | null;
+  uid: string | null;
+  region_key: string | null;
   prefecture: string | null;
   ward: string | null;
   address: string | null;
@@ -44,7 +47,7 @@ interface ShopRec {
   source_urls: unknown;
   updated_at: string | null;
 }
-interface AttrRec {
+export interface AttrRec {
   id: number;
   shop_id: number;
   attribute_key: string;
@@ -56,14 +59,15 @@ interface AttrRec {
   status: string;
   collected_at: string | null;
 }
-interface DefRec {
+export interface DefRec {
   key: string;
   label_ja: string;
   category: string | null;
   display_order: number | null;
+  is_axis: boolean;
   metadata: { atmos?: boolean; score_scale?: { min?: number; max?: number }; allowed_values?: string[] } | null;
 }
-interface ReviewRec {
+export interface ReviewRec {
   id: number;
   shop_id: number;
   summary: string;
@@ -72,23 +76,27 @@ interface ReviewRec {
   review_date: string | null;
   source_name: string | null;
   source_url: string | null;
+  collected_at: string | null;
+  machine_translated: boolean | null;
 }
-interface MenuRec {
+export interface MenuRec {
   id: number;
   shop_id: number;
   item_name: string;
   price_yen: number | null;
   note: string | null;
   source_url: string | null;
+  collected_at: string | null;
   extra_json: { section?: string; name_source?: string } | null;
 }
-interface EventRec {
+export interface EventRec {
   id: number;
   event_uid: string | null;
   shop_id: number | null;
   type: string;
   title: string;
   status: string;
+  all_day: boolean | null;
   starts_at: string | null;
   ends_at: string | null;
   date_text: string | null;
@@ -174,8 +182,7 @@ function distM(a: number | null, b: number | null, c: number | null, d: number |
 }
 
 function dayKey(iso: string | null): string | undefined {
-  if (!iso) return undefined;
-  return iso.slice(0, 10);
+  return formatCatalogDate(iso);
 }
 
 async function readAll<T>(supabase: SupabaseClient, table: string, apply: (q: Query) => Query): Promise<T[]> {
@@ -196,22 +203,24 @@ async function readAll<T>(supabase: SupabaseClient, table: string, apply: (q: Qu
 }
 
 function axesFrom(defs: DefRec[]): Axis[] {
-  const axes: Axis[] = [];
+  const axes: (Axis & { order: number })[] = [];
   for (const d of defs) {
-    if (d.category !== 'flavor' && !d.key.startsWith('flavor.')) continue;
+    if (!d.is_axis) continue;
     if (d.key.endsWith('_score')) continue;
     const key = d.key.startsWith('flavor.') ? d.key.slice('flavor.'.length) : d.key;
     const meta = d.metadata ?? {};
     const scale = meta.score_scale;
     axes.push({
       key,
+      order: d.display_order ?? 999,
       label: d.label_ja.split(/[（(]/)[0] || key,
       atmos: Boolean(meta.atmos) || key.startsWith('atmos_'),
       ...(scale ? { scale: [scale.min ?? 1, scale.max ?? 5] as [number, number] } : {}),
       ...(meta.allowed_values?.length ? { values: meta.allowed_values } : {}),
     });
   }
-  return axes;
+  axes.sort((a, b) => a.order - b.order || (a.key < b.key ? -1 : a.key > b.key ? 1 : 0));
+  return axes.map(({ order: _order, ...axis }) => axis);
 }
 
 export async function loadSupabaseCatalog(): Promise<CatalogSnapshot> {
@@ -237,6 +246,26 @@ export async function loadSupabaseCatalog(): Promise<CatalogSnapshot> {
     readAll<MenuRec>(supabase, 'menu_items', (q) => q.order('id')),
     readAll<EventRec>(supabase, 'events', (q) => q.order('id')),
   ]);
+
+  return buildCatalogFromRows({
+    shops: shopRows,
+    attributes: attrRows,
+    definitions: defRows,
+    reviews: reviewRows,
+    menu: menuRows,
+    events: eventRows,
+  });
+}
+
+export function buildCatalogFromRows(input: {
+  shops: ShopRec[];
+  attributes: AttrRec[];
+  definitions: DefRec[];
+  reviews: ReviewRec[];
+  menu: MenuRec[];
+  events: EventRec[];
+}, now = new Date()): CatalogSnapshot {
+  const { shops: shopRows, attributes: attrRows, definitions: defRows, reviews: reviewRows, menu: menuRows, events: eventRows } = input;
 
   if (shopRows.length === 0) {
     throw catalogError('Supabase returned no active shops. Refusing to build an empty site.');
@@ -290,7 +319,7 @@ export async function loadSupabaseCatalog(): Promise<CatalogSnapshot> {
     const review: Review = { summary: row.summary };
     if (row.sentiment) review.sentiment = row.sentiment;
     if (row.rating != null) review.rating = Number(row.rating);
-    if (row.review_date) review.date = row.review_date;
+    if (row.review_date) review.date = String(row.review_date);
     if (row.source_name) review.source = row.source_name;
     if (row.source_url) review.url = row.source_url;
     const list = reviewsByShop.get(sid) ?? [];
@@ -310,7 +339,6 @@ export async function loadSupabaseCatalog(): Promise<CatalogSnapshot> {
   const types: Record<string, string> = {};
   for (const d of defRows) if (d.category === 'event_type') types[d.key] = d.label_ja;
 
-  const now = new Date();
   const events: CafeEvent[] = eventRows.map((row) => {
     let status = row.status;
     const end = row.ends_at || row.starts_at;
@@ -319,6 +347,9 @@ export async function loadSupabaseCatalog(): Promise<CatalogSnapshot> {
       if (!Number.isNaN(dt.getTime()) && dt < now) status = 'past';
     }
     if (row.type && !types[row.type]) types[row.type] = row.type;
+    const allDay = Boolean(row.all_day);
+    const startsAt = formatCatalogInstant(row.starts_at, allDay);
+    const endsAt = formatCatalogInstant(row.ends_at, allDay);
     const e: CafeEvent = {
       id: Number(row.id),
       event_uid: row.event_uid ?? String(row.id),
@@ -327,8 +358,8 @@ export async function loadSupabaseCatalog(): Promise<CatalogSnapshot> {
       title: row.title,
       status,
     };
-    if (row.starts_at) e.starts_at = row.starts_at;
-    if (row.ends_at) e.ends_at = row.ends_at;
+    if (startsAt) e.starts_at = startsAt;
+    if (endsAt) e.ends_at = endsAt;
     if (row.date_text) e.date_text = row.date_text;
     if (row.recurrence) e.recurrence = row.recurrence;
     if (row.venue_name) e.venue_name = row.venue_name;
@@ -350,6 +381,14 @@ export async function loadSupabaseCatalog(): Promise<CatalogSnapshot> {
       e.linkBy = 'shop_id';
     }
     return e;
+  });
+
+  events.sort((a, b) => {
+    const as = a.starts_at ?? '9999';
+    const bs = b.starts_at ?? '9999';
+    if (as < bs) return -1;
+    if (as > bs) return 1;
+    return a.id - b.id;
   });
 
   for (const e of events) {
@@ -411,6 +450,8 @@ export async function loadSupabaseCatalog(): Promise<CatalogSnapshot> {
       id: s.id,
       name: s.name,
       ...(s.name_kana ? { kana: s.name_kana } : {}),
+      ...(s.uid ? { uid: s.uid } : {}),
+      ...(s.region_key ? { regionKey: s.region_key } : {}),
       ...(s.prefecture ? { prefecture: s.prefecture } : {}),
       ...(s.ward ? { ward: s.ward } : {}),
       ...(s.address ? { address: s.address } : {}),
@@ -469,11 +510,20 @@ export async function loadSupabaseCatalog(): Promise<CatalogSnapshot> {
     shops: rows.sort((a, b) => (b.score ?? 0) - (a.score ?? 0) || (a.name < b.name ? -1 : a.name > b.name ? 1 : 0)),
   };
 
+  const byStart = (a: CafeEvent, b: CafeEvent) => {
+    const as = a.starts_at ?? '9999';
+    const bs = b.starts_at ?? '9999';
+    if (as < bs) return -1;
+    if (as > bs) return 1;
+    return a.id - b.id;
+  };
   const groups: EventsFile['groups'] = { upcoming: [], recurring: [], past: [] };
   for (const e of events) {
     if (e.status === 'upcoming' || e.status === 'recurring' || e.status === 'past') groups[e.status].push(e);
   }
-  groups.past.sort((a, b) => (b.starts_at ?? '').localeCompare(a.starts_at ?? ''));
+  groups.upcoming.sort(byStart);
+  groups.recurring.sort(byStart);
+  groups.past.sort((a, b) => (b.starts_at ?? '').localeCompare(a.starts_at ?? '') || b.id - a.id);
   const eventsFile: EventsFile = { types, groups, total: events.length };
   const meta: Meta = {
     exportedAt: new Date().toISOString(),

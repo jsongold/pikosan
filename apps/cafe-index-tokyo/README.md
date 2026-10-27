@@ -69,12 +69,16 @@ DB ファイルが無いとき `python3 tools/export_site_data.py --if-available
 
 スキーマは `supabase/migrations/20261027000000_catalog_init.sql` です。テーブルはソースカタログと同じ拡張の仕方です。
 
-- `shops` — 店の識別子、区、座標、status
+- `shops` — 識別子、`uid`、`region_key`、区、座標、status
 - `shop_attributes` — EAV（key、value jsonb、confidence、source_urls）
-- `attribute_definitions` — ラベル。`category = 'flavor'` は味・雰囲気の軸（`metadata` に scale / allowed values）、`category = 'event_type'` はイベント種別ラベル
-- `reviews`, `menu_items`, `events`
+- `attribute_definitions` — ラベルと `display_order`。味・雰囲気の軸は `is_axis = true` の行だけ（`flavor.evidence` や `flavor.confidence` は軸にしない）。`display_order` の順。`category = 'event_type'` はイベント種別ラベル
+- `reviews` — `review_date` は text（`2026-10` のような月精度をそのまま保存）。`collected_at`、`machine_translated`
+- `menu_items` — `collected_at`
+- `events` — `starts_at` / `ends_at` は timestamptz。`all_day` が true のときは日付だけで、時刻は出さない
 
-anon / authenticated は SELECT のみ（RLS。書き込みポリシーは無く、INSERT/UPDATE/DELETE は revoke）。アプリのプロバイダ（`src/lib/catalog-supabase.ts`）は `.select()` しかしません。このリポジトリからは Supabase プロジェクトを作成しません。
+読み取り側（`src/lib/catalog-supabase.ts`）は時刻を **Asia/Tokyo** に直してからページに渡します。データベースの TimeZone には依存しません。開催予定は `starts_at` の昇順です（ローカル JSON と同じ）。
+
+anon / authenticated は SELECT のみです。INSERT / UPDATE / DELETE / TRUNCATE / REFERENCES / TRIGGER は revoke してあり、書き込みポリシーはありません。アプリは `.select()` しかしません。このリポジトリからは Supabase プロジェクトを作成しません。日付だけのイベントは `all_day = true` にしてください。軸にする定義は `is_axis = true` にしてください。
 
 ## 開発・ビルド
 

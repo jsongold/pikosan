@@ -23,6 +23,7 @@ export interface EventLite {
 export interface ShopDetail {
   id: number; name: string; kana?: string; prefecture?: string; ward?: string; address?: string;
   lat?: number; lng?: number; sources?: string[]; updated?: string; feats?: string[];
+  uid?: string; regionKey?: string;
   attrs: Record<string, Attr>; menu?: MenuItem[]; reviews?: Review[]; events?: EventLite[];
 }
 export interface CafeEvent extends EventLite {
