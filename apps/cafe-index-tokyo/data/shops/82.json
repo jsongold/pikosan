@@ -1,0 +1,369 @@
+{
+ "id": 82,
+ "name": "志村電機珈琲焙煎所",
+ "prefecture": "東京都",
+ "ward": "練馬区",
+ "address": "東京都練馬区春日町1-11-1",
+ "lat": 35.74741788863618,
+ "lng": 139.64772732513617,
+ "sources": [
+  "https://tabelog.com/tokyo/A1321/A132102/13106930/",
+  "https://tabelog.com/en/tokyo/A1321/A132102/13106930/",
+  "https://tabelog.com/en/tokyo/A1321/rstLst/cafe/?SrtT=rt"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "nosmoke"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.46,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 147,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "自家焙煎"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/",
+    "https://tabelog.com/en/tokyo/A1321/rstLst/cafe/?SrtT=rt"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.access": {
+   "v": "535 meters from Toshimaen.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・金・土・日 9:00～19:30 / 木 定休日",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.closed_days": {
+   "v": "木（食べログ営業時間表記より）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "定休日"
+  },
+  "basic.price_range_text": {
+   "v": "～￥999（口コミ集計）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_max": {
+   "v": 999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.website": {
+   "v": "https://www.simdencoffee.com",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-3990-5560",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1321/A132102/13106930/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード可、電子マネー可、QRコード決済可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "スイーツ"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B531858951/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "food_focus",
+     "value": [
+      "スイーツ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B531858951/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B531858951/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "low",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B531858951/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "ゼリーラテ",
+    "コーヒーソフトクリーム"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B537561759/",
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B531858951/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.coffee_beans": {
+   "v": "焙煎豆の購入可",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B427665632/"
+   ],
+   "at": "2026-10-27",
+   "label": "豆・焙煎所"
+  },
+  "review.praise_summary": {
+   "v": "自家焙煎豆、ゼリーラテやコーヒーソフト。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B537561759/",
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B531858951/",
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B427665632/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "コスパ評価はやや控えめ（3.1の例）。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B537561759/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "コーヒー豆を買いたい人",
+    "としまえん周辺散策",
+    "スイーツ好き"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B537561759/",
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B531858951/",
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B427665632/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "練馬・豊島園近くの、電器店が営む自家焙煎珈琲店。ゼリーラテやコーヒーソフトクリームが話題で、豆の購入目的の常連もいる。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B537561759/",
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B531858951/",
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B427665632/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "雑貨などが並ぶ居心地の良い店内。豊島園駅から徒歩6〜8分、木曜定休。",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/",
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B537154911/",
+    "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B532922172/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1321/A132102/13106930/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  }
+ },
+ "reviews": [
+  {
+   "summary": "電器店が営む焙煎所のゼリーラテ。",
+   "sentiment": "positive",
+   "rating": 3.3,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B537561759/"
+  },
+  {
+   "summary": "焙煎を待つ間も楽しい、豆目当ての常連。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B427665632/"
+  },
+  {
+   "summary": "評価は3.3と控えめで、価格に対する満足度はやや低め。",
+   "sentiment": "mixed",
+   "rating": 3.3,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B537561759/"
+  },
+  {
+   "summary": "本格的なコーヒーソフトクリームが味わえる。",
+   "sentiment": "positive",
+   "rating": 3.8,
+   "date": "2026-07",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1321/A132102/13106930/dtlrvwlst/B531858951/"
+  }
+ ]
+}

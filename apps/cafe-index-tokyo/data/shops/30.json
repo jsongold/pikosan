@@ -1,0 +1,585 @@
+{
+ "id": 30,
+ "name": "自家焙煎珈琲みじんこ",
+ "prefecture": "東京都",
+ "ward": "文京区",
+ "address": "東京都文京区湯島2-9-10 湯島三組ビル1Ｆ",
+ "lat": 35.704020538701705,
+ "lng": 139.76691407461428,
+ "sources": [
+  "https://tabelog.com/tokyo/A1310/A131002/13126204/",
+  "https://tabelog.com/en/tokyo/A1310/A131002/13126204/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "wifi",
+  "sofa",
+  "takeout",
+  "nosmoke",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.78,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 2291,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "自家焙煎",
+    "パンケーキ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe,Japanese pudding",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "湯島駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "- JR Chuo-Sobu Line, Ochanomizu Station\n- Tokyo Metro\nChiyoda Line, Yushima Station\nChiyoda Line, Shin-Ochanomizu Station\nGinza Line, Suehirocho Station\nMarunouchi Line, Ochanomizu Station\nAll of these stations are about a 10-minute walk away.\n434 meters from Yushima.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金 11:00～19:30 (L.O. Food 18:30 Drinks 19:00) / 土・日・祝日 10:00～19:30 (L.O. Food 18:30 Drinks 19:00) 10:00～19:30 ※■Closed on No regular holidays (except for Year-end & New Year Holidays). Please note that there may be temporary closures for maintenance. 【Special Business Ho",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "おしゃれな空間",
+    "落ち着いた空間",
+    "カウンター席あり",
+    "ソファー席あり",
+    "無料Wi-Fiあり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "https://mijinco-coffee.com/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-6240-1429",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.opened": {
+   "v": "2011-5-11",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "オープン日"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1310/A131002/13126204/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター",
+    "ソファ",
+    "テーブル"
+   ],
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 25,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.sofa": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "ソファ席"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.wifi": {
+   "v": "あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "Wi-Fi"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners）、電子マネー不可、QRコード決済可（PayPay）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可(乳児可), ベビーカー入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.stroller": {
+   "v": "ベビーカー入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "ベビーカー"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無 ( There are many paid parking lots nearby. )",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "おしゃれな空間、落ち着いた空間、カウンター席あり、ソファー席あり、無料Wi-Fiあり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.sweetness": {
+   "v": "やや甘い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さ(看板スイーツ・ドリンク)"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "パンケーキ",
+    "スイーツ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B536089440/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "2枚重ねの厚焼きパンケーキとキャラメリゼしたプリン",
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B536089440/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_stylishness": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "sweetness",
+     "value": "やや甘い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "パンケーキ",
+      "スイーツ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/",
+      "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B536089440/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "2枚重ねの厚焼きパンケーキとキャラメリゼしたプリン",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/",
+      "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B536089440/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/"
+     ]
+    },
+    {
+     "axis": "atmos_stylishness",
+     "value": "やや高い",
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B536089440/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/",
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "low",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B536089440/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/",
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "厚焼きパンケーキ",
+    "プリン",
+    "自家焙煎コーヒー"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B536089440/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "review.praise_summary": {
+   "v": "厚焼きパンケーキと濃厚プリン、自家焙煎コーヒーとの組み合わせ。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537290890/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "パンケーキの提供に時間がかかり、シロップが物足りないという声。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B536089440/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "パンケーキ好き",
+    "湯島・上野散策の休憩"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B536089440/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537290890/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "湯島の自家焙煎珈琲店。2枚重ねの厚焼きパンケーキはふんわりしっとりで表面の焼き色が美しいと評される。表面をキャラメリゼしたプリンは濃厚でもっちりした食感、バニラビーンズが香る。自家焙煎コーヒーとの相性が良い。パンケーキは注文から約20分かかる。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B536089440/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "おしゃれで落ち着いた空間、カウンター席・ソファー席あり、計25席。無料Wi-Fiあり。席予約は専用Webサイトのみ（電話・メール不可）。",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "パンケーキは注文から約20分。悪天候の土曜18時は予約なしで即入店できた",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B536089440/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.reservation": {
+   "v": "専用Webサイトで席予約可（電話・メール不可）",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約可",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.house_rules": {
+   "v": [
+    "Please use our dedicated website to make a reservation for your seat.",
+    "https://airrsv.net/mijinco/calendar",
+    "*Reservations by phone or email are not accepted."
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_stylishness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131002/13126204/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度スコア"
+  },
+  "flavor.sweetness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さスコア"
+  }
+ },
+ "reviews": [
+  {
+   "summary": "ふんわりしっとりの厚焼きパンケーキと濃厚プリン。自家焙煎珈琲との相性が抜群。",
+   "sentiment": "positive",
+   "rating": 5.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537634640/"
+  },
+  {
+   "summary": "焼きたてを楽しめる湯島の人気カフェとして紹介（評価4.0）。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B537290890/"
+  },
+  {
+   "summary": "食感は良いがシロップが少なめで、提供まで約20分。評価は2.5。",
+   "sentiment": "negative",
+   "rating": 2.5,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1310/A131002/13126204/dtlrvwlst/B536089440/"
+  }
+ ]
+}

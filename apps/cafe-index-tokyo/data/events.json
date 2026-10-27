@@ -1,0 +1,788 @@
+{
+ "types": {
+  "cafe_run": "カフェラン",
+  "music_event": "カフェ音楽イベント",
+  "other": "その他イベント"
+ },
+ "groups": {
+  "upcoming": [
+   {
+    "id": 10,
+    "event_uid": "500b0d70e276e4e8",
+    "type": "music_event",
+    "title": "Purpose ep.34（Liquid Funk DJ）",
+    "starts_at": "2026-10-28T19:30:00+09:00",
+    "ends_at": "2026-10-28T22:30:00+09:00",
+    "recurrence": "毎月第4水曜",
+    "status": "upcoming",
+    "venue_name": "音楽喫茶 茶箱 sabaco",
+    "venue_address": "東京都新宿区西早稲田2-1-19 YKビルB1F",
+    "venue_ward": "新宿区",
+    "organizer": "Purpose",
+    "booking_url": "http://sabaco.jp/e/category/schedule/",
+    "description": "音の良い音楽喫茶で平日夜にLiquid Funkを聴かせる月例DJイベント。DJ初体験の来場者も歓迎の雰囲気。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "http://sabaco.jp/e/category/schedule/"
+    ],
+    "extra": {
+     "subtype": "dj",
+     "genre": "Liquid Funk / Drum & Bass"
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 3,
+    "event_uid": "257e8b51e14a0070",
+    "type": "cafe_run",
+    "title": "twc × BRYANT PARK CLUB NIGHT RUN & SOCIAL",
+    "starts_at": "2026-10-30T19:00:00+09:00",
+    "ends_at": "2026-10-30T20:30:00+09:00",
+    "status": "upcoming",
+    "venue_name": "BRYANT PARK CLUB",
+    "venue_address": "東京都港区赤坂2-10-5",
+    "venue_ward": "港区",
+    "venue_lat": 35.6705702,
+    "venue_lng": 139.7420233,
+    "organizer": "Tokyo Wellness Community (twc)",
+    "fee_text": "¥2,500（スムージー付）",
+    "booking_url": "https://luma.com/de9cvwxz",
+    "description": "店舗集合で東京タワー・芝公園周辺をおしゃべりペースで走り、戻ってスムージーで乾杯する交流ラン。男女とも参加可。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://luma.com/de9cvwxz"
+    ],
+    "extra": {
+     "pace": "おしゃべりペース",
+     "meeting_point": "BRYANT PARK CLUB",
+     "after_run": "スムージーで乾杯・交流会"
+    },
+    "typeLabel": "カフェラン"
+   },
+   {
+    "id": 11,
+    "event_uid": "60133863f88a5928",
+    "type": "music_event",
+    "title": "Impulse12",
+    "starts_at": "2026-10-30T19:00:00+09:00",
+    "ends_at": "2026-10-30T23:00:00+09:00",
+    "status": "upcoming",
+    "venue_name": "音楽喫茶 茶箱 sabaco",
+    "venue_address": "東京都新宿区西早稲田2-1-19 YKビルB1F",
+    "venue_ward": "新宿区",
+    "organizer": "Tech-nation Records DJ研究会",
+    "fee_text": "¥1,000+1ドリンク",
+    "booking_url": "http://sabaco.jp/e/category/schedule/",
+    "description": "大学DJサークル部員6名によるオールジャンルDJイベント。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "http://sabaco.jp/e/category/schedule/"
+    ],
+    "extra": {
+     "subtype": "dj",
+     "genre": "オールジャンル"
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 2,
+    "event_uid": "0ddab5bfe352801f",
+    "type": "cafe_run",
+    "title": "Founders Running Club Tokyo（土曜朝ラン）",
+    "starts_at": "2026-10-31T09:00:00+09:00",
+    "ends_at": "2026-10-31T11:00:00+09:00",
+    "recurrence": "毎週土曜 9:00",
+    "status": "upcoming",
+    "venue_name": "Deus Ex Machina 原宿",
+    "venue_address": "東京都渋谷区神宮前2-32-5 Bprスクエア神宮前 1F・2F",
+    "venue_ward": "渋谷区",
+    "venue_lat": 35.6723025,
+    "venue_lng": 139.7084669,
+    "organizer": "Founders Running Club Tokyo",
+    "fee_text": "無料",
+    "booking_url": "https://luma.com/0s906z62",
+    "description": "起業家・投資家・クリエイター向けのランクラブ東京支部。会話できるペースで5kmを走り、そのままカフェでコーヒーと交流。進行は英語中心。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://luma.com/0s906z62"
+    ],
+    "extra": {
+     "distance_km": 5,
+     "pace": "会話ペース",
+     "after_run": "カフェでコーヒーと交流"
+    },
+    "typeLabel": "カフェラン"
+   },
+   {
+    "id": 12,
+    "event_uid": "e976b42752fb4bea",
+    "type": "music_event",
+    "title": "DUGEM ADVANCE 04",
+    "starts_at": "2026-10-31T14:00:00+09:00",
+    "ends_at": "2026-10-31T20:00:00+09:00",
+    "status": "upcoming",
+    "venue_name": "音楽喫茶 茶箱 sabaco",
+    "venue_address": "東京都新宿区西早稲田2-1-19 YKビルB1F",
+    "venue_ward": "新宿区",
+    "organizer": "Aki L3 & Yasuetti L3",
+    "fee_text": "¥3,000/1D",
+    "booking_url": "http://sabaco.jp/e/category/schedule/",
+    "description": "インドネシア発のFunkotを掘り下げるDJパーティーが7年ぶりに復活した4回目。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "http://sabaco.jp/e/category/schedule/"
+    ],
+    "extra": {
+     "subtype": "dj",
+     "genre": "Funkot"
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 17,
+    "event_uid": "6d6361aea8f9e3aa",
+    "type": "music_event",
+    "title": "開店4周年スペシャル『恋多き女=リンダ・ロンシュタット黄金の70年代』",
+    "starts_at": "2026-10-31T14:00:00+09:00",
+    "status": "upcoming",
+    "venue_name": "3313アナログ天国",
+    "venue_address": "東京都杉並区西荻北4-30-4 1F",
+    "venue_ward": "杉並区",
+    "organizer": "3313アナログ天国",
+    "booking_url": "https://3313cafe.jimdofree.com/event/",
+    "description": "アナログ盤でリンダ・ロンシュタットの70年代を聴くレコード・イベント（開店4周年企画）。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://3313cafe.jimdofree.com/event/",
+     "https://3313cafe.jimdofree.com/access/"
+    ],
+    "extra": {
+     "subtype": "listening",
+     "genre": "Rock / 70s"
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 1,
+    "event_uid": "184683879a694914",
+    "type": "cafe_run",
+    "title": "iiyon!! スタンプラリーラン TAP TO TAP × Single O",
+    "starts_at": "2026-10-31T15:00:00+09:00",
+    "ends_at": "2026-10-31T20:00:00+09:00",
+    "status": "upcoming",
+    "venue_name": "Single O Japan 神田淡路町店",
+    "venue_address": "東京都千代田区神田淡路町2-101 ワテラスタワー3F",
+    "venue_ward": "千代田区",
+    "venue_lat": 35.6974,
+    "venue_lng": 139.76722619999998,
+    "organizer": "iiyon!!",
+    "fee_text": "¥4,980",
+    "booking_url": "https://luma.com/iiyon-jt1x",
+    "description": "チームで約8kmを走りながらSingle Oの別店舗2軒でコーヒーを受け取り、神田店ゴール後は貸切で立食パーティー。定員70名。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://luma.com/iiyon-jt1x"
+    ],
+    "extra": {
+     "distance_km": 8,
+     "meeting_point": "Single O 神田淡路町店（集合・ゴール）",
+     "after_run": "貸切ビュッフェ・乾杯"
+    },
+    "typeLabel": "カフェラン"
+   },
+   {
+    "id": 26,
+    "event_uid": "7605cbbb7301f7e6",
+    "type": "music_event",
+    "title": "Fourfold Groove",
+    "starts_at": "2026-11-01",
+    "date_text": "2026-11-01",
+    "status": "upcoming",
+    "venue_name": "エレクトリックカフェ 南青山",
+    "venue_address": "東京都港区南青山3-4-2 BASE南青山3F",
+    "venue_ward": "港区",
+    "booking_url": "https://www.ele-cafe.jp/date/2026/11",
+    "description": "ライブカフェの11月公演。開演時刻・料金は一覧ページに記載がなく詳細ページ未確認。",
+    "confidence": "medium",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://www.ele-cafe.jp/date/2026/11"
+    ],
+    "extra": {
+     "subtype": "live"
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 13,
+    "event_uid": "d9c1661d8ba15964",
+    "type": "music_event",
+    "title": "Re:VEAL vol.2",
+    "starts_at": "2026-11-03T14:30:00+09:00",
+    "ends_at": "2026-11-03T19:30:00+09:00",
+    "status": "upcoming",
+    "venue_name": "音楽喫茶 茶箱 sabaco",
+    "venue_address": "東京都新宿区西早稲田2-1-19 YKビルB1F",
+    "venue_ward": "新宿区",
+    "fee_text": "¥2,500+1D",
+    "booking_url": "http://sabaco.jp/e/category/schedule/",
+    "description": "「バーチャル音楽」をテーマにしたDJ・VJパーティー。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "http://sabaco.jp/e/category/schedule/"
+    ],
+    "extra": {
+     "subtype": "dj"
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 14,
+    "event_uid": "ca1eb8bb58dd9fb6",
+    "type": "music_event",
+    "title": "3人寄ればissui！ アニソン/J-POP DJ 第6回",
+    "starts_at": "2026-11-04T19:00:00+09:00",
+    "ends_at": "2026-11-04T23:00:00+09:00",
+    "recurrence": "毎月第1水曜",
+    "status": "upcoming",
+    "venue_name": "音楽喫茶 茶箱 sabaco",
+    "venue_address": "東京都新宿区西早稲田2-1-19 YKビルB1F",
+    "venue_ward": "新宿区",
+    "organizer": "issui",
+    "fee_text": "¥1,500+1ドリンク(¥700)",
+    "booking_url": "http://sabaco.jp/e/category/schedule/",
+    "description": "アニソン・J-POP中心の気軽なラウンジDJ会。飲んで話すのが主目的で、経験者は当日エントリーでDJ参加も可。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "http://sabaco.jp/e/category/schedule/"
+    ],
+    "extra": {
+     "subtype": "dj",
+     "genre": "アニソン / J-POP"
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 23,
+    "event_uid": "fffabf7fab773ea9",
+    "type": "music_event",
+    "title": "JAZZ NIGHT（TOSHI NAGAI ほか）",
+    "starts_at": "2026-11-04T19:30:00+09:00",
+    "status": "upcoming",
+    "venue_name": "Live Cafe Rooster（荻窪ルースター）",
+    "venue_ward": "杉並区",
+    "organizer": "Live Cafe Rooster",
+    "fee_text": "¥3,500+オーダー（メール予約）",
+    "booking_url": "https://www.ogikubo-rooster.com/sch/sch2611.html",
+    "description": "GLAYのドラマーとしても知られるTOSHI永井らのジャズセッション。ゲストボーカルあり。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://www.ogikubo-rooster.com/sch/sch2611.html"
+    ],
+    "extra": {
+     "subtype": "live",
+     "genre": "Jazz",
+     "performers": [
+      "TOSHI NAGAI",
+      "市川秀男",
+      "池田芳夫",
+      "CHICA"
+     ]
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 24,
+    "event_uid": "1f2a9100a714c9f7",
+    "type": "music_event",
+    "title": "トリオでジャズフュージョン（triple machine）",
+    "starts_at": "2026-11-05T19:30:00+09:00",
+    "status": "upcoming",
+    "venue_name": "Live Cafe Rooster（荻窪ルースター）",
+    "venue_ward": "杉並区",
+    "organizer": "Live Cafe Rooster",
+    "fee_text": "¥4,000+オーダー（メール予約）",
+    "booking_url": "https://www.ogikubo-rooster.com/sch/sch2611.html",
+    "description": "ギター・ベース・ドラムのトリオで定番曲を演奏するフュージョンライブ。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://www.ogikubo-rooster.com/sch/sch2611.html"
+    ],
+    "extra": {
+     "subtype": "live",
+     "genre": "Jazz Fusion",
+     "performers": [
+      "竹中俊二",
+      "岡田治郎",
+      "村上広樹"
+     ]
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 4,
+    "event_uid": "0e24acaf82195879",
+    "type": "cafe_run",
+    "title": "iiyon!! × fabric Night Shakeout Run",
+    "starts_at": "2026-11-06T19:00:00+09:00",
+    "ends_at": "2026-11-06T21:30:00+09:00",
+    "status": "upcoming",
+    "venue_name": "BRYANT PARK CLUB",
+    "venue_address": "東京都港区赤坂2-10-5",
+    "venue_ward": "港区",
+    "organizer": "iiyon!! / fabric",
+    "fee_text": "¥2,000（スムージー付）",
+    "booking_url": "https://luma.com/iiyon-fnxd",
+    "description": "駅伝・マラソンシーズン向けのゆっくりシェイクアウトラン。皇居方面へ約5km走り、店に戻ってスムージーで乾杯。荷物預かりあり。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://luma.com/iiyon-fnxd"
+    ],
+    "extra": {
+     "distance_km": 5,
+     "pace": "ゆっくり",
+     "after_run": "スムージーで乾杯"
+    },
+    "typeLabel": "カフェラン"
+   },
+   {
+    "id": 15,
+    "event_uid": "47e6b3173db2d592",
+    "type": "music_event",
+    "title": "DEMP@HOLIC #318",
+    "starts_at": "2026-11-07T14:00:00+09:00",
+    "ends_at": "2026-11-07T20:00:00+09:00",
+    "status": "upcoming",
+    "venue_name": "音楽喫茶 茶箱 sabaco",
+    "venue_address": "東京都新宿区西早稲田2-1-19 YKビルB1F",
+    "venue_ward": "新宿区",
+    "organizer": "DEMP@HOLIC",
+    "booking_url": "http://sabaco.jp/e/category/schedule/",
+    "description": "今回のテーマは「カラオケで何度も歌った/歌いたい曲」。有料配信もある長寿DJイベント。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "http://sabaco.jp/e/category/schedule/"
+    ],
+    "extra": {
+     "subtype": "dj",
+     "genre": "電波ソング / アニソン"
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 6,
+    "event_uid": "5bc69ac095cd5394",
+    "type": "cafe_run",
+    "title": "TSC Morning Run & Coffee",
+    "starts_at": "2026-11-08T07:50:00+09:00",
+    "ends_at": "2026-11-08T10:00:00+09:00",
+    "status": "upcoming",
+    "venue_name": "Runtrip BASE YOYOGI PARK",
+    "venue_address": "東京都渋谷区神南1-1-1 3F",
+    "venue_ward": "渋谷区",
+    "organizer": "TSC / The Steady Club",
+    "fee_text": "無料（ランステ利用は¥850）",
+    "booking_url": "https://luma.com/xsto6nmb",
+    "description": "代々木公園を走ってカフェで交流する誰でも参加できる朝ラン。シャワー付きランステを割引で使える。立ち寄るカフェ名は未記載。",
+    "confidence": "medium",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://luma.com/xsto6nmb"
+    ],
+    "extra": {
+     "meeting_point": "Runtrip BASE YOYOGI PARK前",
+     "after_run": "カフェで交流（店名未記載）"
+    },
+    "typeLabel": "カフェラン"
+   },
+   {
+    "id": 25,
+    "event_uid": "1d77156df8af1ad8",
+    "type": "music_event",
+    "title": "ジュアサ・セッション 〜これぞジャズ！〜",
+    "starts_at": "2026-11-11T19:30:00+09:00",
+    "status": "upcoming",
+    "venue_name": "Live Cafe Rooster（荻窪ルースター）",
+    "venue_ward": "杉並区",
+    "organizer": "Live Cafe Rooster",
+    "fee_text": "¥3,500+オーダー（メール予約）",
+    "booking_url": "https://www.ogikubo-rooster.com/sch/sch2611.html",
+    "description": "ドラマー加納樹麻を中心にした一夜限りのジャズ・カルテット。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://www.ogikubo-rooster.com/sch/sch2611.html"
+    ],
+    "extra": {
+     "subtype": "live",
+     "genre": "Jazz",
+     "performers": [
+      "加納樹麻",
+      "近藤和彦",
+      "中島徹",
+      "井上陽介"
+     ]
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 27,
+    "event_uid": "acc7407e8df29f4c",
+    "type": "music_event",
+    "title": "佐藤ちしおワンマンライブ「まちあわせ」",
+    "starts_at": "2026-11-12",
+    "date_text": "2026-11-12",
+    "status": "upcoming",
+    "venue_name": "エレクトリックカフェ 南青山",
+    "venue_address": "東京都港区南青山3-4-2 BASE南青山3F",
+    "venue_ward": "港区",
+    "booking_url": "https://www.ele-cafe.jp/date/2026/11",
+    "description": "ライブカフェでのワンマン公演。開演時刻・料金は詳細ページ未確認。",
+    "confidence": "medium",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://www.ele-cafe.jp/date/2026/11"
+    ],
+    "extra": {
+     "subtype": "live",
+     "performers": [
+      "佐藤ちしお"
+     ]
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 28,
+    "event_uid": "d1a44d3b1480c9cd",
+    "type": "music_event",
+    "title": "おてつのすけワンマンライブ 東京公演",
+    "starts_at": "2026-11-14",
+    "date_text": "2026-11-14",
+    "status": "upcoming",
+    "venue_name": "エレクトリックカフェ 南青山",
+    "venue_address": "東京都港区南青山3-4-2 BASE南青山3F",
+    "venue_ward": "港区",
+    "booking_url": "https://www.ele-cafe.jp/date/2026/11",
+    "description": "ライブカフェでのワンマン公演。時刻・料金は詳細ページ未確認。",
+    "confidence": "medium",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://www.ele-cafe.jp/date/2026/11"
+    ],
+    "extra": {
+     "subtype": "live",
+     "performers": [
+      "おてつのすけ"
+     ]
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 16,
+    "event_uid": "8aac6fd725abb6c7",
+    "type": "music_event",
+    "title": "LITTLE SPACES",
+    "starts_at": "2026-11-14T15:00:00+09:00",
+    "ends_at": "2026-11-14T21:00:00+09:00",
+    "status": "upcoming",
+    "venue_name": "音楽喫茶 茶箱 sabaco",
+    "venue_address": "東京都新宿区西早稲田2-1-19 YKビルB1F",
+    "venue_ward": "新宿区",
+    "fee_text": "¥2,500/1D",
+    "booking_url": "http://sabaco.jp/e/category/schedule/",
+    "description": "ゲストDJとVJを迎えるレジデント制のDJパーティー。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "http://sabaco.jp/e/category/schedule/"
+    ],
+    "extra": {
+     "subtype": "dj"
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 18,
+    "event_uid": "2baa88ab8068a679",
+    "type": "music_event",
+    "title": "『ラスト・ワルツ』50周年記念レコード・コンサート",
+    "starts_at": "2026-11-14T18:30:00+09:00",
+    "status": "upcoming",
+    "venue_name": "3313アナログ天国",
+    "venue_address": "東京都杉並区西荻北4-30-4 1F",
+    "venue_ward": "杉並区",
+    "organizer": "3313アナログ天国",
+    "booking_url": "https://3313cafe.jimdofree.com/event/",
+    "description": "ザ・バンドの『ラスト・ワルツ』をレコードで聴き込む50周年企画。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://3313cafe.jimdofree.com/event/",
+     "https://3313cafe.jimdofree.com/access/"
+    ],
+    "extra": {
+     "subtype": "listening",
+     "genre": "Rock"
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 19,
+    "event_uid": "df7fedb39b73de44",
+    "type": "music_event",
+    "title": "いい音爆音アワー vol.179 ツイン・ドラムス",
+    "starts_at": "2026-11-18T19:00:00+09:00",
+    "status": "upcoming",
+    "venue_name": "3313アナログ天国",
+    "venue_address": "東京都杉並区西荻北4-30-4 1F",
+    "venue_ward": "杉並区",
+    "organizer": "3313アナログ天国",
+    "booking_url": "https://3313cafe.jimdofree.com/event/",
+    "description": "大音量・高音質で聴く連続企画。今回はツインドラム編成の曲を特集。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://3313cafe.jimdofree.com/event/",
+     "https://3313cafe.jimdofree.com/access/"
+    ],
+    "extra": {
+     "subtype": "listening"
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 29,
+    "event_uid": "9a01815e3a7b9642",
+    "type": "music_event",
+    "title": "Cafe Live 音楽茶房 1",
+    "starts_at": "2026-11-18T19:15:00+09:00",
+    "ends_at": "2026-11-18T22:00:00+09:00",
+    "status": "upcoming",
+    "venue_name": "カフェ・トリオンプ",
+    "organizer": "Creamerymusic",
+    "fee_text": "来場¥2,000+1オーダー（配信¥2,000）",
+    "booking_url": "https://www.tiget.net/events/528589",
+    "description": "カフェで3組のシンガーが2回ずつ短いステージを回すアコースティック系ライブ。開場18:45、配信あり。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://www.tiget.net/events/528589"
+    ],
+    "extra": {
+     "subtype": "live",
+     "performers": [
+      "すずきゆい",
+      "しおたん",
+      "中根もにゃ"
+     ]
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 20,
+    "event_uid": "7ec80147547913b5",
+    "type": "music_event",
+    "title": "CITY POP NOW Vol.4 栗本斉と考えるシティポップ再入門",
+    "starts_at": "2026-11-21T14:00:00+09:00",
+    "status": "upcoming",
+    "venue_name": "3313アナログ天国",
+    "venue_address": "東京都杉並区西荻北4-30-4 1F",
+    "venue_ward": "杉並区",
+    "organizer": "3313アナログ天国",
+    "booking_url": "https://3313cafe.jimdofree.com/event/",
+    "description": "音楽ライター栗本斉さんの解説付きでシティポップを聴き直すトーク＆レコード会。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://3313cafe.jimdofree.com/event/",
+     "https://3313cafe.jimdofree.com/access/"
+    ],
+    "extra": {
+     "subtype": "listening",
+     "genre": "City Pop",
+     "performers": [
+      "栗本斉"
+     ]
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 5,
+    "event_uid": "102f74c39495f99f",
+    "type": "cafe_run",
+    "title": "PoS × RIVERSIDE CLUB: Run & Coffee Rave",
+    "starts_at": "2026-11-23T08:30:00+09:00",
+    "ends_at": "2026-11-23T11:00:00+09:00",
+    "status": "upcoming",
+    "venue_name": "RIVERSIDE CLUB（ミュージックカフェ&ビストロ）",
+    "venue_address": "東京都目黒区青葉台3-18-3 THE WORKS 1F",
+    "venue_ward": "目黒区",
+    "venue_lat": 35.6501428,
+    "venue_lng": 139.6909874,
+    "organizer": "Proof of Sweat (PoS)",
+    "fee_text": "¥1,200（1ドリンク込）",
+    "booking_url": "https://luma.com/e1z08rtj",
+    "description": "目黒川沿いのミュージックカフェに集合して4kmの朝ラン、その後は音楽とコーヒーのCoffee Rave。雨天は順延・中止の可能性あり。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://luma.com/e1z08rtj"
+    ],
+    "extra": {
+     "distance_km": 4,
+     "meeting_point": "RIVERSIDE CLUB",
+     "after_run": "Coffee Rave（音楽＋コーヒー）"
+    },
+    "typeLabel": "カフェラン"
+   },
+   {
+    "id": 21,
+    "event_uid": "c0394c6cd2efd033",
+    "type": "music_event",
+    "title": "ピーター・バラカンのWest End Blues Vol.1",
+    "starts_at": "2026-11-27T19:00:00+09:00",
+    "status": "upcoming",
+    "venue_name": "3313アナログ天国",
+    "venue_address": "東京都杉並区西荻北4-30-4 1F",
+    "venue_ward": "杉並区",
+    "organizer": "3313アナログ天国",
+    "booking_url": "https://3313cafe.jimdofree.com/event/",
+    "description": "ピーター・バラカンさんによる新シリーズ初回のレコード・イベント。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://3313cafe.jimdofree.com/event/",
+     "https://3313cafe.jimdofree.com/access/"
+    ],
+    "extra": {
+     "subtype": "listening",
+     "performers": [
+      "ピーター・バラカン"
+     ]
+    },
+    "typeLabel": "カフェ音楽イベント"
+   }
+  ],
+  "recurring": [
+   {
+    "id": 9,
+    "event_uid": "d908f06f999b8405",
+    "type": "cafe_run",
+    "title": "HINODE 目黒川 朝ラン（木曜定例）",
+    "recurrence": "毎週木曜 6:30（雨天中止）",
+    "status": "recurring",
+    "venue_name": "中目黒駅 スターバックス前（集合）",
+    "venue_ward": "目黒区",
+    "organizer": "HINODE",
+    "fee_text": "無料・予約不要",
+    "booking_url": "https://hinode-run.com/schedule",
+    "description": "目黒川沿いを約4kmゆっくり走る朝ランコミュニティの定例回。集合はカフェ前だが、ラン後のカフェ利用は公式に明記されていない。",
+    "confidence": "low",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://hinode-run.com/schedule"
+    ],
+    "extra": {
+     "distance_km": 4,
+     "pace": "会話ペース",
+     "meeting_point": "中目黒駅スタバ前"
+    },
+    "typeLabel": "カフェラン"
+   }
+  ],
+  "past": [
+   {
+    "id": 7,
+    "event_uid": "fa217ba97bbc765e",
+    "type": "cafe_run",
+    "title": "DÉFI TOKYO WEEKLY RUN & COFFEE vol.7",
+    "starts_at": "2026-10-11T09:00:00+09:00",
+    "ends_at": "2026-10-11T11:00:00+09:00",
+    "status": "past",
+    "venue_name": "代々木公園 原宿門 時計台前（集合）",
+    "venue_address": "東京都渋谷区代々木神園町2-1",
+    "venue_ward": "渋谷区",
+    "organizer": "DÉFI TOKYO",
+    "fee_text": "無料",
+    "booking_url": "https://luma.com/zmt2qlm9",
+    "description": "日曜朝に代々木公園内を3〜5kmゆったり走り、希望者はその後カフェタイム（飲食は各自）。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://luma.com/zmt2qlm9"
+    ],
+    "extra": {
+     "distance_km": "3-5",
+     "pace": "6:30-7:00/km",
+     "after_run": "カフェタイム（自由参加）"
+    },
+    "typeLabel": "カフェラン"
+   },
+   {
+    "id": 22,
+    "event_uid": "51f44bb638f10c53",
+    "type": "music_event",
+    "title": "喫茶いーぐる DS Audio アナログイベント",
+    "starts_at": "2026-09-27T15:00:00+09:00",
+    "ends_at": "2026-09-27T17:30:00+09:00",
+    "status": "past",
+    "venue_name": "ジャズ喫茶 いーぐる",
+    "venue_address": "東京都新宿区四谷1-8 ホリナカビルB1F",
+    "venue_ward": "新宿区",
+    "organizer": "ジャズ喫茶 いーぐる / DS Audio",
+    "fee_text": "¥500（税込）+飲食代、予約不要",
+    "description": "老舗ジャズ喫茶の常設JBLスピーカーで光カートリッジの音を解説付きで試聴。持参した愛聴盤を1人約5分かけられる枠もあった。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://www.phileweb.com/news/audio/202609/11/28104.html"
+    ],
+    "extra": {
+     "subtype": "listening",
+     "genre": "Jazz"
+    },
+    "typeLabel": "カフェ音楽イベント"
+   },
+   {
+    "id": 8,
+    "event_uid": "0fc975742f11dbb6",
+    "type": "cafe_run",
+    "title": "DÉFI TOKYO WEEKLY RUN & COFFEE vol.6",
+    "starts_at": "2026-09-13T09:00:00+09:00",
+    "ends_at": "2026-09-13T10:30:00+09:00",
+    "status": "past",
+    "venue_name": "代々木公園（集合）",
+    "venue_ward": "渋谷区",
+    "organizer": "DÉFI TOKYO",
+    "fee_text": "無料",
+    "booking_url": "https://luma.com/agduad67",
+    "description": "代々木公園内を3〜5km走った後、公園内のドトール（チェーン）で自由参加のコーヒータイム。",
+    "confidence": "high",
+    "last_verified": "2026-10-27",
+    "sources": [
+     "https://luma.com/agduad67"
+    ],
+    "extra": {
+     "distance_km": "3-5",
+     "pace": "6:30-7:00/km",
+     "after_run": "公園内ドトールでカフェタイム"
+    },
+    "typeLabel": "カフェラン"
+   }
+  ]
+ },
+ "total": 29
+}

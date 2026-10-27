@@ -1,0 +1,740 @@
+{
+ "id": 6,
+ "name": "カフェーパウリスタ",
+ "prefecture": "東京都",
+ "ward": "中央区",
+ "address": "東京都中央区銀座8-9-16 長崎センタービル　１Ｆ",
+ "lat": 35.66809459872296,
+ "lng": 139.76204043425483,
+ "sources": [
+  "https://tabelog.com/tokyo/A1301/A130103/13002648/",
+  "https://tabelog.com/en/tokyo/A1301/A130103/13002648/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "wifi",
+  "morning",
+  "sofa",
+  "takeout",
+  "nosmoke",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.73,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1883,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "喫茶店",
+    "ケーキ・スイーツ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe,Cake",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "新橋駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "JR, Toei Subway, Tokyo Metro, and Yurikamome - 7 minutes walk from Shimbashi Station\nTokyo Metro - 5 minutes walk from Ginza Station\n392 meters from Shimbashi.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金 9:00～20:00 (L.O. Food 19:00 Drinks 19:30) / 土 9:00～19:30 (L.O. Food 18:30 Drinks 19:00) / 日・祝日 11:30～19:00 (L.O. Food 18:00 Drinks 18:30)",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.morning_service": {
+   "v": "朝食メニューあり（平日9:00開店）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "モーニング"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "落ち着いた空間",
+    "ソファー席あり",
+    "車椅子で入店可",
+    "無料Wi-Fiあり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "http://www.paulista.co.jp/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-3572-6160",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.opened": {
+   "v": "1911年3月創業（1970年に喫茶として再開）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "オープン日"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1301/A130103/13002648/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.interior_style": {
+   "v": [
+    "クラシック"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+   ],
+   "at": "2026-10-27",
+   "label": "内装スタイル"
+  },
+  "facility.seat_types": {
+   "v": [
+    "ソファ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 100,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.seats_breakdown": {
+   "v": "50 seats on the first floor, 50 seats on the second floor",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "席数内訳"
+  },
+  "facility.sofa": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "ソファ席"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "有\nFor up to 20 people, For 20-50 people",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.wifi": {
+   "v": "あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "Wi-Fi"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners）、電子マネー可、QRコード決済可（PayPay, d Barai, Rakuten Pay, au PAY）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "交通系IC",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可(乳児可, 未就学児可, 小学生可)",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.accessibility": {
+   "v": "車椅子で入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "バリアフリー・車椅子"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "落ち着いた空間、ソファー席あり、車椅子で入店可、無料Wi-Fiあり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.acidity": {
+   "v": "やや強い",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/"
+   ],
+   "at": "2026-10-27",
+   "label": "酸味"
+  },
+  "flavor.bitterness": {
+   "v": "中程度",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B474189263/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味"
+  },
+  "flavor.body": {
+   "v": "やや重い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/"
+   ],
+   "at": "2026-10-27",
+   "label": "コク・ボディ"
+  },
+  "flavor.sweetness": {
+   "v": "普通",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さ(看板スイーツ・ドリンク)"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "ケーキ",
+    "軽食"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "老舗の「パウリスタオールド」ブレンドとケーキ",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "普通",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_stylishness": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "レトロ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "body",
+     "value": "やや重い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/"
+     ]
+    },
+    {
+     "axis": "bitterness",
+     "value": "中程度",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B474189263/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "ケーキ",
+      "軽食"
+     ],
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1301/A130103/13002648/",
+      "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/"
+     ]
+    },
+    {
+     "axis": "sweetness",
+     "value": "普通",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "老舗の「パウリスタオールド」ブレンドとケーキ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "普通",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+     ]
+    },
+    {
+     "axis": "atmos_stylishness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "レトロ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/",
+      "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+     ]
+    },
+    {
+     "axis": "acidity",
+     "value": "やや強い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B474189263/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/",
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "low",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B474189263/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/",
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "パウリスタオールド",
+    "カフェトニック",
+    "ケーキセット"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B474189263/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.alcohol": {
+   "v": "Wine, Cocktails",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "アルコール"
+  },
+  "review.praise_summary": {
+   "v": "100年以上の歴史を感じる空間、コクのあるブレンド、カフェトニックなど個性的な一杯、朝から使える。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B474189263/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "サービス面の評価は他項目よりやや低めの口コミあり。銀座の老舗として特別感を期待すると気軽すぎると感じる人も。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "銀座散策の休憩",
+    "モーニング",
+    "老舗喫茶巡り"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B474189263/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "1911年創業の銀座の老舗カフェ。コクのある「パウリスタオールド」ブレンドとケーキの組み合わせが定番。エスプレッソをソーダで割ったカフェトニックはほろ苦く爽やかと好評。モカクリームは甘さほどよく、森のコーヒーなどブラックも楽しめる。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B474189263/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/",
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "銀座8丁目、1階・2階各50席の計100席。クラシックで奥行きのある昭和の喫茶店らしい内装で、ソファー席や無料Wi-Fiあり。かしこまり過ぎず常連客も多い。平日は9時から営業し朝食利用も可能。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/",
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.house_rules": {
+   "v": [
+    "Online Shop: http://www.paulista.co.jp/",
+    "Founded in March 1911. It collapsed due to the Great Kanto Earthquake in 1923, and subsequently changed its business model to become a coffee bean import and roasting company called \"Nitto Coffee.\" It was revived in 1970 as a café operated by Nitto Coffee."
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130103/13002648/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "flavor.acidity_score": {
+   "v": 4,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/"
+   ],
+   "at": "2026-10-27",
+   "label": "酸味スコア"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.atmos_stylishness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度スコア"
+  },
+  "flavor.bitterness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B474189263/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味スコア"
+  },
+  "flavor.body_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/"
+   ],
+   "at": "2026-10-27",
+   "label": "ボディスコア"
+  },
+  "flavor.sweetness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さスコア"
+  }
+ },
+ "reviews": [
+  {
+   "summary": "昭和の懐かしい雰囲気。コク深いパウリスタオールドとブルーベリーケーキが好相性。",
+   "sentiment": "positive",
+   "rating": 3.9,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B428658758/"
+  },
+  {
+   "summary": "暑い日のカフェトニックが爽快でほろ苦い。店内の雰囲気も良いと評価。",
+   "sentiment": "positive",
+   "rating": 3.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B474189263/"
+  },
+  {
+   "summary": "日本最古級の喫茶店の趣を堪能。モカクリームは好評だがサービス評価は3.0。",
+   "sentiment": "mixed",
+   "rating": 5.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1301/A130103/13002648/dtlrvwlst/B537917455/"
+  }
+ ]
+}

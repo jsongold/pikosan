@@ -1,0 +1,585 @@
+{
+ "id": 54,
+ "name": "カフェ リゼッタ",
+ "prefecture": "東京都",
+ "ward": "世田谷区",
+ "address": "東京都世田谷区玉川3-9-7",
+ "lat": 35.613110918714476,
+ "lng": 139.625737893795,
+ "sources": [
+  "https://tabelog.com/tokyo/A1317/A131708/13058141/",
+  "https://tabelog.com/en/tokyo/A1317/A131708/13058141/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "terrace",
+  "takeout",
+  "nosmoke",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.66,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 895,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "ケーキ・スイーツ",
+    "ブランチ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "二子玉川駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "2-3 minutes walk from Futako Tamagawa Station, on a corner of Yanagikoji\n166 meters from Futako Tamagawa.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金 11:30～18:00 (L.O. 17:30) / 土・日・祝日 11:00～18:00 (L.O. 17:30) ※Open year-round",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "おしゃれな空間",
+    "落ち着いた空間",
+    "Couple seating",
+    "オープンテラスあり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "http://cafe.lisette.jp",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-5717-3779",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.opened": {
+   "v": "2006-7-29",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "オープン日"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1317/A131708/13058141/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.seat_types": {
+   "v": [
+    "テーブル",
+    "テラス"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 20,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.seats_breakdown": {
+   "v": "Table seats: 12 tables",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "席数内訳"
+  },
+  "facility.terrace": {
+   "v": true,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537472215/"
+   ],
+   "at": "2026-10-27",
+   "label": "テラス席"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners）、電子マネー可、QRコード決済可（PayPay, d Barai, Rakuten Pay, au PAY）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "交通系IC",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可(乳児可, 未就学児可, 小学生可)",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.pets": {
+   "v": "テラス席のみ可",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "ペット同伴"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "おしゃれな空間、落ち着いた空間、Couple seating、オープンテラスあり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.coffee_style": {
+   "v": [
+    "ハンドドリップ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B536352396/"
+   ],
+   "at": "2026-10-27",
+   "label": "抽出方法"
+  },
+  "flavor.roast_level": {
+   "v": "浅煎り",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B536352396/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎度"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "スイーツ",
+    "軽食"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537472215/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537980294/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "ナチュラル"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537472215/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "roast_level",
+     "value": "浅煎り",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B536352396/"
+     ]
+    },
+    {
+     "axis": "coffee_style",
+     "value": [
+      "ハンドドリップ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B536352396/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "スイーツ",
+      "軽食"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537472215/",
+      "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537980294/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "ナチュラル"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537472215/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B536352396/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537472215/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537980294/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B536352396/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537472215/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537980294/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "プリンアラモード",
+    "クラブハウスサンド"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B536352396/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537472215/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.alcohol": {
+   "v": "Wine",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "アルコール"
+  },
+  "review.praise_summary": {
+   "v": "アンティーク調の店内とテラス、プリンアラモードなど季節のスイーツ。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537472215/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537980294/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B536792778/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "品質低下を指摘する常連の声や、価格の割に普通との評価もある。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B453984149/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B536792778/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "二子玉川での休憩",
+    "スイーツ好き",
+    "ペット連れ（テラス）"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537472215/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537980294/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B453984149/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B536792778/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "二子玉川のアンティーク調カフェ。クラブハウスサンドやゴーフレット、季節のプリンアラモードが人気で、浅煎りのハンドドリップ単一産地も選べる。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537472215/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537638922/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B536352396/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537980294/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "テラス席のある可愛らしい外観、12卓20席。ペットはテラス席のみ可。平日のみ電話予約可。",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537472215/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "平日のみ電話予約可",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "一部可",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.house_rules": {
+   "v": [
+    "Pets are only allowed on the terrace seating.",
+    "Reservations are only available on weekdays and must be made by phone."
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131708/13058141/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "flavor.roast_level_score": {
+   "v": 1,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B536352396/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎の深さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "Scone",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Strawberry Coupe",
+   "price": 1200,
+   "src": "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "アンティークな空間でクラブハウスサンド。テラスのある外観が魅力。",
+   "sentiment": "positive",
+   "rating": 3.8,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537472215/"
+  },
+  {
+   "summary": "久々の訪問で品質がかなり落ちたと感じたという常連の辛口評価。",
+   "sentiment": "negative",
+   "rating": 2.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B453984149/"
+  },
+  {
+   "summary": "休日11時45分は空席多数。おしゃれだが評価は普通。",
+   "sentiment": "mixed",
+   "rating": 3.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B536792778/"
+  },
+  {
+   "summary": "イチジクのプリンアラモードとカフェラテ。友人やSNSのおすすめで訪問。",
+   "sentiment": "positive",
+   "rating": 3.5,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1317/A131708/13058141/dtlrvwlst/B537980294/"
+  }
+ ]
+}

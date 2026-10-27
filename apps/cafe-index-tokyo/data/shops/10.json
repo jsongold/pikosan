@@ -1,0 +1,690 @@
+{
+ "id": 10,
+ "name": "Turret Coffee",
+ "prefecture": "東京都",
+ "ward": "中央区",
+ "address": "東京都中央区築地2-12-6 SK東銀座ビル 1F",
+ "lat": 35.668047837920795,
+ "lng": 139.7720049830856,
+ "sources": [
+  "https://tabelog.com/tokyo/A1313/A131301/13162482/",
+  "https://tabelog.com/en/tokyo/A1313/A131301/13162482/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "terrace",
+  "takeout",
+  "nosmoke",
+  "solo",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.72,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1047,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "コーヒースタンド",
+    "スペシャリティコーヒー"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "築地駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "1 minute walk from Tsukiji Station Exit 2 on the Tokyo Metro Hibiya Line\n5 minutes walk from Exit 4 of Shintomicho Station on the Tokyo Metro Yurakucho Line\n58 meters from Tsukiji.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "火・水・木・金 7:00～18:00 / 土 7:00～17:00 / 日 9:00～17:00 / 月 定休日",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.closed_days": {
+   "v": "月（食べログ営業時間表記より）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "定休日"
+  },
+  "basic.price_range_text": {
+   "v": "～￥999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_max": {
+   "v": 999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "おしゃれな空間",
+    "カウンター席あり",
+    "オープンテラスあり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.phone": {
+   "v": "080-3344-8819",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.opened": {
+   "v": "2013-10-5",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "オープン日"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1313/A131301/13162482/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "dietary.plant_milk": {
+   "v": "アーモンドミルクラテあり",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536989620/"
+   ],
+   "at": "2026-10-27",
+   "label": "オーツミルク・植物性ミルク"
+  },
+  "facility.seat_types": {
+   "v": [
+    "スタンディング",
+    "ベンチ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 8,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.seats_breakdown": {
+   "v": "The shop only has a standing counter (for 2-3 people). There is bench seating outside that can seat 4-5 people.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "席数内訳"
+  },
+  "facility.terrace": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "テラス席"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners）、電子マネー可、QRコード決済可（PayPay, d Barai）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "交通系IC",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.solo_friendly": {
+   "v": "一人で入りやすい（食べログ利用シーン）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "一人客"
+  },
+  "facility.floor": {
+   "v": "1F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト利用者が多い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "おしゃれな空間、カウンター席あり、オープンテラスあり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.coffee_style": {
+   "v": [
+    "エスプレッソ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+   ],
+   "at": "2026-10-27",
+   "label": "抽出方法"
+  },
+  "flavor.bitterness": {
+   "v": "強い",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味"
+  },
+  "flavor.body": {
+   "v": "やや重い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/"
+   ],
+   "at": "2026-10-27",
+   "label": "コク・ボディ"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "ドリンク中心",
+    "焼き菓子"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "力強い苦味のターレットラテ",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "ややにぎやか",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "やや低い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_workability": {
+   "v": "低い",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさ"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "にぎわい"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "coffee_style",
+     "value": [
+      "エスプレッソ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+     ]
+    },
+    {
+     "axis": "bitterness",
+     "value": "強い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/"
+     ]
+    },
+    {
+     "axis": "body",
+     "value": "やや重い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "ドリンク中心",
+      "焼き菓子"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/",
+      "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "力強い苦味のターレットラテ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/",
+      "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "ややにぎやか",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "やや低い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/"
+     ]
+    },
+    {
+     "axis": "atmos_workability",
+     "value": "低い",
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1313/A131301/13162482/",
+      "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "にぎわい"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/",
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/",
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "ターレットラテ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "review.praise_summary": {
+   "v": "苦味の効いた濃厚なラテ、こだわりの菓子、駅近で朝7時から営業。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "立ちカウンターと屋外ベンチのみで狭く長居できない。観光客で混みやすく、期待外れとする低評価もある。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "築地観光の朝",
+    "テイクアウト",
+    "エスプレッソ・ラテ好き"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "築地のエスプレッソ・ラテ専門スタンド。看板の「ターレットラテ」は大きな白いカップで提供され、最初の一口から力強い苦味が来ると評判。どら焼きや黒ごまのケーキなど、コーヒーに合わせた菓子も揃う。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B537082886/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "店名は築地・豊洲市場で使われる運搬車「ターレット」から。店内は2〜3人用の立ちカウンターのみで、外にベンチ（4〜5人）がある。フレンドリーな雰囲気でテイクアウト客や外国人観光客が多く、長居向きではない。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/",
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.customers": {
+   "v": "外国人観光客やテイクアウト客が多い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/"
+   ],
+   "at": "2026-10-27",
+   "label": "客層"
+  },
+  "work.friendliness": {
+   "v": "向いていない",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業・勉強のしやすさ"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 2,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 2,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.atmos_workability_score": {
+   "v": 1,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1313/A131301/13162482/",
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさスコア"
+  },
+  "flavor.bitterness_score": {
+   "v": 5,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味スコア"
+  },
+  "flavor.body_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/"
+   ],
+   "at": "2026-10-27",
+   "label": "ボディスコア"
+  }
+ },
+ "reviews": [
+  {
+   "summary": "客は観光客ばかり。通常ラテは小さいマグで、ターレットラテにすべきだった。",
+   "sentiment": "mixed",
+   "rating": 3.8,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536824622/"
+  },
+  {
+   "summary": "ターレットラテの力強い苦味で目が覚める。他のラテが物足りなくなるほど。",
+   "sentiment": "positive",
+   "rating": 4.5,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B536196366/"
+  },
+  {
+   "summary": "丁寧に作るコーヒーとどら焼きは絶品。ただし長居する店ではない。",
+   "sentiment": "mixed",
+   "rating": 1.0,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1313/A131301/13162482/dtlrvwlst/B535696097/"
+  }
+ ]
+}

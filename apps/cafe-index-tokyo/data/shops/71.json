@@ -1,0 +1,519 @@
+{
+ "id": 71,
+ "name": "珈琲貴族エジンバラ",
+ "prefecture": "東京都",
+ "ward": "新宿区",
+ "address": "東京都新宿区新宿3-2-4 新宿M&amp;Eスクエアビル 2F",
+ "lat": 35.69050951869097,
+ "lng": 139.7062962745203,
+ "sources": [
+  "https://tabelog.com/tokyo/A1304/A130401/13017217/",
+  "https://tabelog.com/en/tokyo/A1304/A130401/13017217/",
+  "https://award.tabelog.com/hyakumeiten/kissaten"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "wifi",
+  "power",
+  "takeout"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.71,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1881,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "喫茶店",
+    "純喫茶"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/",
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Kissa (Japanese coffee shop),Cafe",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "新宿三丁目駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "- Tokyo Metro / Toei Shinjuku Line, Shinjuku Sanchome Station, C4 Exit, 1-minute walk\n- JR Line, Shinjuku Station East Exit, 6-minute walk\n- Seibu Shinjuku Line, Seibu Shinjuku Station South Exit, 9-minute walk\n132 meters from Shinjuku Sanchome.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "24時間営業",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "おしゃれな空間",
+    "落ち着いた空間",
+    "カウンター席あり",
+    "電源あり",
+    "無料Wi-Fiあり",
+    "景色がきれい",
+    "夜景が見える"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "https://edinburgh.jp/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-5379-2822",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1304/A130401/13017217/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 117,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.wifi": {
+   "v": "あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "Wi-Fi"
+  },
+  "facility.power_outlets": {
+   "v": "あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "電源"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners）、電子マネー可、QRコード決済不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "交通系IC"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.service_charge": {
+   "v": "Late-night (from 11 PM to 6 AM) seating fee: 200 yen (including tax)\nOriginal text\n深夜(23時~翌6時まで）席料200円（税込）\nThis section has been automatically translated. Please check with the restaurant for accurate information.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "サービス料・チャージ"
+  },
+  "facility.smoking": {
+   "v": "分煙（喫煙エリアあり、店内に匂いが残るとの声）",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B538085142/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537734127/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.floor": {
+   "v": "2F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "おしゃれな空間、落ち着いた空間、カウンター席あり、電源あり、無料Wi-Fiあり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.atmos_workability": {
+   "v": "普通",
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさ"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "レトロ",
+    "上品・ラグジュアリー"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537620371/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537734127/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "レトロ",
+      "上品・ラグジュアリー"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537620371/",
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537734127/"
+     ]
+    },
+    {
+     "axis": "atmos_workability",
+     "value": "普通",
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537620371/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537734127/",
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537620371/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537734127/",
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "review.praise_summary": {
+   "v": "24時間営業、駅近の大箱レトロ喫茶、電源・Wi‑Fiあり。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537620371/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537442719/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "価格が高め。分煙でも煙草の匂いが気になるとの指摘。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537473874/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B538085142/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537734127/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "深夜・早朝の待ち合わせ",
+    "新宿での休憩",
+    "レトロ喫茶好き"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537620371/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537473874/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537734127/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537442719/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "新宿三丁目の24時間営業の老舗喫茶。トーストセットなど軽食がそろう一方、アイスコーヒー1,100円など価格は高め。",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537473874/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B538013903/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "金色を基調にした昭和レトロで豪華な内装、117席の大箱。電源・無料Wi-Fiあり。分煙だが店内にたばこの匂いが残るとの声。",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537620371/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B538085142/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537734127/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.house_rules": {
+   "v": [
+    "[Relocation from 1-5-3 Kabukicho, Shinjuku Ward, Kogiku Building 1F]",
+    "We have made a comeback in Shinjuku Sanchome on January 19, 2015!",
+    "[Official Blog]",
+    "https://ameblo.jp/hohoemi0422/"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "work.friendliness": {
+   "v": "条件付き",
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B538085142/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業・勉強のしやすさ"
+  },
+  "flavor.atmos_workability_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13017217/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "Morning Time 600 1130 (Mon-Sat)",
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "金色を随所に使った内装が印象的。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537620371/"
+  },
+  {
+   "summary": "アイスコーヒー1,100円の価格に驚いた、まさに貴族価格。",
+   "sentiment": "negative",
+   "rating": 3.6,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537473874/"
+  },
+  {
+   "summary": "24時間営業で昭和レトロだが、喫煙由来の匂いがやや強い。",
+   "sentiment": "negative",
+   "rating": 2.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537734127/"
+  },
+  {
+   "summary": "新宿三丁目駅から徒歩1分の歴史ある喫茶。",
+   "sentiment": "positive",
+   "rating": 3.6,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1304/A130401/13017217/dtlrvwlst/B537442719/"
+  }
+ ]
+}

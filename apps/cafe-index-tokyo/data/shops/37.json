@@ -1,0 +1,1049 @@
+{
+ "id": 37,
+ "name": "茶房 武蔵野文庫",
+ "prefecture": "東京都",
+ "ward": "武蔵野市",
+ "address": "東京都武蔵野市吉祥寺本町2-13-4",
+ "lat": 35.70514183783511,
+ "lng": 139.576902883597,
+ "sources": [
+  "https://tabelog.com/tokyo/A1320/A132001/13005823/",
+  "https://tabelog.com/en/tokyo/A1320/A132001/13005823/",
+  "https://award.tabelog.com/hyakumeiten/kissaten"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "sofa",
+  "takeout",
+  "nosmoke",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.69,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1171,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "喫茶店",
+    "ケーキ・スイーツ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/",
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Kissa (Japanese coffee shop),Curry",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "吉祥寺駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "3 minutes walk from the north exit of Kichijoji Station. It is located behind Tokyu Department Store Kichijoji.\nEnter the road between Tokyu Department Store and Mizuho Bank, turn right at the second corner (there is a parking lot on the corner). It is between Yamamoto Hamburg and Tanakatei.\n348 meters from Kichijoji.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "火・水・木・金・土・日・祝日 10:00～21:00 (L.O. 20:30) / 月 定休日 ※If a Monday falls on a public holiday, we will remain open. In that case, we will be closed the following Tuesday.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.closed_days": {
+   "v": "月（食べログ営業時間表記より）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "定休日"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "おしゃれな空間",
+    "落ち着いた空間",
+    "カウンター席あり",
+    "ソファー席あり",
+    "車椅子で入店可"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "https://sabo-musashinobunko.jimdofree.com/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "0422-22-9107",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1320/A132001/13005823/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.interior_style": {
+   "v": [
+    "クラシック"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/"
+   ],
+   "at": "2026-10-27",
+   "label": "内装スタイル"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター",
+    "テーブル",
+    "ソファ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 35,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.seats_breakdown": {
+   "v": "7 seats at the counter and 7 seats at 4-person tables",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "席数内訳"
+  },
+  "facility.sofa": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "ソファ席"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "有\nFor 20-50 people",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners）、電子マネー可、QRコード決済可（PayPay, d Barai, Rakuten Pay, au PAY）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "交通系IC",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可(小学生可), ベビーカー入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.accessibility": {
+   "v": "車椅子で入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "バリアフリー・車椅子"
+  },
+  "facility.stroller": {
+   "v": "ベビーカー入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "ベビーカー"
+  },
+  "facility.foreign_language": {
+   "v": "Parties over 2.5 hours, Take-out, Multilingual menu available（English, Simplified Chinese, Korean）, Menu with photos",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "外国語メニュー・対応"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "おしゃれな空間、落ち着いた空間、カウンター席あり、ソファー席あり、車椅子で入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.bitterness": {
+   "v": "やや強い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味"
+  },
+  "flavor.sweetness": {
+   "v": "やや控えめ",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さ(看板スイーツ・ドリンク)"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "しっかり食事",
+    "スイーツ",
+    "ケーキ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B537710735/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "カレーとババロア・レモンケーキの老舗喫茶",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "レトロ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B537124170/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "bitterness",
+     "value": "やや強い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/"
+     ]
+    },
+    {
+     "axis": "sweetness",
+     "value": "やや控えめ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+      "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "しっかり食事",
+      "スイーツ",
+      "ケーキ"
+     ],
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1320/A132001/13005823/",
+      "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B537710735/",
+      "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "カレーとババロア・レモンケーキの老舗喫茶",
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1320/A132001/13005823/",
+      "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+      "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "レトロ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+      "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B537124170/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+      "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B537710735/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B537124170/",
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B537710735/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B537124170/",
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "カレーライス",
+    "ババロア",
+    "レモンケーキ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.food_items": {
+   "v": "カレー（セット・単品）、チーズトースト、サンドイッチ等",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "フード"
+  },
+  "menu.sweets_items": {
+   "v": "ババロア、レモンケーキ、ボーネントルテ（おからケーキ）、焼きりんご",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "スイーツ"
+  },
+  "menu.alcohol": {
+   "v": "Cocktails, Particular about cocktails",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "アルコール"
+  },
+  "review.praise_summary": {
+   "v": "老舗らしい落ち着いた空間、カレーと手作り甘味、香り高いコーヒー。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "ドリンクの提供タイミングへの不満、カレーが薄めとの声。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B537710735/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "吉祥寺散策",
+    "カレー好き",
+    "レトロ喫茶好き"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B537710735/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "吉祥寺の老舗喫茶。スパイス香るカレー（小盛りもあり）と、ババロア・レモンケーキ・焼きりんご等の素朴な甘味が人気。ババロアはなめらかでやさしい甘さとクリーミーなコク、丁寧に淹れた香り高いコーヒーの深い苦味と好相性と評される。カレーはさらっとめで肉は柔らかい。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B537710735/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/",
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "木の温もりとアンティーク調の内装の、クラシックで落ち着ける空間。計35席でカウンター・ソファー席あり、車椅子で入店可。休日14時過ぎは待ちなしの例。店で使う陶器の器も販売。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/",
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "休日14時過ぎは待ちなしの例",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.reservation": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.house_rules": {
+   "v": [
+    "Please contact us by phone."
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1320/A132001/13005823/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.bitterness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味スコア"
+  },
+  "flavor.sweetness_score": {
+   "v": 2,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/",
+    "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "Curry Set",
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "Very Popular Curry Rice",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Curry A la carte",
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "Very Popular Curry Rice",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cheese Toast",
+   "price": 850,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "Sandwich and Toast Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Sabo Sandwich",
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "Sandwich and Toast Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Toast",
+   "price": 600,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "Sandwich and Toast Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Hot Sandwich",
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "Sandwich and Toast Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Lemon Cake",
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "Sweets",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Bohnentorte (Okara Cake)",
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "Sweets",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Sabo Bavarois",
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "Sweets",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Ice Cream Vanilla",
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "Sweets",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Ice Cream Matcha",
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "Sweets",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Blueberry Yogurt",
+   "price": 600,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "Sweets",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Lemon Cake Coffee Tea",
+   "price": 1150,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "CAKE SET",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Bonnentorte Coffee Tea",
+   "price": 1100,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "CAKE SET",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Bavarois + Coffee / Tea",
+   "price": 1150,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "CAKE SET",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Baked Apple Coffee Tea",
+   "price": 1500,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "CAKE SET",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "We also sell the ceramic tableware used in our shop.",
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/",
+   "section": "◇◇",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Blended Coffee",
+   "price": 650,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "American Coffee",
+   "price": 650,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Charcoal-Grilled Coffee",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Wiener Coffee",
+   "price": 750,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Milk Coffee",
+   "price": 750,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Our Original Iced Coffee",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Iced Wiener Coffee",
+   "price": 750,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Iced Milk Coffee",
+   "price": 750,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Coffee Float",
+   "price": 850,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Black Tea",
+   "price": 650,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Iced Tea",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Apple Tea",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Iced Apple Tea",
+   "price": 750,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Orange Tea",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Iced Orange Tea",
+   "price": 750,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cinnamon Tea",
+   "price": 750,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Iced Cinnamon Tea",
+   "price": 800,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Caramel Tea",
+   "price": 750,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Iced Caramel Tea",
+   "price": 800,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Ceylon-style Milk Tea",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Oolong Tea",
+   "price": 600,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Lemon Cream Soda",
+   "price": 850,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "OTHER DRINKS",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Standard Juice",
+   "price": 800,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "OTHER DRINKS",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Seasonal Juice",
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "OTHER DRINKS",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Milk",
+   "price": 650,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "OTHER DRINKS",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Ice Milk",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "OTHER DRINKS",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cocoa",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "OTHER DRINKS",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Iced Cocoa",
+   "price": 750,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "OTHER DRINKS",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Coca-Cola (Bottle)",
+   "price": 650,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "OTHER DRINKS",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Milk Shake",
+   "price": 800,
+   "src": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlmenu/?menu_type=2",
+   "section": "OTHER DRINKS",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "木とアンティークの落ち着く空間。なめらかなババロアと苦味深いコーヒーが好相性。",
+   "sentiment": "positive",
+   "rating": 4.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B536918283/"
+  },
+  {
+   "summary": "スパイス香るカレー、素朴な焼きりんごとレモンケーキ。ゆっくりくつろげる。",
+   "sentiment": "positive",
+   "rating": 3.1,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B538038788/"
+  },
+  {
+   "summary": "カレーはさらっと系。食後希望のアイスコーヒーが先に来て氷で薄まり残念。",
+   "sentiment": "negative",
+   "rating": 2.5,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1320/A132001/13005823/dtlrvwlst/B537710735/"
+  }
+ ]
+}

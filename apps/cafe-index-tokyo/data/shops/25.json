@@ -1,0 +1,663 @@
+{
+ "id": 25,
+ "name": "クルミドコーヒー",
+ "prefecture": "東京都",
+ "ward": "国分寺市",
+ "address": "東京都国分寺市泉町3-37-34 マージュ西国分寺　１Ｆ",
+ "lat": 35.699028878608566,
+ "lng": 139.46451076477587,
+ "sources": [
+  "https://tabelog.com/tokyo/A1325/A132502/13056474/",
+  "https://tabelog.com/en/tokyo/A1325/A132502/13056474/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "takeout",
+  "nosmoke",
+  "solo",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.74,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 999,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "喫茶店",
+    "ケーキ・スイーツ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe,Kissa (Japanese coffee shop),Cake",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "西国分寺駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "After exiting the JR Nishi-Kokubunji Station ticket gates, turn left (south), go through the arcade at Mine (Tobu Store) and come out onto the roundabout. Turn right and you will see the sign.\n160 meters from Nishi Kokubunji.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・日 11:00～19:00 (L.O. 18:30) / 金・土 11:00～20:00 (L.O. 19:30) / 木 定休日",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.closed_days": {
+   "v": "木（食べログ営業時間表記より）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "定休日"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "おしゃれな空間",
+    "落ち着いた空間",
+    "カウンター席あり",
+    "Hideout",
+    "A house restaurant"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "http://kurumed.jp/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "042-401-0321",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.opened": {
+   "v": "2008-10-1",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "オープン日"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1325/A132502/13056474/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.interior_style": {
+   "v": [
+    "ナチュラル"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/"
+   ],
+   "at": "2026-10-27",
+   "label": "内装スタイル"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 24,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード不可、電子マネー不可、QRコード決済不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可, ベビーカー入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.solo_friendly": {
+   "v": "一人で入りやすい（食べログ利用シーン）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "一人客"
+  },
+  "facility.stroller": {
+   "v": "ベビーカー入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "ベビーカー"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無 ( There are several paid parking lots nearby )",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "おしゃれな空間、落ち着いた空間、カウンター席あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.roast_level": {
+   "v": "幅広く選べる",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎度"
+  },
+  "flavor.sweetness": {
+   "v": "やや控えめ",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さ(看板スイーツ・ドリンク)"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "ケーキ",
+    "軽食"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "自由に割れるくるみと、くるみを使ったメニュー",
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537435302/",
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "やや高い",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_workability": {
+   "v": "低い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさ"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "ナチュラル",
+    "レトロ"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "roast_level",
+     "value": "幅広く選べる",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/"
+     ]
+    },
+    {
+     "axis": "sweetness",
+     "value": "やや控えめ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "ケーキ",
+      "軽食"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/",
+      "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "自由に割れるくるみと、くるみを使ったメニュー",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/",
+      "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537435302/",
+      "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "ナチュラル",
+      "レトロ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/",
+      "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/"
+     ]
+    },
+    {
+     "axis": "atmos_workability",
+     "value": "低い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537435302/",
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "low",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537435302/",
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "くるみ",
+    "くるみのミルクティー",
+    "季節のケーキ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "review.praise_summary": {
+   "v": "くるみをテーマにした遊び心、深みのあるコーヒー、絵本のような温かい空間。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "週末は混雑、PC作業には不向き、現金のみの可能性。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "カフェ巡り",
+    "ゆっくり過ごしたい人"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "西国分寺駅近くの「くるみ」がテーマのカフェ。くるみは自由に割って食べられる。コーヒーは味わいに深みがあるとの声があり、深煎りも選べる。アイスコーヒーはすっきり飲みやすい。くるみのミルクティー、季節の軽食サンド、いちじくのケーキ（甘さ控えめのクリーム）、コロッケサンドなど。ドリンクはおおむね700円前後。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "絵本の世界のような、木の温もりのある懐かしく落ち着いた空間で計24席、カウンター席あり。週末は開店直後にほぼ満席になる。PC作業には向かない雰囲気との声。営業は20時まで（金土）。支払いは現金のみの可能性あり（要確認）。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/",
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "週末は開店直後にほぼ満席",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.reservation": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13056474/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "work.friendliness": {
+   "v": "向いていない",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業・勉強のしやすさ"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 4,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_workability_score": {
+   "v": 1,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさスコア"
+  },
+  "flavor.sweetness_score": {
+   "v": 2,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "Margherita Pizza",
+   "price": 800,
+   "src": "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Mandarin Orange Juice",
+   "price": 550,
+   "src": "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Shinano Walnut",
+   "price": 950,
+   "src": "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "絵本のような木の空間で懐かしく落ち着く。コロッケサンドと深煎り、くるみミルクティー。",
+   "sentiment": "positive",
+   "rating": 3.7,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B538024761/"
+  },
+  {
+   "summary": "くるみ食べ放題。落ち着いて使いやすいがPC作業向きではない。現金のみの様子。",
+   "sentiment": "mixed",
+   "rating": 3.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B537188641/"
+  },
+  {
+   "summary": "コーヒーの深い味わいに感動。季節の柿サンドといちじくケーキが絶品で甘さも程よい。",
+   "sentiment": "positive",
+   "rating": 5.0,
+   "date": "2023-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1325/A132502/13056474/dtlrvwlst/B472673060/"
+  }
+ ]
+}

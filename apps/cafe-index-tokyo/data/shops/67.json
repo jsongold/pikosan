@@ -1,0 +1,481 @@
+{
+ "id": 67,
+ "name": "珈琲亭 ルアン",
+ "prefecture": "東京都",
+ "ward": "大田区",
+ "address": "東京都大田区大森北1-36-2",
+ "lat": 35.5861117987638,
+ "lng": 139.72679777345144,
+ "sources": [
+  "https://tabelog.com/tokyo/A1315/A131502/13008294/",
+  "https://tabelog.com/en/tokyo/A1315/A131502/13008294/",
+  "https://award.tabelog.com/hyakumeiten/kissaten"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "morning",
+  "sofa",
+  "nosmoke",
+  "solo",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.7,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1090,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "喫茶店",
+    "純喫茶"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/",
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Kissa (Japanese coffee shop),Cafe,Cake",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "大森駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "5-6 minutes walk from the East exit of JR Omori Station\n276 meters from Omori.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・金 7:00～18:30 / 土・日 7:30～17:30 / 水・木 定休日",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.closed_days": {
+   "v": "水・木（食べログ営業時間表記より）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "定休日"
+  },
+  "basic.morning_service": {
+   "v": "あり（7:00〜13:00）",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "モーニング"
+  },
+  "basic.price_range_text": {
+   "v": "～￥999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_max": {
+   "v": 999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "落ち着いた空間",
+    "カウンター席あり",
+    "ソファー席あり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.phone": {
+   "v": "03-3761-6077",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1315/A131502/13008294/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター",
+    "ソファ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 80,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.sofa": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "ソファ席"
+  },
+  "facility.private_room": {
+   "v": "有\nFor 2 people, For 4 people, For 6 people, For 8 people",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード不可、電子マネー不可、QRコード決済不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可(乳児可, 未就学児可, 小学生可)",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.solo_friendly": {
+   "v": "一人で入りやすい（食べログ利用シーン）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "一人客"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "落ち着いた空間、カウンター席あり、ソファー席あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.acidity": {
+   "v": "やや弱い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538085248/"
+   ],
+   "at": "2026-10-27",
+   "label": "酸味"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "レトロ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538001669/",
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538134093/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "acidity",
+     "value": "やや弱い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538085248/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "レトロ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538001669/",
+      "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538134093/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538001669/",
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538085248/",
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538134093/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538001669/",
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538085248/",
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538134093/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "review.praise_summary": {
+   "v": "朝7時からのモーニング、広い昭和レトロ空間。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538085248/",
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538001669/",
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538023189/",
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538091281/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "週末朝は満席近くになる。水・木が定休。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538001669/",
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "モーニング",
+    "大森での待ち合わせ",
+    "レトロ喫茶好き"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538085248/",
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538001669/",
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538023189/",
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538091281/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "大森駅から徒歩3分の老舗喫茶。プレミアムブレンドは最初にほのかな酸味、後からなめらかさが来るとの評。7時から13時までモーニングを提供。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538085248/",
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "ソファ席を含む80席の広い昭和レトロ空間。日曜朝はほぼ満席になる。HYDEゆかりの店としても話題。",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/",
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538001669/",
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538091281/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.house_rules": {
+   "v": [
+    "Morning hours are from 7:00 AM to 1:00 PM."
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1315/A131502/13008294/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "flavor.acidity_score": {
+   "v": 2,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538085248/"
+   ],
+   "at": "2026-10-27",
+   "label": "酸味スコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "Cappuccino",
+   "price": 600,
+   "src": "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "プレミアムブレンドは軽い酸味の後になめらかさ。朝食に満足。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538085248/"
+  },
+  {
+   "summary": "誰もが認める昭和レトロ。日曜朝はいつもほぼ満席。",
+   "sentiment": "mixed",
+   "rating": 3.6,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538001669/"
+  },
+  {
+   "summary": "昼直前でもモーニングを頼めるレトロな朝食。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538023189/"
+  },
+  {
+   "summary": "ちょうど1,000円で収まる老舗の一服。",
+   "sentiment": "positive",
+   "rating": 3.8,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1315/A131502/13008294/dtlrvwlst/B538091281/"
+  }
+ ]
+}

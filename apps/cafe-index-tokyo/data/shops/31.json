@@ -1,0 +1,615 @@
+{
+ "id": 31,
+ "name": "自家焙煎珈琲 凡",
+ "prefecture": "東京都",
+ "ward": "新宿区",
+ "address": "東京都新宿区新宿3-23-1 都里一ビル B1F",
+ "lat": 35.69273213788243,
+ "lng": 139.70077808338485,
+ "sources": [
+  "https://tabelog.com/tokyo/A1304/A130401/13000735/",
+  "https://tabelog.com/en/tokyo/A1304/A130401/13000735/",
+  "https://award.tabelog.com/hyakumeiten/kissaten"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "nosmoke"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.7,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1177,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "純喫茶",
+    "自家焙煎",
+    "ケーキ・スイーツ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/",
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Kissa (Japanese coffee shop),Cafe,Cake",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "新宿西口駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "In front of the east exit of Shinjuku Station. Near Alta\n177 meters from Shinjuku Nishiguchi.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金・土・日 12:30～18:00 ※■Business hours [Mon～Sat] 12:30～18:00 [Sun] 12:30～18:00 ■Closed on Open year-round",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "￥3,000～￥3,999（口コミ集計）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 3000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 3999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.coffee_price": {
+   "v": 1800,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/"
+   ],
+   "at": "2026-10-27",
+   "label": "ブレンド/基本コーヒー価格"
+  },
+  "basic.features": {
+   "v": [
+    "おしゃれな空間",
+    "落ち着いた空間",
+    "カウンター席あり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "https://cafebon.crayonsite.net/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-3341-0179",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1304/A130401/13000735/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード不可、電子マネー不可、QRコード決済不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.floor": {
+   "v": "B1F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "おしゃれな空間、落ち着いた空間、カウンター席あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.sweetness": {
+   "v": "やや控えめ",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さ(看板スイーツ・ドリンク)"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "ドリンク中心",
+    "ケーキ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "高級な自家焙煎コーヒーとショートケーキ",
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "静か",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "普通",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_stylishness": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "レトロ",
+    "隠れ家",
+    "上品・ラグジュアリー"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537546780/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537353863/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "sweetness",
+     "value": "やや控えめ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "ドリンク中心",
+      "ケーキ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlmenu/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "高級な自家焙煎コーヒーとショートケーキ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/",
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "静か",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "普通",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/",
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/"
+     ]
+    },
+    {
+     "axis": "atmos_stylishness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "レトロ",
+      "隠れ家",
+      "上品・ラグジュアリー"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537546780/",
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537353863/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537353863/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537546780/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "low",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537353863/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537546780/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "ショートケーキ",
+    "ブレンドコーヒー"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "review.praise_summary": {
+   "v": "香り高い自家焙煎コーヒー、甘さ控えめのショートケーキ、こだわりの器と非日常的な地下空間。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "コーヒー1杯1,800円前後と非常に高価で、コスパ評価2.0の口コミも。席が窮屈との声。撮影ルールが厳しめ。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "特別なコーヒー体験",
+    "ショートケーキ好き",
+    "静かな大人の時間"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "新宿三丁目の地下にある自家焙煎珈琲店。ポットで提供されるコーヒーは香り高く、1杯1,800円前後と高価格帯（口コミ時点）。名物のショートケーキ（1,700円）は甘さ控えめの軽いクリームが好評。器や食器にこだわりがある。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "地下にある外の喧騒から切り離されたような独特の空間で、クラシックな雰囲気。落ち着いた年配客が多い。店主は物腰柔らか。メニュー撮影禁止、他の客の顔が写らないよう配慮を求めるなどのルールあり。席は狭めとの声も。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/",
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.house_rules": {
+   "v": [
+    "メニューの撮影禁止",
+    "撮影時は他の客の顔を写さない"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13000735/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "visit.customers": {
+   "v": "落ち着いた年配客が中心",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/"
+   ],
+   "at": "2026-10-27",
+   "label": "客層"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 5,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.atmos_stylishness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度スコア"
+  },
+  "flavor.sweetness_score": {
+   "v": 2,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "ブレンドコーヒー",
+   "price": 1800,
+   "note": "2026年8月口コミ時点",
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/"
+  },
+  {
+   "name": "Shortcake",
+   "price": 1700,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "ポットのコーヒーは香り高く店主も優しい。ケーキの苺が写真より少なく残念。",
+   "sentiment": "mixed",
+   "rating": 3.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B538025012/"
+  },
+  {
+   "summary": "器は素敵だが席が窮屈で、価格に見合う満足感はなかったと辛口。",
+   "sentiment": "negative",
+   "rating": 3.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B537277096/"
+  },
+  {
+   "summary": "地下の別世界で味わう格別なコーヒー。高いが記憶に残る体験。",
+   "sentiment": "positive",
+   "rating": 4.5,
+   "date": "2026-08",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1304/A130401/13000735/dtlrvwlst/B534189567/"
+  }
+ ]
+}

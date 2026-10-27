@@ -1,0 +1,611 @@
+{
+ "id": 1,
+ "name": "トロワ・シャンブル",
+ "prefecture": "東京都",
+ "ward": "世田谷区",
+ "address": "東京都世田谷区代沢5-36-14 湯浅ビル 2F",
+ "lat": 35.65925458869843,
+ "lng": 139.6673566542319,
+ "sources": [
+  "https://tabelog.com/tokyo/A1318/A131802/13013091/",
+  "https://tabelog.com/en/tokyo/A1318/A131802/13013091/",
+  "https://award.tabelog.com/hyakumeiten/kissaten"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "solo"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.69,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 855,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "喫茶店"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/",
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Kissa (Japanese coffee shop),Cafe",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "下北沢駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "About 5 minutes walk from the south exit of Shimokitazawa Station on the Odakyu Line or Inokashira Line\n249 meters from Shimo Kitazawa.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金・土・日 9:30～20:00",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "～￥999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_max": {
+   "v": 999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "落ち着いた空間",
+    "カウンター席あり",
+    "Hideout"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.phone": {
+   "v": "03-3419-6943",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1318/A131802/13013091/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.interior_style": {
+   "v": [
+    "レトロ・昭和"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/"
+   ],
+   "at": "2026-10-27",
+   "label": "内装スタイル"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 32,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.lighting": {
+   "v": "暗め",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/"
+   ],
+   "at": "2026-10-27",
+   "label": "照明"
+  },
+  "facility.payment": {
+   "v": "カード不可、電子マネー不可、QRコード決済不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.service_charge": {
+   "v": "Regarding the service charge at CAFE TROIS CHAMBRES, please note that a service fee may be added to your bill.\nOriginal text\nなし\nThis section has been automatically translated. Please check with the restaurant for accurate information.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "サービス料・チャージ"
+  },
+  "facility.smoking": {
+   "v": "喫煙可",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.solo_friendly": {
+   "v": "一人で静かに過ごすのに向く",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/"
+   ],
+   "at": "2026-10-27",
+   "label": "一人客"
+  },
+  "facility.floor": {
+   "v": "2F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "落ち着いた空間、カウンター席あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.bitterness": {
+   "v": "強い",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味"
+  },
+  "flavor.body": {
+   "v": "やや重い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/"
+   ],
+   "at": "2026-10-27",
+   "label": "コク・ボディ"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "ドリンク中心",
+    "ケーキ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "深い苦味のコーヒーとチーズケーキセット",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "やや静か",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "レトロ",
+    "隠れ家"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "bitterness",
+     "value": "強い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/",
+      "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/"
+     ]
+    },
+    {
+     "axis": "body",
+     "value": "やや重い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "ドリンク中心",
+      "ケーキ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/",
+      "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "深い苦味のコーヒーとチーズケーキセット",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/",
+      "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "やや静か",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "レトロ",
+      "隠れ家"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/",
+      "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "ニレブラック",
+    "チーズケーキセット"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "review.praise_summary": {
+   "v": "苦味のしっかりした濃いコーヒー、レトロで落ち着いた大人の空間、手頃なセット価格。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "喫煙可で煙が気になる人には不向き。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "深煎り好き",
+    "一人で読書",
+    "喫煙者"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "下北沢・代沢の喫茶店。コーヒーは苦味がしっかりしつつ飲みやすいと評され、濃いコーヒーを求めて訪れる客も。「ニレブラック」は熱々で深い苦味。チーズケーキセットはシンプルで美味しく、レアチーズは小ぶりでしっとり。おかわりは300円。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "薄暗い照明にジャズが流れるレトロな大人の喫茶店。カウンター席あり、計32席。喫煙可で客の多くが喫煙するため、煙が気になる人には不向きとの声。一人で静かに過ごすのに向く。土曜昼は混むが入れた。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/",
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "土曜13:30頃は混雑するが入店できた",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.reservation": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1318/A131802/13013091/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.bitterness_score": {
+   "v": 5,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/",
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味スコア"
+  },
+  "flavor.body_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/"
+   ],
+   "at": "2026-10-27",
+   "label": "ボディスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "アイスコーヒー＆チーズケーキセット",
+   "price": 1050,
+   "src": "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/"
+  },
+  {
+   "name": "コーヒーおかわり",
+   "price": 300,
+   "src": "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/"
+  },
+  {
+   "name": "Cheesecake Set",
+   "src": "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "薄暗い照明とジャズの隠れ家。しっとりレアチーズと上質な珈琲、おかわり300円。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537267804/"
+  },
+  {
+   "summary": "雰囲気は良く価格も手頃だが、客の多くが喫煙。煙が苦手なら避けた方がよい。",
+   "sentiment": "mixed",
+   "rating": 3.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537107064/"
+  },
+  {
+   "summary": "濃い珈琲を求めて訪問。熱々のニレブラックは深い苦味で眠気が覚めた。",
+   "sentiment": "positive",
+   "rating": 3.7,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1318/A131802/13013091/dtlrvwlst/B537878368/"
+  }
+ ]
+}

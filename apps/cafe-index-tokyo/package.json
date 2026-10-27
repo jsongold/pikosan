@@ -1,0 +1,25 @@
+{
+  "name": "cafe-index-tokyo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "data": "python3 tools/export_site_data.py --if-available",
+    "data:strict": "python3 tools/export_site_data.py",
+    "dev": "next dev",
+    "prebuild": "npm run data",
+    "build": "next build",
+    "serve": "python3 -m http.server 4173 --directory out",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^5.9.3"
+  }
+}

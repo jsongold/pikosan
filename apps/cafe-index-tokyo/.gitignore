@@ -1,0 +1,18 @@
+# deps / build
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+# env / secrets
+.env
+.env*.local
+.vercel
+# misc
+.DS_Store
+npm-debug.log*
+__pycache__/
+*.py[co]
+# never commit the source database (data/*.json exports ARE committed so remote builds work)
+*.db
+*.db-journal

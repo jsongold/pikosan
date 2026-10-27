@@ -1,0 +1,590 @@
+{
+ "id": 46,
+ "name": "ダフニ",
+ "prefecture": "東京都",
+ "ward": "港区",
+ "address": "東京都港区芝5-10-11 １階",
+ "lat": 35.64905505872998,
+ "lng": 139.7460861240737,
+ "sources": [
+  "https://tabelog.com/tokyo/A1314/A131402/13056306/",
+  "https://tabelog.com/en/tokyo/A1314/A131402/13056306/",
+  "https://award.tabelog.com/hyakumeiten/kissaten"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "takeout"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.69,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 462,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "自家焙煎",
+    "喫茶店"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/",
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Kissa (Japanese coffee shop),Cafe",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "三田駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "Toei Line \"Mita\" Station Exit 10\n270 meters from Mita.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・木・金 10:00～18:00 / 土・日 10:00～17:00 / 水 定休日",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.closed_days": {
+   "v": "水（食べログ営業時間表記より）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "定休日"
+  },
+  "basic.price_range_text": {
+   "v": "～￥999（口コミ集計）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_max": {
+   "v": 999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.coffee_price": {
+   "v": 500,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/"
+   ],
+   "at": "2026-10-27",
+   "label": "ブレンド/基本コーヒー価格"
+  },
+  "basic.features": {
+   "v": [
+    "落ち着いた空間",
+    "Hideout",
+    "A house restaurant"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "http://www.daphne-coffee.jp/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-3451-9440",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1314/A131402/13056306/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.seat_types": {
+   "v": [
+    "テーブル"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 6,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.seats_breakdown": {
+   "v": "3 tables x 2 chairs",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "席数内訳"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード不可、電子マネー不可、QRコード決済不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全席喫煙可（口コミ時点）",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.group_friendly": {
+   "v": "6席のみで大人数不向き",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "グループ"
+  },
+  "facility.floor": {
+   "v": "１階",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "落ち着いた空間",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.bitterness": {
+   "v": "中程度",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "ドリンク中心"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "1杯500円ほどの自家焙煎コーヒー",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "静か",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "レトロ",
+    "隠れ家"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "bitterness",
+     "value": "中程度",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "ドリンク中心"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "1杯500円ほどの自家焙煎コーヒー",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+      "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "静か",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+      "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "レトロ",
+      "隠れ家"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+      "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "low",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "ダフニ（ブレンド）",
+    "ドミニカ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "review.praise_summary": {
+   "v": "自家焙煎コーヒーが500円前後と手頃、昭和の家庭のような落ち着く空間。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "全面喫煙可で煙が苦手な人には不向き。接客を酷評する口コミがある。6席のみで場所も分かりにくい。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "喫煙者",
+    "隠れ家喫茶好き",
+    "一人の休憩"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "三田・田町の住宅街にある自家焙煎コーヒー店。店名を冠した「ダフニ」ブレンドは心地よい苦味で飲みやすく、「ドミニカ」は香り高くすっきりとの声。本格的なコーヒーが1杯500円ほど（口コミ時点）。メニュー表はないとの口コミも。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "三田駅A10出口から徒歩4分・田町駅から徒歩5分の路地裏にあり、地図がないと見つけにくい。2人掛け3卓の計6席。年配の女性が一人で切り盛りし、祖母の家のようなゆったりした時間が流れる。店内全面喫煙可（口コミ時点）。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1314/A131402/13056306/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.ordering_style": {
+   "v": [
+    "テーブルオーダー"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/"
+   ],
+   "at": "2026-10-27",
+   "label": "注文方法"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/",
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 5,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.bitterness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味スコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "ホットコーヒー（ドミニカ）",
+   "price": 500,
+   "note": "2026年10月口コミ時点",
+   "src": "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "懐かしく落ち着く店内で香り高いコーヒーが500円。驚きのコスパ。",
+   "sentiment": "positive",
+   "rating": 5.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B537471441/"
+  },
+  {
+   "summary": "住宅街の隠れ家。年配の女性が一人で営み、祖母の家のようにゆったり。",
+   "sentiment": "positive",
+   "rating": 3.7,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B538097222/"
+  },
+  {
+   "summary": "コーヒーとコスパは高評価だが、接客が非常に悪く全面喫煙で雰囲気1.4評価。",
+   "sentiment": "negative",
+   "rating": 2.9,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1314/A131402/13056306/dtlrvwlst/B535924032/"
+  }
+ ]
+}

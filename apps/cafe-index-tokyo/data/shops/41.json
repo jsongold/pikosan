@@ -1,0 +1,569 @@
+{
+ "id": 41,
+ "name": "茶亭 羽當",
+ "prefecture": "東京都",
+ "ward": "渋谷区",
+ "address": "東京都渋谷区渋谷1-15-19 二葉ビル 2F",
+ "lat": 35.66046922870894,
+ "lng": 139.7027840942193,
+ "sources": [
+  "https://tabelog.com/tokyo/A1303/A130301/13001169/",
+  "https://tabelog.com/en/tokyo/A1303/A130301/13001169/",
+  "https://award.tabelog.com/hyakumeiten/kissaten"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "nosmoke",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.76,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 2267,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "純喫茶",
+    "喫茶店",
+    "ケーキ・スイーツ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/",
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Kissa (Japanese coffee shop),Cafe,Cake",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "渋谷駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "3 minutes walk from Shibuya Station East Exit\n204 meters from Shibuya.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金・土・日 11:00～23:00 (L.O. 22:00)",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（口コミ集計）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.coffee_price": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+   ],
+   "at": "2026-10-27",
+   "label": "ブレンド/基本コーヒー価格"
+  },
+  "basic.features": {
+   "v": [
+    "おしゃれな空間",
+    "落ち着いた空間",
+    "カウンター席あり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.phone": {
+   "v": "03-3400-9088",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1303/A130301/13001169/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター",
+    "テーブル"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 50,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.seats_breakdown": {
+   "v": "10 counter seats, 40 table seats",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "席数内訳"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード不可、電子マネー不可、QRコード決済不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.floor": {
+   "v": "2F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "おしゃれな空間、落ち着いた空間、カウンター席あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.tea_focus": {
+   "v": "充実",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+   ],
+   "at": "2026-10-27",
+   "label": "お茶の比重"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "ドリンク中心",
+    "ケーキ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "オリジナルブレンドとシフォンケーキ",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "やや静か",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "レトロ"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B537797968/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "tea_focus",
+     "value": "充実",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "ドリンク中心",
+      "ケーキ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "オリジナルブレンドとシフォンケーキ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "やや静か",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "レトロ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B537797968/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B537797968/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "low",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B537797968/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "羽當オリジナルブレンド",
+    "シフォンケーキ",
+    "黒蜜プリン"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "review.praise_summary": {
+   "v": "渋谷駅近とは思えない落ち着いた老舗の空間、オリジナルブレンドとシフォンケーキ。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B537795303/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B537575114/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "コーヒー1杯1,000円と高め、現金のみ、人気のシフォンは売り切れやすい。サービス・コスパの評価はやや低め。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B537795303/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "渋谷での落ち着いた休憩",
+    "老舗喫茶巡り",
+    "夜カフェ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B537795303/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B537575114/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "渋谷の老舗喫茶。看板の「羽當オリジナルブレンド」（1,000円）のほか、ラプサンスーチョン（1,300円）など紅茶もある。シフォンケーキや黒蜜プリンが人気で、シフォンは夜には売り切れることも。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B537797968/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "渋谷駅近くのビル2階。カウンター10席・テーブル40席。昼は混み合うが夜は比較的静かでくつろげる。スタッフの所作と空間の雰囲気が良いとの声。現金のみ（口コミ時点）。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B537575114/",
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.best_time": {
+   "v": "平日19時前は比較的入りやすく静か（口コミ）",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+   ],
+   "at": "2026-10-27",
+   "label": "狙い目の時間帯"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13001169/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "羽當オリジナルブレンド",
+   "price": 1000,
+   "note": "2026年6月口コミ時点",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+  },
+  {
+   "name": "ラプサンスーチョン",
+   "price": 1300,
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+  },
+  {
+   "name": "黒糖シフォンケーキ",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+  },
+  {
+   "name": "黒蜜プリン",
+   "price": 750,
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "11回通う常連。夜は静かでくつろげるが、シフォンは売り切れが早く現金のみ。",
+   "sentiment": "mixed",
+   "rating": 3.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B361959708/"
+  },
+  {
+   "summary": "渋谷の有名老舗。味は4.1と高評価だがサービス・コスパは3.5。",
+   "sentiment": "mixed",
+   "rating": 4.1,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B537795303/"
+  },
+  {
+   "summary": "スタッフも雰囲気も素晴らしいと評価。",
+   "sentiment": "positive",
+   "rating": 3.3,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1303/A130301/13001169/dtlrvwlst/B537575114/"
+  }
+ ]
+}

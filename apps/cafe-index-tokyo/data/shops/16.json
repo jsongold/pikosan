@@ -1,0 +1,806 @@
+{
+ "id": 16,
+ "name": "グリッチコーヒー&ロースターズ",
+ "prefecture": "東京都",
+ "ward": "千代田区",
+ "address": "東京都千代田区神田錦町3-16 香村ビル 1F",
+ "lat": 35.693751538706444,
+ "lng": 139.76131446451447,
+ "sources": [
+  "https://tabelog.com/tokyo/A1310/A131003/13180698/",
+  "https://tabelog.com/en/tokyo/A1310/A131003/13180698/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "wifi",
+  "power",
+  "terrace",
+  "takeout",
+  "nosmoke",
+  "solo"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.68,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 692,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "スペシャリティコーヒー",
+    "自家焙煎"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "神保町駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "550 meters from Jimbocho Station on the Toei Mita Line and Tokyo Metro Hanzomon Line.\nAbout a 7-minute walk from Jimbocho Station (nearest A9 exit).\n377 meters from Jimbocho.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金 8:00～19:00 / 土・日・祝日 9:00～19:00",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（口コミ集計）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "カウンター席あり",
+    "電源あり",
+    "無料Wi-Fiあり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "http://www.glitchcoffee.com/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-5244-5458",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.opened": {
+   "v": "2015-4-10",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "オープン日"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1310/A131003/13180698/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.interior": {
+   "v": "コンクリート壁、木の家具、黒革の椅子、レコード",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+   ],
+   "at": "2026-10-27",
+   "label": "内装・雰囲気"
+  },
+  "facility.interior_style": {
+   "v": [
+    "インダストリアル"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+   ],
+   "at": "2026-10-27",
+   "label": "内装スタイル"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 16,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.terrace": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B505119141/"
+   ],
+   "at": "2026-10-27",
+   "label": "テラス席"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.wifi": {
+   "v": "あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "Wi-Fi"
+  },
+  "facility.power_outlets": {
+   "v": "あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "電源"
+  },
+  "facility.payment": {
+   "v": "カード可（JCB, AMEX, Diners）、電子マネー可、QRコード決済可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "交通系IC",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.solo_friendly": {
+   "v": "一人で入りやすい（食べログ利用シーン）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "一人客"
+  },
+  "facility.floor": {
+   "v": "1F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "カウンター席あり、電源あり、無料Wi-Fiあり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.coffee_style": {
+   "v": [
+    "ハンドドリップ",
+    "エスプレッソ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/"
+   ],
+   "at": "2026-10-27",
+   "label": "抽出方法"
+  },
+  "flavor.roast_level": {
+   "v": "浅煎り",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎度"
+  },
+  "flavor.acidity": {
+   "v": "やや強い",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537585451/"
+   ],
+   "at": "2026-10-27",
+   "label": "酸味"
+  },
+  "flavor.bitterness": {
+   "v": "弱い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味"
+  },
+  "flavor.body": {
+   "v": "やや軽い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+   ],
+   "at": "2026-10-27",
+   "label": "コク・ボディ"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "ドリンク中心"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536853083/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "フルーティーな浅煎りシングルオリジンと、甘い香りのラテ",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "やや静か",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "普通",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_stylishness": {
+   "v": "高い",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度"
+  },
+  "flavor.atmos_workability": {
+   "v": "普通",
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさ"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "モダン"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "coffee_style",
+     "value": [
+      "ハンドドリップ",
+      "エスプレッソ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/",
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/"
+     ]
+    },
+    {
+     "axis": "roast_level",
+     "value": "浅煎り",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/"
+     ]
+    },
+    {
+     "axis": "acidity",
+     "value": "やや強い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/",
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537585451/"
+     ]
+    },
+    {
+     "axis": "bitterness",
+     "value": "弱い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/"
+     ]
+    },
+    {
+     "axis": "body",
+     "value": "やや軽い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "ドリンク中心"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536853083/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "フルーティーな浅煎りシングルオリジンと、甘い香りのラテ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/",
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "やや静か",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "普通",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+     ]
+    },
+    {
+     "axis": "atmos_stylishness",
+     "value": "高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+     ]
+    },
+    {
+     "axis": "atmos_workability",
+     "value": "普通",
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "モダン"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536853083/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537585451/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/",
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536853083/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537585451/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/",
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "シングルオリジンのハンドドリップ",
+    "スペシャリティ豆のラテ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.coffee_beans": {
+   "v": "浅煎りのシングルオリジン（ケニア等）、高価格帯の豆も",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537585451/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/"
+   ],
+   "at": "2026-10-27",
+   "label": "豆・焙煎所"
+  },
+  "review.praise_summary": {
+   "v": "フルーティーな浅煎りの品質の高さ、丁寧な抽出と豆の提案、洗練された内装。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "価格は高め（ラテ1杯1400円の例）。席が少なく週末は待ちが発生。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "浅煎り好き",
+    "コーヒー好きの一人利用"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "浅煎り中心のスペシャリティコーヒー専門店。ケニアなどシングルオリジンのフルーティーな酸味と甘い香りが特徴で、スタッフが好みを聞いて豆を提案する。高価格帯の豆を使ったラテも評価が高い。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537585451/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "コンクリート壁と木の家具、黒革の椅子でまとめた落ち着いた店内。レコードの音楽が流れ、カウンターにドリッパーが並ぶ。16席と小さく、週末は15分ほどの行列もあるが回転は早め。電源・無料Wi-Fiあり。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/",
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "土曜15:30で約15分待ち（7人程度）、回転は早め",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.ordering_style": {
+   "v": [
+    "カウンター注文"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536853083/"
+   ],
+   "at": "2026-10-27",
+   "label": "注文方法"
+  },
+  "flavor.acidity_score": {
+   "v": 4,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537585451/"
+   ],
+   "at": "2026-10-27",
+   "label": "酸味スコア"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.atmos_stylishness_score": {
+   "v": 5,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度スコア"
+  },
+  "flavor.atmos_workability_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13180698/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさスコア"
+  },
+  "flavor.bitterness_score": {
+   "v": 1,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味スコア"
+  },
+  "flavor.body_score": {
+   "v": 2,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+   ],
+   "at": "2026-10-27",
+   "label": "ボディスコア"
+  },
+  "flavor.roast_level_score": {
+   "v": 1,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎の深さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "ラテ（高級豆 LA LOMA使用）",
+   "price": 1400,
+   "note": "口コミ時点",
+   "src": "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "人生最高と言い切る絶賛。1杯1400円のラテは高いが価値ありとの評価。",
+   "sentiment": "positive",
+   "rating": 4.8,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B538077095/"
+  },
+  {
+   "summary": "コンクリと木の落ち着いた内装、レコード音楽が心地よいが総合点は控えめ。",
+   "sentiment": "mixed",
+   "rating": 3.3,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B536683337/"
+  },
+  {
+   "summary": "浅煎りのフルーティーな味わいが特徴との口コミ（一覧の要約より）。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1310/A131003/13180698/dtlrvwlst/B537895969/"
+  }
+ ]
+}

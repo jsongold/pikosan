@@ -1,0 +1,521 @@
+{
+ "id": 40,
+ "name": "小野珈琲",
+ "prefecture": "東京都",
+ "ward": "江東区",
+ "address": "東京都江東区森下2-17-5 ソレイユ森下 1F",
+ "lat": 35.687914337916666,
+ "lng": 139.7986238832676,
+ "sources": [
+  "https://tabelog.com/tokyo/A1312/A131201/13074345/",
+  "https://tabelog.com/en/tokyo/A1312/A131201/13074345/",
+  "https://award.tabelog.com/hyakumeiten/kissaten"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "wifi",
+  "nosmoke",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.63,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 840,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "喫茶店",
+    "パンケーキ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/",
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Kissa (Japanese coffee shop),Pancake,Cafe",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "森下駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "1 minute walk from Morishita Station on the Toei Subway Oedo Line\n2 minutes walk from Morishita Station on the Toei Subway Shinjuku Line\n71 meters from Morishita.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金・土 9:00～21:00 (L.O. 20:30) / 日・祝日 9:00～19:00 (L.O. 18:30)",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（口コミ集計）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "無料Wi-Fiあり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.phone": {
+   "v": "03-3634-0586",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1312/A131201/13074345/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.total_seats": {
+   "v": 35,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.wifi": {
+   "v": "あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "Wi-Fi"
+  },
+  "facility.payment": {
+   "v": "カード可、電子マネー可、QRコード決済可（PayPay）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B82037678/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可\nThere is a sign saying that strollers are not allowed inside the store because it is small.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.floor": {
+   "v": "1F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.parking": {
+   "v": "無 ( Nearby paid parking: Morishita 2-17-16, 13 parking spaces, etc. )",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "無料Wi-Fiあり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.sweetness": {
+   "v": "普通",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さ(看板スイーツ・ドリンク)"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "パンケーキ",
+    "軽食",
+    "しっかり食事"
+   ],
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "480円の昭和風パンケーキとたまごサンド",
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "レトロ"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "sweetness",
+     "value": "普通",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "パンケーキ",
+      "軽食",
+      "しっかり食事"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/",
+      "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "480円の昭和風パンケーキとたまごサンド",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/",
+      "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "レトロ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "パンケーキ",
+    "たまごサンド",
+    "月見ナポリタン"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "review.praise_summary": {
+   "v": "手頃で昭和らしいパンケーキ、ボリュームあるたまごサンド、美味しいブレンド。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "パンケーキの粉っぽさ、接客の素っ気なさを指摘する声。撮影禁止。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B82037678/",
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "パンケーキ好き",
+    "森下・清澄白河散策"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B82037678/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "森下駅すぐの喫茶店。名物のパンケーキは480円と手頃で、メープルシロップがよく染みる昭和風の食感。たまごサンドはマヨネーズと卵たっぷりでミニサラダ付き、月見ナポリタンは甘めのケチャップ味。ブレンドコーヒーは美味しいとの声。一方でパンケーキは焼き色が薄く粉っぽさが気になったという厳しい評価もある。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B82037678/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "先に注文してから着席する方式で、ワンドリンク制。店内はこぢんまりしており計35席、無料Wi-Fiあり。日曜15時頃は満席に近かった。2025年11月時点で店内・メニューの撮影禁止の掲示。接客にもてなしを感じなかったとの声も。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B82037678/",
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "日曜15時頃は満席に近い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B82037678/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.ordering_style": {
+   "v": [
+    "先払い",
+    "カウンター注文"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/"
+   ],
+   "at": "2026-10-27",
+   "label": "注文方法"
+  },
+  "visit.house_rules": {
+   "v": [
+    "ワンドリンク制",
+    "店内・メニューの撮影禁止（2025年11月時点の掲示）"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/",
+    "https://tabelog.com/en/tokyo/A1312/A131201/13074345/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "flavor.sweetness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "パンケーキ",
+   "price": 480,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "480円のパンケーキはシロップが染みる昭和の食感。サラダ付きサンドも丁寧。",
+   "sentiment": "positive",
+   "rating": 3.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B538013198/"
+  },
+  {
+   "summary": "ブレンドは美味しいが、パンケーキは色が薄く粉っぽい。接客も素っ気なく感じた。",
+   "sentiment": "negative",
+   "rating": 3.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B82037678/"
+  },
+  {
+   "summary": "人生で一番好きなパンケーキ。卵たっぷりのたまごサンドや甘めのナポリタンも美味。",
+   "sentiment": "positive",
+   "rating": 5.0,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1312/A131201/13074345/dtlrvwlst/B536572322/"
+  }
+ ]
+}

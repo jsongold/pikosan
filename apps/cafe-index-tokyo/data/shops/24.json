@@ -1,0 +1,505 @@
+{
+ "id": 24,
+ "name": "東京豆漿生活",
+ "prefecture": "東京都",
+ "ward": "品川区",
+ "address": "東京都品川区西五反田1-20-3 MKYビル 1F",
+ "lat": 35.62309980873934,
+ "lng": 139.7237209438272,
+ "sources": [
+  "https://tabelog.com/tokyo/A1316/A131603/13231970/",
+  "https://tabelog.com/en/tokyo/A1316/A131603/13231970/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "morning",
+  "takeout",
+  "nosmoke",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.67,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1610,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "その他",
+    "ブランチ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe,Sweets",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "大崎広小路駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "2 minutes walk from Osaki-Hirokoji Station\n5 minutes walk from Gotanda Station\n105 meters from Osakihirokoji.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金 8:00～15:00 / 土・日・祝日 9:00～15:00 ※■Business hours (Queue tickets distributed from 8:00) Open until sold out",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.morning_service": {
+   "v": "台湾朝食（8:00〜、土日祝9:00〜）",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "モーニング"
+  },
+  "basic.price_range_text": {
+   "v": "～￥999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_max": {
+   "v": 999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.phone": {
+   "v": "03-6417-0335",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1316/A131603/13231970/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.seat_types": {
+   "v": [
+    "テーブル"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 18,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.seats_breakdown": {
+   "v": "5 x 2 seats at tables 2 x 4 seats",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "席数内訳"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners）、電子マネー可、QRコード決済不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "交通系IC"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可(乳児可, 未就学児可, 小学生可)",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.floor": {
+   "v": "1F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "しっかり食事",
+    "軽食"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "台湾式の鹹豆漿と温かい豆乳スープ",
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B537275817/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "にぎわい"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "food_focus",
+     "value": [
+      "しっかり食事",
+      "軽食"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/",
+      "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "台湾式の鹹豆漿と温かい豆乳スープ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/",
+      "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/",
+      "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B537275817/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "にぎわい"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/",
+      "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B537275817/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B537275817/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "鹹豆漿",
+    "豆乳スープ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "review.praise_summary": {
+   "v": "本場の味に近い鹹豆漿、優しくヘルシーな朝食。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "週末は整理券で長い待ち。味・量に対しコスパが物足りないとの声。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B537275817/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "台湾朝食",
+    "軽めの朝食・昼食"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B537275817/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "五反田の台湾朝食（豆漿）専門店。鹹豆漿（シェントウジャン）は台湾で食べた味そのものとの声があり、温かい豆乳スープは優しい味でヘルシー。一方で味や量に対して期待ほどではなく、待ち時間を考えるとコスパは物足りないという評価もある。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B537275817/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "テーブル計18席。8時から整理券を配布し、売り切れ次第終了。土曜9時着で24番目・約1時間待ちの例がある一方、平日11時は満席でも回転が早くすぐ座れた。カウンターで注文し、空いた席に着く方式。テイクアウト利用者もいる。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/",
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "土曜朝は整理券で約1時間待ちの例。平日11時は回転が早くすぐ着席",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/",
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.best_time": {
+   "v": "平日の朝〜昼前",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/"
+   ],
+   "at": "2026-10-27",
+   "label": "狙い目の時間帯"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.ordering_style": {
+   "v": [
+    "カウンター注文",
+    "整理券"
+   ],
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/",
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "注文方法"
+  },
+  "visit.house_rules": {
+   "v": [
+    "8:00から整理券配布",
+    "売り切れ次第終了"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1316/A131603/13231970/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  }
+ },
+ "reviews": [
+  {
+   "summary": "土曜朝に整理券24番で約1時間待ち。鹹豆漿は台湾で食べた味そのもの。",
+   "sentiment": "positive",
+   "rating": 5.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538018156/"
+  },
+  {
+   "summary": "満席でも回転が早くすぐ着席。優しい豆乳スープは軽くヘルシーな朝食向き。",
+   "sentiment": "positive",
+   "rating": 3.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B538104168/"
+  },
+  {
+   "summary": "優しい味だが味・量とも期待ほどでなく、待ち時間を考えるとコスパは物足りない。",
+   "sentiment": "negative",
+   "rating": 2.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1316/A131603/13231970/dtlrvwlst/B537275817/"
+  }
+ ]
+}

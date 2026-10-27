@@ -1,0 +1,615 @@
+{
+ "id": 75,
+ "name": "ヴェルデ",
+ "prefecture": "東京都",
+ "ward": "渋谷区",
+ "address": "東京都渋谷区恵比寿西1-20-8 コンド恵比寿 1F",
+ "lat": 35.64638833871906,
+ "lng": 139.7064937940745,
+ "sources": [
+  "https://tabelog.com/tokyo/A1303/A130302/13050095/",
+  "https://tabelog.com/en/tokyo/A1303/A130302/13050095/",
+  "https://award.tabelog.com/hyakumeiten/kissaten"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "nosmoke",
+  "solo"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.72,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1018,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "喫茶店",
+    "自家焙煎"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/",
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Kissa (Japanese coffee shop),Cafe,Cake",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "代官山駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "3 minutes walk from Ebisu Station on the Tokyo Metro Hibiya Line\n5 minutes walk from the west exit of Ebisu Station on the JR Yamanote Line and Saikyo Line\n5 minutes walk from Daikanyama Station on the Tokyu Toyoko Line\n342 meters from Daikan yama.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・金 12:00～19:00 / 土・日・祝日 12:00～18:00 / 木 定休日",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.closed_days": {
+   "v": "木（食べログ営業時間表記より）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "定休日"
+  },
+  "basic.price_range_text": {
+   "v": "～￥999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_max": {
+   "v": 999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "落ち着いた空間",
+    "カウンター席あり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.phone": {
+   "v": "03-3496-1692",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1303/A130302/13050095/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター",
+    "テーブル"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 20,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.seats_breakdown": {
+   "v": "10 seats at the counter, 10 seats at the tables",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "席数内訳"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード不可、電子マネー不可、QRコード決済不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.solo_friendly": {
+   "v": "一人で入りやすい（食べログ利用シーン）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "一人客"
+  },
+  "facility.floor": {
+   "v": "1F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.parking": {
+   "v": "無 ( Nearby paid parking: Ebisu Nishi 1-18-8, 40 parking spaces, etc. )",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "落ち着いた空間、カウンター席あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.roast_level": {
+   "v": "中煎り",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537214025/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎度"
+  },
+  "flavor.body": {
+   "v": "やや重い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537551223/"
+   ],
+   "at": "2026-10-27",
+   "label": "コク・ボディ"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "ケーキ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.atmos_workability": {
+   "v": "低い",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "roast_level",
+     "value": "中煎り",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537214025/"
+     ]
+    },
+    {
+     "axis": "body",
+     "value": "やや重い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537551223/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "ケーキ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlmenu/"
+     ]
+    },
+    {
+     "axis": "atmos_workability",
+     "value": "低い",
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537214025/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537551223/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlmenu/",
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537214025/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537551223/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlmenu/",
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "レアチーズケーキ",
+    "コーヒーゼリー"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537214025/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537357362/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "review.praise_summary": {
+   "v": "濃いめのコーヒーと手作りケーキ、店主の温かさ。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537551223/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537281991/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537214025/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "値上がりを指摘する声。1時間制・PC不可・撮影禁止のルールがある。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537517044/",
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "一人で静かに",
+    "恵比寿散策",
+    "ケーキと一杯"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537551223/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537281991/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537214025/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537517044/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "恵比寿西の小さな喫茶店。コクのあるコーヒーと自家製レアチーズケーキ（300円台）、コーヒーゼリーなどが評判。豆の量り売りもある。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537551223/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537214025/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "カウンター10席・テーブル10席。上品で昔ながらの空間と店主の人柄が好評。1時間制、PC利用不可、店内撮影禁止。",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537281991/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.house_rules": {
+   "v": [
+    "1時間制",
+    "PC利用不可",
+    "店内撮影禁止"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "work.friendliness": {
+   "v": "向いていない",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業・勉強のしやすさ"
+  },
+  "work.pc_allowed": {
+   "v": "不可",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "PC作業可否"
+  },
+  "work.time_limit": {
+   "v": "1時間制",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "時間制限"
+  },
+  "flavor.atmos_workability_score": {
+   "v": 1,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130302/13050095/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさスコア"
+  },
+  "flavor.body_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537551223/"
+   ],
+   "at": "2026-10-27",
+   "label": "ボディスコア"
+  },
+  "flavor.roast_level_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537214025/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎の深さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "Chiffon Cake",
+   "price": 300,
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlmenu/",
+   "section": "Homemade Cake",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Rare Cheesecake",
+   "price": 300,
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlmenu/",
+   "section": "Homemade Cake",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Baked Cheesecake",
+   "price": 300,
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlmenu/",
+   "section": "Homemade Cake",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Almond Cake",
+   "price": 300,
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlmenu/",
+   "section": "Homemade Cake",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Coffee Beans 100g",
+   "price": 600,
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlmenu/",
+   "section": "Freshly Roasted Coffee Beans",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Special Coffee Beans 100g",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlmenu/",
+   "section": "Freshly Roasted Coffee Beans",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Assorted Freshly Brewed Coffee",
+   "price": 600,
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "坂を上った後の休憩に、濃いめのコーヒーが沁みた。",
+   "sentiment": "positive",
+   "rating": 4.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537551223/"
+  },
+  {
+   "summary": "店主が素敵で、落ち着いた大人の雰囲気。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537281991/"
+  },
+  {
+   "summary": "バニラの効いたレアチーズケーキと中煎りブレンド。",
+   "sentiment": "positive",
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537214025/"
+  },
+  {
+   "summary": "以前より値上がりしたのが気になったとの声。",
+   "sentiment": "negative",
+   "rating": 3.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1303/A130302/13050095/dtlrvwlst/B537517044/"
+  }
+ ]
+}

@@ -1,0 +1,769 @@
+{
+ "id": 15,
+ "name": "トラヤ トウキョウ",
+ "prefecture": "東京都",
+ "ward": "千代田区",
+ "address": "東京都千代田区丸の内1-9-1 東京ステーションホテル 2F",
+ "lat": 35.68099343791062,
+ "lng": 139.76590888322062,
+ "sources": [
+  "https://tabelog.com/tokyo/A1302/A130201/13147493/",
+  "https://tabelog.com/en/tokyo/A1302/A130201/13147493/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "sofa",
+  "takeout",
+  "nosmoke",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.84,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1090,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "日本茶・和カフェ",
+    "甘味処",
+    "ケーキ・スイーツ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe,Japanese traditional sweets,Kakigori (Shaved ice)",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "東京駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "1-minute walk from Tokyo Station Marunouchi South Exit, 2nd floor.\nIt is not connected to the underground shopping area of Tokyo Station.\n128 meters from Tokyo.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金 10:00～18:30 (L.O. 18:00) / 土・日・祝日 10:00～17:30 (L.O. 17:00)",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "おしゃれな空間",
+    "落ち着いた空間",
+    "席が広い",
+    "カウンター席あり",
+    "ソファー席あり",
+    "車椅子で入店可",
+    "景色がきれい",
+    "ホテルのレストラン"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "https://www.toraya-group.co.jp/toraya/shops/detail/?id=14",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-5220-2346",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.opened": {
+   "v": "2012-10-3",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "オープン日"
+  },
+  "basic.chain": {
+   "v": "とらや（虎屋）グループの店舗",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "チェーン・系列"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1302/A130201/13147493/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "dietary.options": {
+   "v": "ベジタリアンメニューあり（食べログ）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "その他の食事制限対応"
+  },
+  "facility.interior": {
+   "v": "丸の内駅舎の赤レンガ壁を活かした内装、カウンターとテーブル席",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B538000910/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "内装・雰囲気"
+  },
+  "facility.interior_style": {
+   "v": [
+    "和モダン"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B538000910/"
+   ],
+   "at": "2026-10-27",
+   "label": "内装スタイル"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター",
+    "ソファ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 48,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.sofa": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "ソファ席"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.view": {
+   "v": "東京駅丸の内駅舎内（景色が良い・ホテル内）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "眺望・窓"
+  },
+  "facility.wifi": {
+   "v": "なし",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "Wi-Fi"
+  },
+  "facility.power_outlets": {
+   "v": "なし",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "電源"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners）、電子マネー可、QRコード決済可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可(小学生可), ベビーカー入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.accessibility": {
+   "v": "車椅子で入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "バリアフリー・車椅子"
+  },
+  "facility.stroller": {
+   "v": "ベビーカー入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "ベビーカー"
+  },
+  "facility.floor": {
+   "v": "2F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "有 ( There are many large and coin parking spaces nearby. )",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "おしゃれな空間、落ち着いた空間、席が広い、カウンター席あり、ソファー席あり、車椅子で入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.tea_focus": {
+   "v": "充実",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "お茶の比重"
+  },
+  "flavor.sweetness": {
+   "v": "普通",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さ(看板スイーツ・ドリンク)"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "和菓子・甘味"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "栗あんたっぷりのかき氷や、苦味の効いた抹茶と上品なあんの甘さの取り合わせ",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "やや静か",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "やや高い",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B535669609/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_stylishness": {
+   "v": "高い",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B535669609/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "和",
+    "上品・ラグジュアリー"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B538000910/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "tea_focus",
+     "value": "充実",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "和菓子・甘味"
+     ],
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1302/A130201/13147493/",
+      "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+     ]
+    },
+    {
+     "axis": "sweetness",
+     "value": "普通",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "栗あんたっぷりのかき氷や、苦味の効いた抹茶と上品なあんの甘さの取り合わせ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+     ]
+    },
+    {
+     "axis": "coffee_style"
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "やや静か",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/",
+      "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B535669609/"
+     ]
+    },
+    {
+     "axis": "atmos_stylishness",
+     "value": "高い",
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1302/A130201/13147493/",
+      "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B535669609/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "和",
+      "上品・ラグジュアリー"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/",
+      "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B538000910/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B535669609/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B538000910/",
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B535669609/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B538000910/",
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "季節のかき氷（栗など）",
+    "抹茶",
+    "季節のあんこ菓子"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.alcohol": {
+   "v": "Wine",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "アルコール"
+  },
+  "review.praise_summary": {
+   "v": "駅舎の赤レンガを残した上品な空間と丁寧な接客、季節の和菓子・かき氷の質。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B535669609/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B538000910/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "ホテル内のため価格は高め。週末を中心に行列・待ちが発生しやすい。電源・Wi-Fiはないとの報告。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "東京駅での待ち合わせ前後",
+    "旅行の合間の休憩",
+    "和菓子好き"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B535669609/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B538000910/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "老舗和菓子店「とらや」のコンセプトショップ併設カフェ。季節のあんこ菓子やかき氷、抹茶など和の甘味が中心で、口コミでは栗のかき氷や京都の抹茶の濃い苦味とあんの上品な甘さの組み合わせが評価されている。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B538000910/",
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "東京ステーションホテル2階、丸の内駅舎の創建時の赤レンガ壁を残した空間。カウンター8席前後とテーブル席で、静かで上品、旅の合間に一息つける雰囲気と評される。週末は待ちが出やすい。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B538000910/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B535669609/",
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "平日午後でも数組待ち、週末は混雑しやすい",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.reservation": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.house_rules": {
+   "v": [
+    "Reservations can be made through the website (not available on weekends and holidays)."
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "work.friendliness": {
+   "v": "向いていない",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業・勉強のしやすさ"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 4,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B535669609/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 4,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.atmos_stylishness_score": {
+   "v": 5,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1302/A130201/13147493/",
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B535669609/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度スコア"
+  },
+  "flavor.sweetness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "栗のかき氷",
+   "price": 1980,
+   "note": "ドリンクセットは3,190円（口コミ時点）",
+   "src": "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+  },
+  {
+   "name": "京都の抹茶系ドリンク（口コミ表記 Kyoto Matcha）",
+   "price": 1210,
+   "note": "口コミ時点",
+   "src": "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "とらや系列各ブランドの菓子が揃い、歴史を感じる空間で観光客にも人気と紹介。",
+   "sentiment": "positive",
+   "rating": 3.9,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B538000910/"
+  },
+  {
+   "summary": "明治期のレンガ造り駅舎内で食べる体験そのものが特別だと高評価。",
+   "sentiment": "positive",
+   "rating": 4.3,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B535669609/"
+  },
+  {
+   "summary": "接客と上品な空間は高評価だが、ホテル内価格で割高、待ちも出ると指摘。",
+   "sentiment": "mixed",
+   "rating": 2.7,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1302/A130201/13147493/dtlrvwlst/B536874151/"
+  }
+ ]
+}

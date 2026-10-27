@@ -1,0 +1,593 @@
+{
+ "id": 28,
+ "name": "ル・ジャルダン",
+ "prefecture": "東京都",
+ "ward": "文京区",
+ "address": "東京都文京区関口2-10-8 ホテル椿山荘東京 3Ｆ",
+ "lat": 35.71215053787812,
+ "lng": 139.72594198356336,
+ "sources": [
+  "https://tabelog.com/tokyo/A1309/A130905/13003817/",
+  "https://tabelog.com/en/tokyo/A1309/A130905/13003817/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "terrace",
+  "sofa",
+  "nosmoke",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.66,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 873,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "ホテルラウンジ",
+    "ケーキ・スイーツ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe,Bar",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "早稲田（都電）駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "Access: A 10-minute walk from Exit 1a of Edogawabashi Station on the Tokyo Metro Yurakucho Line.\n(The Karamiki Gate is closed. Please use the main entrance.)\n630 meters from Waseda.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金・祝前日・祝後日 11:00～22:00 (L.O. Food 21:00 Drinks 21:30) / 土・日・祝日 10:00～22:00 (L.O. Food 21:00 Drinks 21:30) ※■Business hours All day Food last order: 21:00 Set menu last order: 19:30 Drink last order: 21:30 Afternoon Tea and Evening High Tea events will be reservation-",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "￥5,000～￥5,999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 5000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 5999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "落ち着いた空間",
+    "ソファー席あり",
+    "オープンテラスあり",
+    "景色がきれい",
+    "ホテルのレストラン"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "https://hotel-chinzanso-tokyo.jp/restaurant/jardin/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-3943-5489",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1309/A130905/13003817/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.interior_style": {
+   "v": [
+    "ラグジュアリー"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/"
+   ],
+   "at": "2026-10-27",
+   "label": "内装スタイル"
+  },
+  "facility.seat_types": {
+   "v": [
+    "ソファ",
+    "テラス",
+    "テーブル"
+   ],
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 110,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.sofa": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "ソファ席"
+  },
+  "facility.terrace": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "テラス席"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.view": {
+   "v": "庭園を望む（雲海演出が見られることも）",
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B535956447/"
+   ],
+   "at": "2026-10-27",
+   "label": "眺望・窓"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners）、電子マネー不可、QRコード決済可（PayPay, d Barai, Rakuten Pay, au PAY）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.service_charge": {
+   "v": "Service charge 10%\nOriginal text\nサービス料10％\nThis section has been automatically translated. Please check with the restaurant for accurate information.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "サービス料・チャージ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.parking": {
+   "v": "有",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "落ち着いた空間、ソファー席あり、オープンテラスあり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.tea_focus": {
+   "v": "充実",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/"
+   ],
+   "at": "2026-10-27",
+   "label": "お茶の比重"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "スイーツ",
+    "軽食"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "庭園を望む季節テーマのアフタヌーンティー",
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_stylishness": {
+   "v": "高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "上品・ラグジュアリー",
+    "開放的"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "tea_focus",
+     "value": "充実",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "スイーツ",
+      "軽食"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "庭園を望む季節テーマのアフタヌーンティー",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/",
+      "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/",
+      "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/"
+     ]
+    },
+    {
+     "axis": "atmos_stylishness",
+     "value": "高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "上品・ラグジュアリー",
+      "開放的"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/",
+      "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "季節のアフタヌーンティー",
+    "イブニングハイティー"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537295027/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.alcohol": {
+   "v": "Wine, Cocktails",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "アルコール"
+  },
+  "review.praise_summary": {
+   "v": "庭園の眺め、上品でゆったりした空間、季節感あるアフタヌーンティー。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B535956447/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "配膳や席案内の不手際を指摘する声。客単価は8,000〜9,999円帯の口コミが多い。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B535956447/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "記念日のアフタヌーンティー",
+    "友人とのお茶"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B535956447/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "ホテル椿山荘東京3階のラウンジ。季節テーマのアフタヌーンティー（例：ハロウィン）が中心で、スイーツは見た目も可愛く、おばけ形のシャインマスカットが好評、セイボリーは秋の味覚。ウェルカムドリンクにハーブティーが出た回もある。料理は美味しいとの評価。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B535956447/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "庭園を望むゆったりした上品な席で、都会の喧騒を忘れられる。雲海の演出を見られることも。計110席、ソファー席・テラスあり。一方で配膳ミスや席の案内に不手際があったとの声もある。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B535956447/",
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1309/A130905/13003817/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 5,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/",
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_stylishness_score": {
+   "v": 5,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度スコア"
+  }
+ },
+ "reviews": [
+  {
+   "summary": "雲海を見てから入店。庭が見える広く上品な席でハロウィンのアフタヌーンティー。",
+   "sentiment": "positive",
+   "rating": 5.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B537461466/"
+  },
+  {
+   "summary": "庭園で都心を忘れてくつろげる。スイーツが可愛く、セイボリーも秋らしい。",
+   "sentiment": "positive",
+   "rating": 3.8,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B538125241/"
+  },
+  {
+   "summary": "庭の眺めも料理も良いが、配膳ミスや席移動など接客に不手際。大事な場面には不安。",
+   "sentiment": "mixed",
+   "rating": 3.2,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1309/A130905/13003817/dtlrvwlst/B535956447/"
+  }
+ ]
+}

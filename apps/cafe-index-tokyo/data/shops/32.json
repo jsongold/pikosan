@@ -1,0 +1,856 @@
+{
+ "id": 32,
+ "name": "BERG",
+ "prefecture": "東京都",
+ "ward": "新宿区",
+ "address": "東京都新宿区新宿3-38-1 ルミネエスト新宿店 B1F",
+ "lat": 35.69183733788306,
+ "lng": 139.70099188337568,
+ "sources": [
+  "https://tabelog.com/tokyo/A1304/A130401/13004332/",
+  "https://tabelog.com/en/tokyo/A1304/A130401/13004332/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "morning",
+  "takeout",
+  "nosmoke",
+  "solo",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.73,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 3026,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "喫茶店",
+    "その他"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe,Beer bar,Bread",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "新宿駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "Exit the JR Shinjuku Station East Exit ticket gate, turn left (towards the Marunouchi Line) and walk for 15 seconds (150m)\n15 seconds walk from the Marunouchi Line Shinjuku Station ticket gate (A9 exit) towards JR Shinjuku Station (immediately right after going up the stairs)\n185 meters from Shinjuku.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金・土・日 7:00～23:00 (L.O. 22:30)",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.morning_service": {
+   "v": "モーニングセットあり（7:00開店）",
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "モーニング"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.coffee_price": {
+   "v": 220,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/"
+   ],
+   "at": "2026-10-27",
+   "label": "ブレンド/基本コーヒー価格"
+  },
+  "basic.features": {
+   "v": [
+    "カウンター席あり",
+    "Stand-up bar"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "https://berg.official.ec/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-3226-1288",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1304/A130401/13004332/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター",
+    "テーブル"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 45,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.seats_breakdown": {
+   "v": "Standing bar counter and table seats",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "席数内訳"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners）、電子マネー可、QRコード決済可（PayPay, d Barai, Rakuten Pay, au PAY）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "交通系IC",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.service_charge": {
+   "v": "No service charge\nOriginal text\nサービス料チャージ料なし\nThis section has been automatically translated. Please check with the restaurant for accurate information.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "サービス料・チャージ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可(乳児可, 未就学児可, 小学生可)\nAnyone from babies to the elderly.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.solo_friendly": {
+   "v": "立ち飲みスペースもあり一人で入りやすい",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537354667/"
+   ],
+   "at": "2026-10-27",
+   "label": "一人客"
+  },
+  "facility.floor": {
+   "v": "B1F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "有 ( Use the underground parking lot at Shinjuku Station Building and Lumine Est. )",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "カウンター席あり、Stand-up bar",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "軽食",
+    "しっかり食事"
+   ],
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "朝はモーニングセット、夜はビールと自家製ソーセージ",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537354667/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "にぎやか",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "普通",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537978583/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_stylishness": {
+   "v": "やや低い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537978583/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度"
+  },
+  "flavor.atmos_workability": {
+   "v": "やや低い",
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさ"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "にぎわい",
+    "レトロ"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537617026/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "food_focus",
+     "value": [
+      "軽食",
+      "しっかり食事"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+      "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "朝はモーニングセット、夜はビールと自家製ソーセージ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/",
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537354667/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "にぎやか",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "普通",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537978583/"
+     ]
+    },
+    {
+     "axis": "atmos_stylishness",
+     "value": "やや低い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537978583/"
+     ]
+    },
+    {
+     "axis": "atmos_workability",
+     "value": "やや低い",
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "にぎわい",
+      "レトロ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/",
+      "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537617026/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537354667/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537617026/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537978583/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "low",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537354667/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537617026/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537978583/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "モーニングセット",
+    "ベルクドッグ",
+    "ジャーマンビールセット"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.alcohol": {
+   "v": "Sake (Nihonshu), Wine, Particular about Sake (Nihonshu), Particular about wine",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "アルコール"
+  },
+  "review.praise_summary": {
+   "v": "駅直結で朝7時から夜23時まで、圧倒的な安さ、手作りソーセージやビールも楽しめる。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537617026/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537354667/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "常に混雑しにぎやかで、ゆっくりくつろぐ店ではない。サービス・雰囲気は3.3〜3.4とする口コミも。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537978583/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "新宿駅での朝食",
+    "一人飲み・せんべろ",
+    "安くて早い休憩"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537617026/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537354667/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "新宿駅直結ルミネエスト地下のビア＆カフェ。朝から晩までコーヒー、ビール、ワイン、日本酒が楽しめる。職人の手作りソーセージやベルクドッグ、ジャーマンブランチ、ラタトゥイユなど軽食が豊富。コーヒー220円、モーニングセット439円など非常に安い（口コミ・メニュー時点）。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537354667/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537617026/",
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "ルミネエスト新宿店B1F、駅直結。レジで先に注文・会計してから座るスタイルで、仕切り付きの立ち飲みカウンターとテーブル席（計45席）。一人でも立ち寄りやすい昔ながらの店。平日10時でもほぼ満席。7:00〜23:00営業。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537354667/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/",
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537617026/",
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "平日10時でもほぼ満席",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.ordering_style": {
+   "v": [
+    "カウンター注文",
+    "先払い"
+   ],
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537354667/"
+   ],
+   "at": "2026-10-27",
+   "label": "注文方法"
+  },
+  "visit.house_rules": {
+   "v": [
+    "[BERG]",
+    "A casual, delicious and safe beer and cafe in Shinjuku.",
+    "Coffee, beer, wine and pure rice wine are available to enjoy all day long from morning to night.",
+    "We offer a wide variety of breakfast, lunch and snacks. Original, handmade items by our artisans. Gold medal-winning sausages from Germany, natural yeast bread, and open-fire roasted coffee. We also recommend our beers from around the world, which are served in barrels.",
+    "This is a shop that has sake sommeliers and beer tasters.",
+    "http://www.berg.jp/",
+    "[Store Manager Tomoya Ino]",
+    "★Facebook https://www.facebook.com/tomoya.ino/",
+    "★Twitter https://twitter.com/Bergzatsuyoten/",
+    "★Instagram https://www.instagram.com/tomoyaino/",
+    "★Book \"Berg, the last small shop at Shinjuku Station\" https://www.amazon.co.jp/dp/4860202775",
+    "[Deputy Manager Naoko Sakogawa]",
+    "★Facebook https://www.facebook.com/naoko.sakokawa",
+    "★Twitter https://twitter.com/SAKO_BER",
+    "★Instagram https://www.instagram.com/sako_berg/",
+    "★Photo movie site \"Between Photos and Berg\" http://berg.s1.bindsite.jp/sako/",
+    "★Book \"Food Occupation\" https://www.amazon.co.jp/dp/4860204026",
+    "★Book \"The Shape of Taste\" https://www.amazon.co.jp/dp/4990863704"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537978583/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 1,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.atmos_stylishness_score": {
+   "v": 2,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537978583/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度スコア"
+  },
+  "flavor.atmos_workability_score": {
+   "v": 2,
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1304/A130401/13004332/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "コーヒー",
+   "price": 220,
+   "note": "2026年10月口コミ時点",
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/"
+  },
+  {
+   "name": "Morning Set",
+   "price": 439,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Berg Dog",
+   "price": 352,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Kipper Wrap Sandwich",
+   "price": 462,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Ratatouille",
+   "price": 528,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Pork Aspic",
+   "price": 572,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "German Potato Salad",
+   "price": 528,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Liver Herb Pâté",
+   "price": 462,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Sausage Sauerkraut",
+   "price": 429,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "German Brunch",
+   "price": 748,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "German Beer Set",
+   "price": 1089,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "German Wine Set",
+   "price": 1089,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Blended Coffee",
+   "price": 242,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Espresso Coffee",
+   "price": 242,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Daily Herbal Tea",
+   "price": 330,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Iced Coffee",
+   "price": 297,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Barley and Beef Soup",
+   "price": 418,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Sapporo Kuro Label Draft Beer",
+   "price": 429,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Sapporo Ebisu Draft Black Beer",
+   "price": 462,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Half-Half Draft Beer",
+   "price": 462,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Monthly Changing Wine",
+   "price": 385,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Daily Junmaishu",
+   "price": 440,
+   "src": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "新宿でコーヒー220円、驚異のコスパの朝食。平日10時でもほぼ満席。",
+   "sentiment": "positive",
+   "rating": 4.8,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B538115486/"
+  },
+  {
+   "summary": "手頃で料理が美味しく、スタッフも親切。昔ながらの店が残るのが嬉しい。",
+   "sentiment": "positive",
+   "rating": 5.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537617026/"
+  },
+  {
+   "summary": "先払いのセルフ式で立ち飲みも可。ビールとソーセージで1,000円少々。",
+   "sentiment": "positive",
+   "rating": 3.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1304/A130401/13004332/dtlrvwlst/B537354667/"
+  }
+ ]
+}

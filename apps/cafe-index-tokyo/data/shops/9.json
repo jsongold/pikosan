@@ -1,0 +1,844 @@
+{
+ "id": 9,
+ "name": "珈琲専門店 三十間",
+ "prefecture": "東京都",
+ "ward": "中央区",
+ "address": "東京都中央区銀座3-8-12 大広朝日ビル B1F",
+ "lat": 35.671329558722526,
+ "lng": 139.76710729428396,
+ "sources": [
+  "https://tabelog.com/tokyo/A1301/A130101/13149724/",
+  "https://tabelog.com/en/tokyo/A1301/A130101/13149724/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "takeout",
+  "nosmoke",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.68,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1053,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "スペシャリティコーヒー",
+    "ケーキ・スイーツ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "東銀座駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "3 minutes walk from Ginza Station, Exit A12 on the Tokyo Metro Ginza Line\n194 meters from Higashi Ginza.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金・土・日 10:30～21:00",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（口コミ集計）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.coffee_price": {
+   "v": 820,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/"
+   ],
+   "at": "2026-10-27",
+   "label": "ブレンド/基本コーヒー価格"
+  },
+  "basic.features": {
+   "v": [
+    "落ち着いた空間"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "https://sanjikken.net/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-3564-8096",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1301/A130101/13149724/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners, UnionPay）、電子マネー可、QRコード決済可（PayPay, d Barai, Rakuten Pay, au PAY, Alipay, WeChat Pay）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "交通系IC",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可(乳児可, 未就学児可, 小学生可), ベビーカー入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.stroller": {
+   "v": "ベビーカー入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "ベビーカー"
+  },
+  "facility.floor": {
+   "v": "B1F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.takeout": {
+   "v": "コールドブリュー（500mlボトル980円）など持ち帰り可",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "落ち着いた空間",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.acidity": {
+   "v": "弱い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+   ],
+   "at": "2026-10-27",
+   "label": "酸味"
+  },
+  "flavor.bitterness": {
+   "v": "中程度",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味"
+  },
+  "flavor.body": {
+   "v": "やや重い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+   ],
+   "at": "2026-10-27",
+   "label": "コク・ボディ"
+  },
+  "flavor.sweetness": {
+   "v": "普通",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さ(看板スイーツ・ドリンク)"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "ケーキ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "豆カード付きの日替わりコーヒーとザッハトルテ",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536970933/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "やや静か",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B537875355/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B537875355/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "隠れ家"
+   ],
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "acidity",
+     "value": "弱い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+     ]
+    },
+    {
+     "axis": "bitterness",
+     "value": "中程度",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/",
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+     ]
+    },
+    {
+     "axis": "body",
+     "value": "やや重い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+     ]
+    },
+    {
+     "axis": "sweetness",
+     "value": "普通",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "ケーキ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "豆カード付きの日替わりコーヒーとザッハトルテ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/",
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536970933/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "やや静か",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B537875355/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B537875355/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "隠れ家"
+     ],
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536970933/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B537875355/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/",
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "low",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536970933/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B537875355/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/",
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "日替わりコーヒー",
+    "ザッハトルテ",
+    "シフォンケーキ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536970933/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.coffee_beans": {
+   "v": "日替わりで産地・品種を紹介（例：ブラジル サントアントニオ）",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+   ],
+   "at": "2026-10-27",
+   "label": "豆・焙煎所"
+  },
+  "review.praise_summary": {
+   "v": "豆の情報が分かる本格コーヒー、ザッハトルテなどケーキの評価が高い、夜21時まで営業。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536970933/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "サービス・雰囲気の評価はドリンクより低め（各3.6）とする口コミあり。テイクアウト利用では評価3.5と控えめな声も。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "銀座での一人コーヒー",
+    "豆の違いを楽しみたい人",
+    "ケーキ好き"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536970933/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "銀座のコーヒー専門店。日替わりコーヒーには豆の産地・品種を記したカードが付く。コールドブリューはナッツやチョコ、キャラメルのような甘さで酸味が低くコクがあると評される。ザッハトルテやシフォンケーキなどケーキも人気。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536970933/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "銀座三越・松屋近くのビル地下1階にある落ち着いた空間。毎日10:30〜21:00営業で、夜のカフェ使いにも向く。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B537875355/",
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13149724/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.house_rules": {
+   "v": [
+    "ドリンクとデザート同時注文で200円引き（口コミ時点）"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "flavor.acidity_score": {
+   "v": 1,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+   ],
+   "at": "2026-10-27",
+   "label": "酸味スコア"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B537875355/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B537875355/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.bitterness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味スコア"
+  },
+  "flavor.body_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+   ],
+   "at": "2026-10-27",
+   "label": "ボディスコア"
+  },
+  "flavor.sweetness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "本日のコーヒー",
+   "price": 820,
+   "note": "2022年口コミ時点",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/"
+  },
+  {
+   "name": "コールドブリューコーヒー（500ml）",
+   "price": 980,
+   "note": "テイクアウト",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+  },
+  {
+   "name": "Chocolate Brownie",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/",
+   "section": "Cake Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cheesecake",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/",
+   "section": "Cake Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Chiffon Cake (Plain)",
+   "price": 800,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/",
+   "section": "Cake Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Chiffon Cake (Plain) with Chocolate Banana Topping",
+   "price": 900,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/",
+   "section": "Cake Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Chiffon Cake (Plain) with Fruit Topping",
+   "price": 900,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/",
+   "section": "Cake Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Today's Coffee",
+   "price": 820,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Today's Cold Brew Coffee",
+   "price": 960,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Iced Coffee",
+   "price": 820,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Coffee Float",
+   "price": 950,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Ceylon (Sri Lanka) Tea",
+   "price": 870,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Flavored Tea",
+   "price": 870,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Earl Grey Iced Tea",
+   "price": 870,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "White Peach Juice",
+   "price": 910,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Santa Faria Brazil",
+   "price": 890,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Specialty Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Velasquez SHG Nicaragua",
+   "price": 890,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Specialty Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Andes Green Valley Peru",
+   "price": 890,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Specialty Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Mocha Abaya Yirgacheffe Ethiopia",
+   "price": 900,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Specialty Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Edelweiss Kilimanjaro Tanzania",
+   "price": 880,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Specialty Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Santo Antonio Brazil",
+   "price": 880,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Specialty Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Talas del Dia Costa Rica",
+   "price": 890,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Specialty Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Tana Toraja Indonesia",
+   "price": 900,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Specialty Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "San Hwan Laguna Guatemala",
+   "price": 890,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlmenu/?menu_type=2",
+   "section": "Specialty Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "豆の特徴カード付きのコーヒーは甘い香りで苦味と酸味のバランスが良い。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B456275561/"
+  },
+  {
+   "summary": "持ち帰りのコールドブリューはチョコやナッツの甘い余韻。評価は3.5と控えめ。",
+   "sentiment": "mixed",
+   "rating": 3.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536679342/"
+  },
+  {
+   "summary": "何度も通うリピーター。ザッハトルテにハマりおかわりするほど。",
+   "sentiment": "positive",
+   "rating": 5.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1301/A130101/13149724/dtlrvwlst/B536970933/"
+  }
+ ]
+}

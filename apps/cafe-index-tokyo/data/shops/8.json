@@ -1,0 +1,1110 @@
+{
+ "id": 8,
+ "name": "和光ティーサロン",
+ "prefecture": "東京都",
+ "ward": "中央区",
+ "address": "東京都中央区銀座4-4-8 和光アネックス 2F",
+ "lat": 35.67177402222642,
+ "lng": 139.76472695233977,
+ "sources": [
+  "https://tabelog.com/tokyo/A1301/A130101/13009081/",
+  "https://tabelog.com/en/tokyo/A1301/A130101/13009081/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "wifi",
+  "nosmoke"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.8,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1469,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "パフェ",
+    "ケーキ・スイーツ",
+    "紅茶専門店"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe,Cake",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "銀座駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "Just a short walk from Exit B1 of Tokyo Metro Ginza Station.\n53 meters from Ginza.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金・土 10:30～19:30 (L.O. 19:00) / 日・祝日 10:30～19:00 (L.O. 18:30) ※■Closed on Year-end & New Year Holidays",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "￥4,000～￥4,999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 4000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 4999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "落ち着いた空間",
+    "無料Wi-Fiあり",
+    "車椅子で入店可"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "https://www.wako.co.jp/store_information/main/annex/teasalon/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-5250-3100",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.chain": {
+   "v": "和光（セイコーグループ）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "チェーン・系列"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1301/A130101/13009081/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.interior_style": {
+   "v": [
+    "クラシック"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/"
+   ],
+   "at": "2026-10-27",
+   "label": "内装スタイル"
+  },
+  "facility.seat_types": {
+   "v": [
+    "テーブル"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 52,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.seats_breakdown": {
+   "v": "52 table seats",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "席数内訳"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.wifi": {
+   "v": "あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "Wi-Fi"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners, UnionPay）、電子マネー不可、QRコード決済不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.service_charge": {
+   "v": "No service charge\nOriginal text\nサービス料なし\nThis section has been automatically translated. Please check with the restaurant for accurate information.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "サービス料・チャージ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "Please refrain from bringing children (preschoolers) into the store.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.accessibility": {
+   "v": "車椅子で入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "バリアフリー・車椅子"
+  },
+  "facility.floor": {
+   "v": "2F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.foreign_language": {
+   "v": "Multilingual menu available（English）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "外国語メニュー・対応"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "落ち着いた空間、無料Wi-Fiあり、車椅子で入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.body": {
+   "v": "中程度",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/"
+   ],
+   "at": "2026-10-27",
+   "label": "コク・ボディ"
+  },
+  "flavor.tea_focus": {
+   "v": "充実",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537547248/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/"
+   ],
+   "at": "2026-10-27",
+   "label": "お茶の比重"
+  },
+  "flavor.sweetness": {
+   "v": "やや控えめ",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537547248/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さ(看板スイーツ・ドリンク)"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "パフェ",
+    "ケーキ",
+    "しっかり食事"
+   ],
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "旬の果物を使った季節のパフェと香り高い紅茶",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537547248/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "やや静か",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_stylishness": {
+   "v": "高い",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "上品・ラグジュアリー"
+   ],
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "tea_focus",
+     "value": "充実",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537547248/",
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "パフェ",
+      "ケーキ",
+      "しっかり食事"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/"
+     ]
+    },
+    {
+     "axis": "sweetness",
+     "value": "やや控えめ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537547248/"
+     ]
+    },
+    {
+     "axis": "body",
+     "value": "中程度",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "旬の果物を使った季節のパフェと香り高い紅茶",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/",
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537547248/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "やや静か",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/"
+     ]
+    },
+    {
+     "axis": "atmos_stylishness",
+     "value": "高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "上品・ラグジュアリー"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/",
+      "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537547248/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537547248/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "季節のパフェ",
+    "ケーキセット",
+    "ダージリンティー"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.alcohol": {
+   "v": "Sake (Nihonshu), Wine",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "アルコール"
+  },
+  "menu.allergy_info": {
+   "v": "アレルギー表示あり（食べログ）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "アレルギー表示"
+  },
+  "review.praise_summary": {
+   "v": "季節のパフェの完成度、紅茶の香り、注ぎ足しなど行き届いた接客、上品な空間。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537547248/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "価格帯が高く（1人4,000円台〜、パフェ利用で6,000円超の例）、コスパ評価は分かれる。人気で開店前から並ぶことも。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "特別な日のご褒美",
+    "銀座での買い物休憩",
+    "パフェ好き"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537547248/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "銀座和光の別館2階にあるティーサロン。季節のパフェ（シャインマスカット、栗など）やケーキセットが看板で、ダージリンなど香り高い紅茶との組み合わせが好評。和栗のモンブランは甘さ控えめとの声。コーヒーも香り・コクのバランスが良いと評価。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537547248/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "時計塔で知られる和光本館の裏、和光アネックス2階。1階はケーキ＆チョコレートショップ。全52席のテーブル席で、銀座らしい洗練された上品な空間と、頼まなくても紅茶を注ぎ足す丁寧な接客が特徴。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/",
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "開店前から並ぶ人がいる、早めの来店推奨の声",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537215660/",
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536249774/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.house_rules": {
+   "v": [
+    "The first floor is \"Wako Cake & Chocolate Shop\"",
+    "https://tabelog.com/tokyo/A1301/A130101/13004100/"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1301/A130101/13009081/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.atmos_stylishness_score": {
+   "v": 5,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度スコア"
+  },
+  "flavor.body_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/"
+   ],
+   "at": "2026-10-27",
+   "label": "ボディスコア"
+  },
+  "flavor.sweetness_score": {
+   "v": 2,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537547248/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "Shine Muscat Parfait",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Seasonal Fruit Parfait",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "SHIKI Parfait -AKI-",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Seasonal Fruit Parfait",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Chestnut Parfait",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Seasonal Fruit Parfait",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Premier Chestnut Robe de Reine -Queen's Dress-",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Cake of the Month",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Praline Raisin",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Cake of the Month",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Flan",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Cake of the Month",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Pumpkin Pudding",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Cake of the Month",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Fig Tart",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Cake of the Month",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Ginza Pudding à la Mode",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Dessert",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "French Toast",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Dessert",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Chocolate Set",
+   "price": 3080,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Dessert",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Chilled Dessert Set",
+   "price": 2640,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Dessert",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Seafood Doria",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Light Meal Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Bolognese",
+   "price": 3080,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Light Meal Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Gratin",
+   "price": 3080,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Light Meal Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Croque Monsieur",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Light Meal Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Buckwheat Galette",
+   "price": 2750,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Light Meal Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Soup of the Day",
+   "price": 1430,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Light Meal Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Green Salad",
+   "price": 550,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Light Meal Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Bread",
+   "price": 440,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/",
+   "section": "Light Meal Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Craft Cola",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Recommended Drinks [Soft Drinks]",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Darjeeling Silver Tips",
+   "price": 3850,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Darjeeling",
+   "price": 1760,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Keemun",
+   "price": 1650,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Assam",
+   "price": 1650,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Uva",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Dimbula",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Earl Grey",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Apple",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Jasmine",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Japanese Black Tea",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Royal Milk Tea",
+   "price": 1650,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Iced Tea",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Black Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Rooibos",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Herbal Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Chamomile",
+   "price": 1705,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Herbal Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Mint",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Herbal Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Lemongrass",
+   "price": 1650,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Herbal Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Fruit Garden",
+   "price": 1760,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Herbal Tea",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Blend Coffee",
+   "price": 1650,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Decaffeinated Coffee",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Espresso",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Café au Lait",
+   "price": 1650,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Iced Coffee",
+   "price": 1705,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Coffee",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Ginger Ale",
+   "price": 1430,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Soft Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Chocolate Drink",
+   "price": 1650,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Soft Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Pineapple Juice",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Soft Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Mixed Juice",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Soft Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Tomato Juice",
+   "price": 1540,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Soft Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Evian",
+   "price": 1430,
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Soft Drink",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "★Rococo Tokyo White",
+   "src": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlmenu/?menu_type=2",
+   "section": "Recommended Drinks [Alcohol]",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "季節のパフェが絶品、紅茶を自然に注ぎ足す接客に価格以上の満足感。",
+   "sentiment": "positive",
+   "rating": 4.9,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536712892/"
+  },
+  {
+   "summary": "銀座らしい洗練された空間とケーキセットを評価。コスパはやや控えめ。",
+   "sentiment": "mixed",
+   "rating": 3.7,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B536666891/"
+  },
+  {
+   "summary": "香り高いダージリンと甘さ控えめの和栗モンブランで穏やかな午後。",
+   "sentiment": "positive",
+   "rating": 3.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1301/A130101/13009081/dtlrvwlst/B537547248/"
+  }
+ ]
+}

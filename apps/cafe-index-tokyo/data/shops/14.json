@@ -1,0 +1,747 @@
+{
+ "id": 14,
+ "name": "カンダコーヒー",
+ "prefecture": "東京都",
+ "ward": "千代田区",
+ "address": "東京都千代田区神田神保町2-38-10 多幸ビル １Ｆ",
+ "lat": 35.69748011870198,
+ "lng": 139.75474762455676,
+ "sources": [
+  "https://tabelog.com/tokyo/A1310/A131003/13133520/",
+  "https://tabelog.com/en/tokyo/A1310/A131003/13133520/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "morning",
+  "terrace",
+  "takeout",
+  "nosmoke",
+  "solo"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.72,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 781,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "自家焙煎",
+    "コーヒースタンド",
+    "喫茶店"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "神保町駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "From Jimbocho Station A2 exit, head towards Sendai-dori Street and walk for about 3 minutes.\nAbout 3 minutes walk from Kudanshita Station\n350 meters from Jimbocho.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金 7:00～17:00 / 土・日・祝日 12:00～18:00",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.morning_service": {
+   "v": "平日7:00開店、朝のコーヒーは300円台",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536808901/"
+   ],
+   "at": "2026-10-27",
+   "label": "モーニング"
+  },
+  "basic.price_range_text": {
+   "v": "～￥999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_max": {
+   "v": 999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.coffee_price": {
+   "v": 320,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/"
+   ],
+   "at": "2026-10-27",
+   "label": "ブレンド/基本コーヒー価格"
+  },
+  "basic.features": {
+   "v": [
+    "落ち着いた空間",
+    "カウンター席あり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "https://kanda-coffee.stores.jp/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-5213-4337",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.opened": {
+   "v": "2011-11-11",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "オープン日"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1310/A131003/13133520/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "dietary.plant_milk": {
+   "v": "オーツミルクラテあり",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537742209/"
+   ],
+   "at": "2026-10-27",
+   "label": "オーツミルク・植物性ミルク"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター",
+    "テラス"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 12,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.seats_breakdown": {
+   "v": "3 counter seats, 3 2-seater stools, 1 terrace seat",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "席数内訳"
+  },
+  "facility.terrace": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "テラス席"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB）、電子マネー可、QRコード決済可（PayPay, Rakuten Pay, au PAY）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "交通系IC",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.solo_friendly": {
+   "v": "カウンター中心で一人客向き",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/",
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "一人客"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "落ち着いた空間、カウンター席あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.coffee_style": {
+   "v": [
+    "ハンドドリップ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/"
+   ],
+   "at": "2026-10-27",
+   "label": "抽出方法"
+  },
+  "flavor.roast_level": {
+   "v": "浅煎り",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B534203311/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎度"
+  },
+  "flavor.acidity": {
+   "v": "やや強い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B534203311/"
+   ],
+   "at": "2026-10-27",
+   "label": "酸味"
+  },
+  "flavor.body": {
+   "v": "中程度",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/"
+   ],
+   "at": "2026-10-27",
+   "label": "コク・ボディ"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "焼き菓子",
+    "ドリンク中心"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "焼きたてで熱々のアップルパイと飲みやすいドリップコーヒー",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "普通",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "高い",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_stylishness": {
+   "v": "普通",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "レトロ",
+    "隠れ家"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "coffee_style",
+     "value": [
+      "ハンドドリップ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/"
+     ]
+    },
+    {
+     "axis": "body",
+     "value": "中程度",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/",
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "焼き菓子",
+      "ドリンク中心"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/",
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "焼きたてで熱々のアップルパイと飲みやすいドリップコーヒー",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/",
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "普通",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/",
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/"
+     ]
+    },
+    {
+     "axis": "atmos_stylishness",
+     "value": "普通",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "レトロ",
+      "隠れ家"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/"
+     ]
+    },
+    {
+     "axis": "roast_level",
+     "value": "浅煎り",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B534203311/"
+     ]
+    },
+    {
+     "axis": "acidity",
+     "value": "やや強い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B534203311/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B534203311/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B534203311/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "ドリップコーヒー",
+    "焼きたてアップルパイ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "review.praise_summary": {
+   "v": "手頃な価格の香り高いコーヒー、焼きたてアップルパイ、ジャズが流れるレトロで小さな空間。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "席数が少なく休日は満席になりやすい。パイは焼き上げに時間がかかる。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537755762/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "一人での休憩",
+    "朝のコーヒー",
+    "神保町散策"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537755762/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "ドリップコーヒーが1杯300円台と手頃で、香り高く飲みやすいと評判。焼きたてのアップルパイが看板で、温かいパイとコーヒーの組み合わせを推す口コミが多い。オーツミルクラテもある。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "神保町の街角にある12席ほどの小さな店。カウンター中心でジャズが流れ、時間が止まったようなレトロで親密な雰囲気。朝7時から営業し地元客に愛されている。休日は満席になりやすい。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/",
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "休日は満席になりやすい",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537755762/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13133520/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "flavor.acidity_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B534203311/"
+   ],
+   "at": "2026-10-27",
+   "label": "酸味スコア"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 5,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.atmos_stylishness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度スコア"
+  },
+  "flavor.body_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/"
+   ],
+   "at": "2026-10-27",
+   "label": "ボディスコア"
+  },
+  "flavor.roast_level_score": {
+   "v": 1,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B534203311/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎の深さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "ドリップコーヒー",
+   "price": 320,
+   "note": "口コミ時点",
+   "src": "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/"
+  },
+  {
+   "name": "アップルパイ",
+   "note": "焼き上がりに時間がかかる場合あり",
+   "src": "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/"
+  },
+  {
+   "name": "Seaweed Box",
+   "price": 600,
+   "src": "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Coffee (Daily Special)",
+   "price": 320,
+   "src": "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "カウンター数席の小さな店でレトロな雰囲気。アイスとパイで長居した。",
+   "sentiment": "positive",
+   "rating": 3.7,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537942323/"
+  },
+  {
+   "summary": "休日は満席で、店内では飲めず持ち帰りになったとの報告。",
+   "sentiment": "negative",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B537755762/"
+  },
+  {
+   "summary": "320円のドリップがコク深く、ジャズが流れる空間も含めて大満足。",
+   "sentiment": "positive",
+   "rating": 5.0,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B535733363/"
+  },
+  {
+   "summary": "熱々のアップルパイと飲みやすいコーヒーが好評。パイは焼成に時間がかかる。",
+   "sentiment": "positive",
+   "rating": 3.1,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1310/A131003/13133520/dtlrvwlst/B536467247/"
+  }
+ ]
+}

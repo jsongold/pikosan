@@ -1,0 +1,481 @@
+{
+ "id": 65,
+ "name": "胡桃堂喫茶店",
+ "prefecture": "東京都",
+ "ward": "国分寺市",
+ "address": "東京都国分寺市本町2-17-3",
+ "lat": 35.701597488613004,
+ "lng": 139.48356925478842,
+ "sources": [
+  "https://tabelog.com/tokyo/A1325/A132502/13206891/",
+  "https://tabelog.com/en/tokyo/A1325/A132502/13206891/",
+  "https://award.tabelog.com/hyakumeiten/kissaten"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "takeout",
+  "nosmoke",
+  "solo",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.71,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 718,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "喫茶店"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/",
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Kissa (Japanese coffee shop)",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "国分寺駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "5 minutes walk from JR Kokubunji Station\n329 meters from Kokubunji.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・金・土・日 11:00～18:00 (L.O. 17:30) / 木 定休日 ※Starting August 2024, we have resumed our Wednesday operations.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.closed_days": {
+   "v": "木（食べログ営業時間表記より）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "定休日"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "落ち着いた空間",
+    "席が広い",
+    "カウンター席あり",
+    "車椅子で入店可"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "http://kurumido2017.jp/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "042-401-0433",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.opened": {
+   "v": "2017-3-27",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "オープン日"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1325/A132502/13206891/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 40,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード可、電子マネー可、QRコード決済不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "交通系IC"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.solo_friendly": {
+   "v": "一人で入りやすい（食べログ利用シーン）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "一人客"
+  },
+  "facility.accessibility": {
+   "v": "車椅子で入店可",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "バリアフリー・車椅子"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "落ち着いた空間、席が広い、カウンター席あり、車椅子で入店可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "しっかり食事"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B538108573/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "文化系・本",
+    "ナチュラル"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B536894149/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "food_focus",
+     "value": [
+      "しっかり食事"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B538108573/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "文化系・本",
+      "ナチュラル"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B536894149/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B536894149/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B538108573/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B536894149/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B538108573/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "review.praise_summary": {
+   "v": "物語のような空間、季節の定食とブレンド。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B536894149/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B538108573/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B538047516/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B535806920/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "人気店で、食事込みだと単価は2,000円台になることも。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B535806920/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "国分寺散策",
+    "ゆっくりランチ",
+    "家族連れ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B536894149/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B538108573/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B538047516/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B535806920/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "国分寺駅近くの人気喫茶。里芋の豆乳グラタン定食など季節の食事と胡桃堂ブレンドが好評。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B538108573/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B538047516/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "物語や小説の世界のような懐かしい空間。席がゆったりした40席で、車椅子でも入店可。",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B536894149/",
+    "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B535806920/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1325/A132502/13206891/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  }
+ },
+ "reviews": [
+  {
+   "summary": "時間が巻き戻ったような絵本の世界の空間。",
+   "sentiment": "positive",
+   "rating": 3.7,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B536894149/"
+  },
+  {
+   "summary": "里芋の豆乳グラタン定食と胡桃堂ブレンド。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B538108573/"
+  },
+  {
+   "summary": "落ち着いていて再訪したくなる。",
+   "sentiment": "positive",
+   "rating": 3.6,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B538047516/"
+  },
+  {
+   "summary": "穏やかな空間で、メニューも多彩。客単価は2,000円台の例。",
+   "sentiment": "mixed",
+   "rating": 3.9,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1325/A132502/13206891/dtlrvwlst/B535806920/"
+  }
+ ]
+}

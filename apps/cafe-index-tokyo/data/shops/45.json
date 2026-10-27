@@ -1,0 +1,896 @@
+{
+ "id": 45,
+ "name": "喫茶サテラ",
+ "prefecture": "東京都",
+ "ward": "渋谷区",
+ "address": "東京都渋谷区渋谷1-7-5 青山セブンハイツ 1F",
+ "lat": 35.66067878870993,
+ "lng": 139.70631998421896,
+ "sources": [
+  "https://tabelog.com/tokyo/A1303/A130301/13253683/",
+  "https://tabelog.com/en/tokyo/A1303/A130301/13253683/",
+  "https://award.tabelog.com/hyakumeiten/kissaten"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "wifi",
+  "power",
+  "takeout",
+  "nosmoke",
+  "solo",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.67,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 942,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "喫茶店",
+    "ケーキ・スイーツ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/",
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Kissa (Japanese coffee shop),Japanese pudding",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "渋谷駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "- 6-minute walk from Shibuya Station Exit B4\n- 8-minute walk from Omotesando Station Exit B2\n483 meters from Shibuya.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金・土・日 10:00～22:00 (L.O. 21:30) ※■Closed on Not fixed * Please check our Instagram stories for any changes to our business hours.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "おしゃれな空間",
+    "落ち着いた空間",
+    "カウンター席あり",
+    "電源あり",
+    "無料Wi-Fiあり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "https://satella.coffee/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "080-8444-4243",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.opened": {
+   "v": "2020-10-20",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "オープン日"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1303/A130301/13253683/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター",
+    "テーブル"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 16,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.seats_breakdown": {
+   "v": "4 counter seats, 6 table seats, and 6 private rooms.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "席数内訳"
+  },
+  "facility.private_room": {
+   "v": "有\nFor 2 people, For 4 people, For 6 people\n( Private rooms can be used for up to 1 hour per group. We do not accept reservations for all seats. )",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.wifi": {
+   "v": "あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "Wi-Fi"
+  },
+  "facility.power_outlets": {
+   "v": "あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "電源"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners）、電子マネー可、QRコード決済可（PayPay, d Barai, Rakuten Pay, au PAY）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "交通系IC",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.service_charge": {
+   "v": "Note regarding service charges at Satella: Please be informed that a service charge may be added to your bill.\nOriginal text\nなし\nThis section has been automatically translated. Please check with the restaurant for accurate information.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "サービス料・チャージ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可(小学生可)",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.solo_friendly": {
+   "v": "一人で入りやすい（食べログ利用シーン）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "一人客"
+  },
+  "facility.floor": {
+   "v": "1F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "おしゃれな空間、落ち着いた空間、カウンター席あり、電源あり、無料Wi-Fiあり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.coffee_style": {
+   "v": [
+    "水出し"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+   ],
+   "at": "2026-10-27",
+   "label": "抽出方法"
+  },
+  "flavor.roast_level": {
+   "v": "深煎り",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537517981/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536939851/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎度"
+  },
+  "flavor.sweetness": {
+   "v": "普通",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さ(看板スイーツ・ドリンク)"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "スイーツ",
+    "軽食"
+   ],
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "もっちり濃厚な季節のプリン",
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536923755/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "やや静か",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_stylishness": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "レトロ"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537872267/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "coffee_style",
+     "value": [
+      "水出し"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+     ]
+    },
+    {
+     "axis": "sweetness",
+     "value": "普通",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "スイーツ",
+      "軽食"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/",
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "もっちり濃厚な季節のプリン",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/",
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536923755/",
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "やや静か",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+     ]
+    },
+    {
+     "axis": "atmos_stylishness",
+     "value": "やや高い",
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "レトロ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537872267/"
+     ]
+    },
+    {
+     "axis": "roast_level",
+     "value": "深煎り",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537517981/",
+      "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536939851/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536923755/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536939851/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537517981/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537872267/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/",
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "low",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536923755/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536939851/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537517981/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537872267/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/",
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "プリン",
+    "季節限定プリン",
+    "コーヒーゼリーフロート"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537548806/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.seasonal": {
+   "v": "季節限定プリン（例：10月のかぼちゃプリン）",
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536923755/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+   ],
+   "at": "2026-10-27",
+   "label": "季節限定"
+  },
+  "review.praise_summary": {
+   "v": "独特の食感の濃厚プリン、季節限定メニュー、落ち着いて話せるレトロな空間、夜22時まで営業。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536923755/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "席数16と小さく、1時間制で長居はできない。評価3.5程度の控えめな口コミもある。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "プリン好き",
+    "渋谷での夜カフェ",
+    "二人でゆっくり会話"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536923755/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "プリンが名物の喫茶店。季節限定のかぼちゃプリンは練乳・クリームチーズ・焦がしバター・シナモンなどを使い、ねっとりもっちりした独特の食感と好評。コーヒーゼリーフロートやアフォガート、トースト類、ドリアもある。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536923755/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537548806/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "渋谷・明治通り近くの小さな店（全16席：カウンター4・テーブル6・個室6）。レトロな雰囲気で、一人でも二人でもゆっくり会話できる居心地の良さ。電源・無料Wi-Fiあり。席は1時間制（口コミ時点）。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537872267/",
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "work.friendliness": {
+   "v": "条件付き",
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業・勉強のしやすさ"
+  },
+  "work.time_limit": {
+   "v": "1時間制（口コミ時点）",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+   ],
+   "at": "2026-10-27",
+   "label": "時間制限"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 5,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.atmos_stylishness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1303/A130301/13253683/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度スコア"
+  },
+  "flavor.roast_level_score": {
+   "v": 5,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537517981/",
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536939851/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎の深さスコア"
+  },
+  "flavor.sweetness_score": {
+   "v": 3,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "コーヒーゼリーフロート",
+   "price": 850,
+   "note": "2026年10月口コミ時点",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537548806/"
+  },
+  {
+   "name": "Pudding",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/",
+   "section": "Food Sweets Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Limited Time Pudding",
+   "price": 850,
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/",
+   "section": "Food Sweets Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Doria",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/",
+   "section": "Food Sweets Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Affogato",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/",
+   "section": "Food Sweets Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Coffee Jelly",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/",
+   "section": "Food Sweets Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Butter Toast",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/",
+   "section": "Food Sweets Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "An Butter Toast",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/",
+   "section": "Food Sweets Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Egg Toast",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/",
+   "section": "Food Sweets Menu",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Blend Hand Drip Coffee (Hot/Iced)",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Single Origin Hand Drip Coffee (Hot/Iced)",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Quick Brew Coffee (Hot)",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cold Brew Iced Coffee",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Café Latte (Hot/Iced)",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Caramel Latte (Hot/Iced)",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Matcha Latte (Hot/Iced)",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Oleglace (Iced)",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Black Tea (Hot/Iced)",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cream Soda (Iced)",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Coffee Jelly Float (Iced)",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Homemade Chai Latte (Hot/Iced)",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Lemonade (Hot/Iced)",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Lemon Squash (Iced)",
+   "src": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlmenu/?menu_type=2",
+   "section": "Drink (A la carte)",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "限定かぼちゃプリンは硬め・とろけるどちらでもない独特のもっちり食感。説明も丁寧。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B537720043/"
+  },
+  {
+   "summary": "シナモン香るかぼちゃプリンとオレグラッセを堪能。",
+   "sentiment": "positive",
+   "rating": 5.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B536923755/"
+  },
+  {
+   "summary": "居心地の良い小さな店で大人のプリン。ただし席は1時間制。",
+   "sentiment": "mixed",
+   "rating": 3.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1303/A130301/13253683/dtlrvwlst/B538028176/"
+  }
+ ]
+}

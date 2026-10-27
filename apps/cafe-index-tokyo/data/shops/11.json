@@ -1,0 +1,816 @@
+{
+ "id": 11,
+ "name": "さぼうる",
+ "prefecture": "東京都",
+ "ward": "千代田区",
+ "address": "東京都千代田区神田神保町1-11",
+ "lat": 35.69557020399575,
+ "lng": 139.75860290714348,
+ "sources": [
+  "https://tabelog.com/tokyo/A1310/A131003/13000609/",
+  "https://tabelog.com/en/tokyo/A1310/A131003/13000609/",
+  "https://award.tabelog.com/hyakumeiten/kissaten"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "takeout",
+  "nosmoke",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.69,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1803,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "純喫茶",
+    "喫茶店"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/",
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Kissa (Japanese coffee shop),Cafe",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "神保町駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "1 minute walk from A7 exit of Jimbocho Station on the Toei Subway Shinjuku Line and Mita Line\n1 minute walk from A7 exit of Jimbocho Station on the Tokyo Metro Hanzomon Line\n6 minutes walk from JR Ochanomizu Station\n59 meters from Jimbocho.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金・土 11:00～19:00 (L.O. Food 18:00 Drinks 18:30) / 祝日 11:00～18:00 / 日 定休日 ※■Closed on Not fixed: Public holidays",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.closed_days": {
+   "v": "日（食べログ営業時間表記より）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "定休日"
+  },
+  "basic.price_range_text": {
+   "v": "～￥999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_max": {
+   "v": 999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.coffee_price": {
+   "v": 700,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "ブレンド/基本コーヒー価格"
+  },
+  "basic.features": {
+   "v": [
+    "おしゃれな空間",
+    "落ち着いた空間",
+    "カウンター席あり",
+    "A house restaurant"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.phone": {
+   "v": "03-3291-8404",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1310/A131003/13000609/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "dietary.options": {
+   "v": "ベジタリアンメニューあり（食べログ）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "その他の食事制限対応"
+  },
+  "facility.interior": {
+   "v": "1階は木の小屋風、地下は洞窟風の多層フロア、席はやや小さめ",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+   ],
+   "at": "2026-10-27",
+   "label": "内装・雰囲気"
+  },
+  "facility.interior_style": {
+   "v": [
+    "レトロ・昭和"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+   ],
+   "at": "2026-10-27",
+   "label": "内装スタイル"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 70,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.private_room": {
+   "v": "有",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.lighting": {
+   "v": "暗め",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+   ],
+   "at": "2026-10-27",
+   "label": "照明"
+  },
+  "facility.payment": {
+   "v": "カード不可、電子マネー不可、QRコード決済不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可(乳児可, 未就学児可, 小学生可)",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "おしゃれな空間、落ち着いた空間、カウンター席あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.roast_level": {
+   "v": "深煎り",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎度"
+  },
+  "flavor.acidity": {
+   "v": "弱い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+   ],
+   "at": "2026-10-27",
+   "label": "酸味"
+  },
+  "flavor.bitterness": {
+   "v": "強い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味"
+  },
+  "flavor.body": {
+   "v": "やや重い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+   ],
+   "at": "2026-10-27",
+   "label": "コク・ボディ"
+  },
+  "flavor.sweetness": {
+   "v": "甘い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さ(看板スイーツ・ドリンク)"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "軽食"
+   ],
+   "conf": "high",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "外はカリッと中はふんわりのピザトーストと色とりどりのクリームソーダ",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "ややにぎやか",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "やや高い",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_stylishness": {
+   "v": "高い",
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537060754/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "レトロ",
+    "隠れ家"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "coffee_style"
+    },
+    {
+     "axis": "roast_level",
+     "value": "深煎り",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+     ]
+    },
+    {
+     "axis": "acidity",
+     "value": "弱い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+     ]
+    },
+    {
+     "axis": "bitterness",
+     "value": "強い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+     ]
+    },
+    {
+     "axis": "body",
+     "value": "やや重い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "軽食"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/",
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/"
+     ]
+    },
+    {
+     "axis": "sweetness",
+     "value": "甘い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "外はカリッと中はふんわりのピザトーストと色とりどりのクリームソーダ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/",
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "ややにぎやか",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/",
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+     ]
+    },
+    {
+     "axis": "atmos_stylishness",
+     "value": "高い",
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1310/A131003/13000609/",
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537060754/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "レトロ",
+      "隠れ家"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537060754/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/",
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "low",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537060754/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/",
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "ピザトースト",
+    "クリームソーダ（7色）",
+    "生ジュース"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.food_items": {
+   "v": "ピザトースト、ミックスサンド、チーズフライ等",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/"
+   ],
+   "at": "2026-10-27",
+   "label": "フード"
+  },
+  "menu.alcohol": {
+   "v": "Sake (Nihonshu), Shochu (Japanese spirits), Wine, Cocktails, Particular about Sake (Nihonshu), Particular about Shochu (Japanese spirits), Particular about wine, Particular about cocktails",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "アルコール"
+  },
+  "review.praise_summary": {
+   "v": "唯一無二の多層レトロ空間、名物ピザトーストとクリームソーダ・生ジュース、手頃な価格。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "行列・混雑で落ち着かないことがある。椅子やテーブルが小さく狭い。BGMや苦めのコーヒーは好みが分かれる。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "純喫茶好き",
+    "神保町観光",
+    "軽食ランチ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "神保町を代表する老舗喫茶。名物はピザトーストと7色から選べるクリームソーダ、苺などの生ジュース。コーヒーは深煎り寄りで苦味が強く酸味はほぼない昔ながらの味との口コミ。ビールやワインなど酒類もある。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "隠れたような入口、木の小屋のような1階と洞窟のような地下など複数フロアの独特な空間。薄暗く居心地は良いが、椅子やテーブルは小さめで混雑時は長居しにくい。開店前から行列ができることも。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "開店前に5〜6人の行列、混雑時は長居しにくい",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "flavor.acidity_score": {
+   "v": 1,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+   ],
+   "at": "2026-10-27",
+   "label": "酸味スコア"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 4,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 2,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.atmos_stylishness_score": {
+   "v": 5,
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1310/A131003/13000609/",
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537060754/"
+   ],
+   "at": "2026-10-27",
+   "label": "おしゃれ度スコア"
+  },
+  "flavor.bitterness_score": {
+   "v": 5,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味スコア"
+  },
+  "flavor.body_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+   ],
+   "at": "2026-10-27",
+   "label": "ボディスコア"
+  },
+  "flavor.roast_level_score": {
+   "v": 5,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎の深さスコア"
+  },
+  "flavor.sweetness_score": {
+   "v": 5,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+   ],
+   "at": "2026-10-27",
+   "label": "甘さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "ピザトースト（小）",
+   "price": 800,
+   "note": "通常サイズは1,000円（口コミ時点）",
+   "src": "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/"
+  },
+  {
+   "name": "Pizza Toast",
+   "price": 1000,
+   "src": "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/",
+   "section": "Food",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Mixed Sandwich",
+   "price": 1000,
+   "src": "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/",
+   "section": "Food",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Blended Coffee",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/",
+   "section": "Drinks",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cream Soda (7 Colors)",
+   "price": 850,
+   "src": "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/",
+   "section": "Drinks",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Coke",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/",
+   "section": "Drinks",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Draft Beer Lager (Medium)",
+   "price": 800,
+   "src": "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/",
+   "section": "Drinks",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Glass Wine (Red & White)",
+   "price": 700,
+   "src": "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlmenu/",
+   "section": "Drinks",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "「喫茶店」のイメージそのものの空間と絶賛。混雑で長居はしにくかった。",
+   "sentiment": "positive",
+   "rating": 5.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B531287112/"
+  },
+  {
+   "summary": "席が狭く、BGMのロックが雰囲気に合わないと不満。コーヒーは苦味強め。",
+   "sentiment": "negative",
+   "rating": 2.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537008202/"
+  },
+  {
+   "summary": "開店前の行列も1巡目で入店。生ジュースとカリふわのピザトーストを高評価。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1310/A131003/13000609/dtlrvwlst/B537938062/"
+  }
+ ]
+}

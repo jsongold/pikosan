@@ -1,0 +1,653 @@
+{
+ "id": 74,
+ "name": "珈琲道場 侍",
+ "prefecture": "東京都",
+ "ward": "江東区",
+ "address": "東京都江東区亀戸6-57-22 サンポービル 2F",
+ "lat": 35.69696613872582,
+ "lng": 139.8285770244998,
+ "sources": [
+  "https://tabelog.com/tokyo/A1312/A131202/13018018/",
+  "https://tabelog.com/en/tokyo/A1312/A131202/13018018/",
+  "https://award.tabelog.com/hyakumeiten/kissaten"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "morning",
+  "nosmoke",
+  "solo"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.71,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1128,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "喫茶店",
+    "自家焙煎"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/",
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Kissa (Japanese coffee shop),Cafe,Bar",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "亀戸駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/kissaten"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "1 minute walk from the East Exit of Kameido Station on the JR Sobu Main Line\n3 minutes walk from Kameido Station on the Tobu Kameido Line\n206 meters from Kameido.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金・土 8:00～22:00 (L.O. 21:30) / 日 定休日 ※■Closed on Sundays (open on public holidays) Temporary change in business hours.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.closed_days": {
+   "v": "日（食べログ営業時間表記より）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "定休日"
+  },
+  "basic.morning_service": {
+   "v": "8:00開店",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "モーニング"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（口コミ集計）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "落ち着いた空間",
+    "カウンター席あり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "http://www.samurai-cafe.jp/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-3638-4003",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1312/A131202/13018018/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 40,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.seats_breakdown": {
+   "v": "10 seats at the counter (rocking chairs), 30 seats at tables",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "席数内訳"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード不可、電子マネー不可、QRコード決済可（PayPay）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.solo_friendly": {
+   "v": "一人で入りやすい（食べログ利用シーン）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "一人客"
+  },
+  "facility.floor": {
+   "v": "2F",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "フロア・階段"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "落ち着いた空間、カウンター席あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.roast_level": {
+   "v": "深煎り",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537773443/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎度"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "しっかり食事"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537752244/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "レトロ",
+    "隠れ家"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B538128545/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "roast_level",
+     "value": "深煎り",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537773443/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "しっかり食事"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537752244/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "レトロ",
+      "隠れ家"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B538128545/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537752244/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537773443/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B538128545/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "medium",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537752244/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537773443/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B538128545/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "ロッキングチェアのカウンター",
+    "骨付きチキンカレー"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537752244/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.alcohol": {
+   "v": "Wine, Particular about cocktails",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "アルコール"
+  },
+  "review.praise_summary": {
+   "v": "ロッキングチェアのカウンター、深煎り、朝から夜まで使える。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537773443/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537752244/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B435769353/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537569943/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "強い不満は少ないが、ランチの評価は普通との声も。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537569943/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537590805/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "朝コーヒー",
+    "一人利用",
+    "夜カフェ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537773443/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537752244/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B435769353/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537569943/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "亀戸の喫茶店。深煎りコーヒーが評判で、骨付きチキンカレーなど食事も充実。夜はワインやこだわりのカクテルも出す。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537773443/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537752244/",
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "ロッキングチェアのカウンター10席が名物の落ち着いた店（計40席）。朝8時から夜22時まで（日曜休み）。",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/",
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B538128545/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1312/A131202/13018018/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "flavor.roast_level_score": {
+   "v": 5,
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537773443/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎の深さスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "Mixed Pizza Toast",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Ham Toast",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cheese Toast",
+   "price": 400,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cinnamon Toast",
+   "price": 400,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Butter Toast with Jam",
+   "price": 400,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Butter Toast",
+   "price": 350,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cold Brew Blend",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Moka Matari",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Mandarin",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Kilimanjaro",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Colombia",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Blue Mountain",
+   "price": 500,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Wiener Coffee",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cappuccino",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Fresh Orange Juice",
+   "price": 550,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Fresh Banana Juice",
+   "price": 550,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Fresh Tomato Juice",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Freshly Squeezed Lemon Squash",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cocoa Float",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "平日9時は空いていて、ロッキングチェアで深煎りを飲む最高の朝。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537773443/"
+  },
+  {
+   "summary": "骨付きチキンカレーはドリンク付き。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537752244/"
+  },
+  {
+   "summary": "何百回も通うほど愛着のある亀戸の喫茶。",
+   "sentiment": "positive",
+   "rating": 4.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B435769353/"
+  },
+  {
+   "summary": "ランチ目当てで訪問、評価は普通（3.5）。",
+   "sentiment": "mixed",
+   "rating": 3.5,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1312/A131202/13018018/dtlrvwlst/B537569943/"
+  }
+ ]
+}

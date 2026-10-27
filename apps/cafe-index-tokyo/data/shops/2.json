@@ -1,0 +1,621 @@
+{
+ "id": 2,
+ "name": "カフェ マメヒコ",
+ "prefecture": "東京都",
+ "ward": "世田谷区",
+ "address": "東京都世田谷区太子堂4-20-4",
+ "lat": 35.64454442870836,
+ "lng": 139.66920673408202,
+ "sources": [
+  "https://tabelog.com/tokyo/A1317/A131706/13021745/",
+  "https://tabelog.com/en/tokyo/A1317/A131706/13021745/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "terrace",
+  "kids"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.71,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 1136,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "喫茶店",
+    "ケーキ・スイーツ",
+    "パフェ"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe,Cake,Gelato, Ice cream",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "三軒茶屋駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "・1 minute walk from Sangenjaya Station on the Tokyu Setagaya Line\n・3 minutes walk from Sangenjaya Station (Den-en-toshi Line) Sancha Patio Exit\n217 meters from Sangen Jaya.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金・土・日 9:00～21:00",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "￥1,000～￥1,999（口コミ集計）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_min": {
+   "v": 1000,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "最低価格"
+  },
+  "basic.price_max": {
+   "v": 1999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "オープンテラスあり",
+    "A house restaurant"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "http://www.mamehico.com/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-5433-0545",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.opened": {
+   "v": "2005-7-1",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "オープン日"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1317/A131706/13021745/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "facility.interior_style": {
+   "v": [
+    "ナチュラル"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+   ],
+   "at": "2026-10-27",
+   "label": "内装スタイル"
+  },
+  "facility.seat_types": {
+   "v": [
+    "テラス",
+    "テーブル"
+   ],
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 30,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.terrace": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "テラス席"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "有",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB）、電子マネー不可、QRコード決済不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "分煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.kids": {
+   "v": "子供可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "子連れ"
+  },
+  "facility.pets": {
+   "v": "テラス席のみ可",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "ペット同伴"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "オープンテラスあり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.bitterness": {
+   "v": "やや弱い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "スイーツ",
+    "パフェ",
+    "しっかり食事"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B536174921/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "素材にこだわったなめらかなコーヒーとマフィン、季節のパフェ",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B536174921/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "やや静か",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "ナチュラル"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "bitterness",
+     "value": "やや弱い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "スイーツ",
+      "パフェ",
+      "しっかり食事"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/",
+      "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B536174921/",
+      "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "素材にこだわったなめらかなコーヒーとマフィン、季節のパフェ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/",
+      "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B536174921/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "やや静か",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "ナチュラル"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B536174921/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "low",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B536174921/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "アイコ（コーヒー）",
+    "マフィン",
+    "季節のパフェ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B536174921/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "menu.alcohol": {
+   "v": "Wine",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "アルコール"
+  },
+  "review.praise_summary": {
+   "v": "素材にこだわったコーヒーとお菓子、落ち着いた居心地の良い空間。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B536174921/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "スイーツの価格が高いとの声（シュークリーム1,200円）。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B536174921/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "三軒茶屋でゆっくり",
+    "素材重視の人"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B536174921/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "三軒茶屋のカフェ。素材へのこだわりが感じられ、コーヒー（「アイコ」）はなめらかでほのかな甘みがあると評される。マフィンは優しい味。いちじくのパフェなど季節の甘味や、自然派の食材を使った食事もある。一方で白いチョコのシュークリームが1,200円など価格は高めとの声。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B536174921/",
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "落ち着いて居心地の良い店内で、空間そのものに満足感があるとの評。計30席、テラス席あり（喫煙・ペットはテラス席のみ）。時間帯により一部メニュー価格が変わる。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/",
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "土曜13:30頃に待ちなし",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.reservation": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.house_rules": {
+   "v": [
+    "喫煙はテラス席のみ",
+    "ペットはテラス席のみ",
+    "時間帯により一部メニュー価格が異なる"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1317/A131706/13021745/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 5,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.bitterness_score": {
+   "v": 2,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/"
+   ],
+   "at": "2026-10-27",
+   "label": "苦味スコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "ホワイトチョコのシュークリーム（小）",
+   "price": 1200,
+   "note": "口コミ記載",
+   "src": "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B536174921/"
+  },
+  {
+   "name": "Mug Tea",
+   "price": 600,
+   "src": "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "素材へのこだわりが伝わる店。コーヒーはなめらかでほのかに甘く、マフィンも優しい味。",
+   "sentiment": "positive",
+   "rating": 3.8,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B534622079/"
+  },
+  {
+   "summary": "落ち着いた居心地の良い空間。自然素材を使った料理を楽しめた。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B537648021/"
+  },
+  {
+   "summary": "小さなシュークリームが1,200円と高価で驚いた。いちじくパフェの見た目は完璧。",
+   "sentiment": "mixed",
+   "rating": 3.0,
+   "date": "2026-09",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1317/A131706/13021745/dtlrvwlst/B536174921/"
+  }
+ ]
+}

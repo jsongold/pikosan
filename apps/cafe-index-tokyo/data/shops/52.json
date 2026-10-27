@@ -1,0 +1,721 @@
+{
+ "id": 52,
+ "name": "COFFEE VALLEY",
+ "prefecture": "東京都",
+ "ward": "豊島区",
+ "address": "東京都豊島区南池袋2-26-3",
+ "lat": 35.72769444866952,
+ "lng": 139.71308095489115,
+ "sources": [
+  "https://tabelog.com/tokyo/A1305/A130501/13175074/",
+  "https://tabelog.com/en/tokyo/A1305/A130501/13175074/",
+  "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+ ],
+ "updated": "2026-10-27T13:11:31+09:00",
+ "feats": [
+  "wifi",
+  "power",
+  "sofa",
+  "takeout",
+  "nosmoke"
+ ],
+ "attrs": {
+  "award.tabelog_score": {
+   "v": 3.71,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ評価"
+  },
+  "award.tabelog_review_count": {
+   "v": 2415,
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログ口コミ数"
+  },
+  "basic.genres": {
+   "v": [
+    "スペシャリティコーヒー",
+    "自家焙煎"
+   ],
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/",
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル"
+  },
+  "basic.genres_raw": {
+   "v": "Cafe,Bread",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "ジャンル(原文)"
+  },
+  "basic.nearest_station": {
+   "v": "池袋駅",
+   "conf": "high",
+   "src": [
+    "https://award.tabelog.com/hyakumeiten/cafe_east/2025"
+   ],
+   "at": "2026-10-27",
+   "label": "最寄り駅"
+  },
+  "basic.access": {
+   "v": "4 minutes walk from the East exit of Ikebukuro Station\n311 meters from Ikebukuro.",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "交通手段"
+  },
+  "basic.hours": {
+   "v": "月・火・水・木・金 8:00～20:00 / 土・日・祝日 9:00～20:00",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "営業時間"
+  },
+  "basic.price_range_text": {
+   "v": "～￥999（店舗情報）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "価格帯"
+  },
+  "basic.price_max": {
+   "v": 999,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "最高価格"
+  },
+  "basic.features": {
+   "v": [
+    "おしゃれな空間",
+    "落ち着いた空間",
+    "カウンター席あり",
+    "ソファー席あり"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "特徴"
+  },
+  "basic.website": {
+   "v": "https://coffeevalley.jp/",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "公式サイト"
+  },
+  "basic.phone": {
+   "v": "03-6907-1173",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "電話番号"
+  },
+  "basic.opened": {
+   "v": "2014-11-9",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "オープン日"
+  },
+  "basic.tabelog_url": {
+   "v": "https://tabelog.com/tokyo/A1305/A130501/13175074/",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "食べログURL"
+  },
+  "dietary.plant_milk": {
+   "v": "アーモンドミルクあり",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+   ],
+   "at": "2026-10-27",
+   "label": "オーツミルク・植物性ミルク"
+  },
+  "facility.seat_types": {
+   "v": [
+    "カウンター",
+    "ソファ",
+    "テーブル"
+   ],
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "席の種類"
+  },
+  "facility.total_seats": {
+   "v": 55,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "総席数"
+  },
+  "facility.sofa": {
+   "v": true,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "ソファ席"
+  },
+  "facility.private_room": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "個室"
+  },
+  "facility.private_use": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "貸切"
+  },
+  "facility.wifi": {
+   "v": "あり",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "Wi-Fi"
+  },
+  "facility.power_outlets": {
+   "v": "あり",
+   "conf": "high",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "電源"
+  },
+  "facility.payment": {
+   "v": "カード可（VISA, Master, JCB, AMEX, Diners）、電子マネー可、QRコード決済可（PayPay）",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い方法"
+  },
+  "facility.payment_methods": {
+   "v": [
+    "現金",
+    "クレジットカード",
+    "電子マネー",
+    "交通系IC",
+    "QRコード決済"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "支払い手段"
+  },
+  "facility.payment_cash_only": {
+   "v": false,
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "現金のみ"
+  },
+  "facility.smoking": {
+   "v": "全面禁煙",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "禁煙・喫煙"
+  },
+  "facility.takeout": {
+   "v": "テイクアウト可",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/"
+   ],
+   "at": "2026-10-27",
+   "label": "テイクアウト・物販"
+  },
+  "facility.parking": {
+   "v": "無",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "駐車場"
+  },
+  "facility.space": {
+   "v": "おしゃれな空間、落ち着いた空間、カウンター席あり、ソファー席あり",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "空間・設備(原文)"
+  },
+  "flavor.coffee_style": {
+   "v": [
+    "エスプレッソ"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/"
+   ],
+   "at": "2026-10-27",
+   "label": "抽出方法"
+  },
+  "flavor.roast_level": {
+   "v": "幅広く選べる",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/"
+   ],
+   "at": "2026-10-27",
+   "label": "焙煎度"
+  },
+  "flavor.food_focus": {
+   "v": [
+    "ドリンク中心",
+    "焼き菓子",
+    "軽食"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/",
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "フードの軸"
+  },
+  "flavor.signature_note": {
+   "v": "深煎り/中煎りを選べるエスプレッソのカフェラテ",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板の味メモ"
+  },
+  "flavor.atmos_quietness": {
+   "v": "やや静か",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさ"
+  },
+  "flavor.atmos_coziness": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地"
+  },
+  "flavor.atmos_workability": {
+   "v": "やや高い",
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさ"
+  },
+  "flavor.atmos_mood": {
+   "v": [
+    "ナチュラル"
+   ],
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気タイプ"
+  },
+  "flavor.evidence": {
+   "v": [
+    {
+     "axis": "coffee_style",
+     "value": [
+      "エスプレッソ"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/"
+     ]
+    },
+    {
+     "axis": "roast_level",
+     "value": "幅広く選べる",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/"
+     ]
+    },
+    {
+     "axis": "food_focus",
+     "value": [
+      "ドリンク中心",
+      "焼き菓子",
+      "軽食"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/",
+      "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+     ]
+    },
+    {
+     "axis": "signature_note",
+     "value": "深煎り/中煎りを選べるエスプレッソのカフェラテ",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/"
+     ]
+    },
+    {
+     "axis": "atmos_quietness",
+     "value": "やや静か",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+     ]
+    },
+    {
+     "axis": "atmos_coziness",
+     "value": "やや高い",
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+     ]
+    },
+    {
+     "axis": "atmos_workability",
+     "value": "やや高い",
+     "sources": [
+      "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+     ]
+    },
+    {
+     "axis": "atmos_mood",
+     "value": [
+      "ナチュラル"
+     ],
+     "sources": [
+      "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+     ]
+    }
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/",
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/",
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "味・雰囲気の根拠"
+  },
+  "flavor.confidence": {
+   "v": "low",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/",
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/",
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "味プロファイル信頼度"
+  },
+  "menu.signature_items": {
+   "v": [
+    "カフェラテ（深煎り/中煎り選択）",
+    "アーモンドマロンラテ",
+    "チョコチップクッキー"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/",
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+   ],
+   "at": "2026-10-27",
+   "label": "看板メニュー"
+  },
+  "review.praise_summary": {
+   "v": "選べるエスプレッソのラテ、木の温もりある静かな空間、電源・Wi-Fi完備。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/",
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/",
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537941332/"
+   ],
+   "at": "2026-10-27",
+   "label": "好評点まとめ"
+  },
+  "review.criticism_summary": {
+   "v": "席確保後に1階レジへ行く動線が面倒、週末は満席で座れないことがある。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+   ],
+   "at": "2026-10-27",
+   "label": "不満点まとめ"
+  },
+  "review.recommended_for": {
+   "v": [
+    "池袋での作業",
+    "ラテ好き",
+    "朝活"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/",
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/",
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537941332/"
+   ],
+   "at": "2026-10-27",
+   "label": "おすすめの使い方"
+  },
+  "taste.description": {
+   "v": "池袋東口のロースターカフェ。カフェラテはエスプレッソ豆を深煎り・中煎りから選べ、濃厚なミルクには深煎りがおすすめとの声。アーモンドマロンラテはアーモンドミルクの香ばしさとほのかな苦味・甘み。チョコチップクッキーも好評。バレートースト450円。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/",
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/",
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "味の説明"
+  },
+  "taste.atmosphere_description": {
+   "v": "木の温もりある内装で、駅近ながら静か。カウンター・ソファー席あり、計55席（2階席あり）。席を確保してから1階レジで注文する方式。電源・Wi-Fiあり。週末は満席で座れないこともあるが平日は入りやすい。",
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/",
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "雰囲気の説明"
+  },
+  "visit.crowding": {
+   "v": "週末は満席のことも、平日は入りやすい",
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+   ],
+   "at": "2026-10-27",
+   "label": "混雑・待ち時間"
+  },
+  "visit.reservation": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約"
+  },
+  "visit.reservation_type": {
+   "v": "予約不可",
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "予約可否"
+  },
+  "visit.ordering_style": {
+   "v": [
+    "カウンター注文"
+   ],
+   "conf": "medium",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+   ],
+   "at": "2026-10-27",
+   "label": "注文方法"
+  },
+  "visit.house_rules": {
+   "v": [
+    "Power outlets available, Wi-Fi available."
+   ],
+   "conf": "medium",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "店のルール"
+  },
+  "flavor.atmos_coziness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+   ],
+   "at": "2026-10-27",
+   "label": "居心地スコア"
+  },
+  "flavor.atmos_quietness_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+   ],
+   "at": "2026-10-27",
+   "label": "静かさスコア"
+  },
+  "flavor.atmos_workability_score": {
+   "v": 4,
+   "conf": "low",
+   "src": [
+    "https://tabelog.com/en/tokyo/A1305/A130501/13175074/"
+   ],
+   "at": "2026-10-27",
+   "label": "作業しやすさスコア"
+  }
+ },
+ "menu": [
+  {
+   "name": "Valley Toast",
+   "price": 450,
+   "src": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlmenu/",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "3 PEAKS Surii Piikusu",
+   "src": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Today's Coffee",
+   "src": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Latte Ice/Hot Latte",
+   "src": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cappuccino",
+   "price": 640,
+   "src": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Cafe Mocha Ice/Hot",
+   "price": 690,
+   "src": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Americano Ice/Hot Americano",
+   "price": 620,
+   "src": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Espresso",
+   "price": 470,
+   "src": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Herb Tea",
+   "price": 500,
+   "src": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Earl Grey",
+   "price": 670,
+   "src": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  },
+  {
+   "name": "Organic Orange Juice",
+   "price": 670,
+   "src": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlmenu/?menu_type=2",
+   "mt": true,
+   "nameSource": "食べログ英語版(機械翻訳の可能性)"
+  }
+ ],
+ "reviews": [
+  {
+   "summary": "木の温もりある静かな店。アーモンドマロンラテは香ばしい。注文で階段の上り下りが大変。",
+   "sentiment": "mixed",
+   "rating": 5.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537392547/"
+  },
+  {
+   "summary": "ラテは豆を選べ、濃いミルクには深煎りがおすすめ。クッキーも美味しい。",
+   "sentiment": "positive",
+   "rating": 3.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537559485/"
+  },
+  {
+   "summary": "雰囲気が良く料理・ドリンクが美味しいと高評価（4.0）。",
+   "sentiment": "positive",
+   "rating": 4.0,
+   "date": "2026-10",
+   "source": "食べログ",
+   "url": "https://s.tabelog.com/en/tokyo/A1305/A130501/13175074/dtlrvwlst/B537941332/"
+  }
+ ]
+}
